@@ -1,400 +1,400 @@
-Model # 0
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
-
-Model # 1
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
-
 Model # 2
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x60 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 92.88373727287492
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x21 ) + ( cos( sin( sin( x74 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 62.37397002585234
 
 Model # 3
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( sin( sin( x76 ) ) - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 210.79761495442017
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) / sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 63.56134812581878
 
 Model # 4
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x87 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) / x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x16 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 484.72149930463354
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 5
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 6
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / cos( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 146.39175317885199
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 7
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 8
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( cos( sin( x98 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 236.23656492416885
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 9
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( cos( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 85.46762661238333
 
 Model # 10
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( ( x3 * x57 ) * ( x97 + x51 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 492.853518369093
 
 Model # 11
-Function: F(x) = ( ( x36 * x49 ) + ( ( x73 / x93 ) * ( x5 / x102 ) ) )
-Model fitness: 5134.57582621377
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 12
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( x25 - x119 ) / ( x58 / x49 ) ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 385.7881992214373
 
 Model # 13
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( sin( ( x56 * x69 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.36358974089126
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( sin( x52 ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 58.51987424838067
 
 Model # 14
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 61.129357631082506
 
 Model # 15
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x86 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + cos( cos( ( x102 - x21 ) ) ) ) ) ) + x117 ) + ( cos( x28 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 259.9190724522165
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x54 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) / ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 419.26860982914997
 
 Model # 16
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 17
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( x15 ) * sin( x107 ) ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 236.96257707014837
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 18
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( sin( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.03043426032175
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 19
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x56 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) - ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 1627.7304778663906
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 20
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) - sin( ( x30 + x0 ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 396.5587068129697
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 21
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + sin( cos( x117 ) ) ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 127.97261591511634
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 22
-Function: F(x) = sin( sin( x12 ) )
-Model fitness: 21980.8
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 23
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x20 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 91.6896285219509
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 24
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x14 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( cos( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 116.35303628050528
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x82 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.53982792319723
 
 Model # 25
-Function: F(x) = cos( ( x66 - x102 ) )
-Model fitness: 22018.554643987933
+Function: F(x) = ( ( x36 * x49 ) * ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( sin( ( x47 + x70 ) ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x86 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 39537742.05094095
 
 Model # 26
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + ( sin( x8 ) / ( x99 / x61 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 84.37392449888642
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 27
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + cos( ( x17 + x96 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 62.15534593517282
 
 Model # 28
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 + x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 61.52174598424206
 
 Model # 29
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( sin( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.03043426032175
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 30
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 - x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 84.43984990672007
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 31
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) * cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 84.00200555282261
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 61.129357631082506
 
 Model # 32
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x94 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.07086417478838
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 33
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - cos( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 + x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x94 ) ) / x22 ) ) ) )
-Model fitness: 77.53852582150056
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( sin( x24 ) + sin( x47 ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( cos( ( x91 - x120 ) ) + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + sin( ( x48 + x60 ) ) ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 219.5977299360564
 
 Model # 34
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = sin( ( x69 - x71 ) )
+Model fitness: 25313.678904041135
 
 Model # 35
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x83 * x85 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * cos( ( x87 * x93 ) ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( sin( x10 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 113.85966201521008
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 36
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 37
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) / ( sin( ( x92 + x23 ) ) * x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 61.61283319491495
 
 Model # 38
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - ( ( x55 + x44 ) + ( x60 + x22 ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 246.37319883632796
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( cos( ( x39 / x41 ) ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 185.5449488996208
 
 Model # 39
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( cos( cos( x50 ) ) / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 217.2058982162294
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( sin( ( x95 + x25 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 566.1129210219872
 
 Model # 40
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x83 * x85 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( sin( x10 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.98779151248046
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x21 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( cos( ( x18 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) / ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 1478.281667084933
 
 Model # 41
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 42
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x95 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 91.06764468247316
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( sin( x24 ) + sin( x47 ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( cos( ( sin( sin( x12 ) ) - x120 ) ) + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 63.333393697968006
 
 Model # 43
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( ( x17 - x13 ) / ( ( x21 / x97 ) / x89 ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 144.68837687752577
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) + x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x35 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 66.21472561808028
 
 Model # 44
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x77 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x97 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 86.73798785599175
+Function: F(x) = ( ( x64 / x70 ) * ( x66 / x116 ) )
+Model fitness: 15431527267907.121
 
 Model # 45
-Function: F(x) = ( ( x36 * x49 ) + ( sin( x14 ) - ( x108 / x43 ) ) )
-Model fitness: 5232.3617724523765
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 46
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 47
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( ( x55 - x77 ) * cos( x92 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 276.6222786546863
 
 Model # 48
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x91 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.02029869823158
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x119 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 54.87989076297595
 
 Model # 49
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 50
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 - x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 84.43984990672007
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 51
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * cos( ( cos( x50 ) / x109 ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 391.5785911880375
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 52
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x105 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) - ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 5402.501929193423
 
 Model # 53
-Function: F(x) = ( ( x36 * x6 ) + ( ( x48 + x43 ) + ( ( x109 + x97 ) / sin( x70 ) ) ) )
-Model fitness: 113275898366997.1
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) / sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x104 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 2559.7914464395567
 
 Model # 54
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) / ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 732.8884920737797
 
 Model # 55
-Function: F(x) = ( ( x36 * x49 ) + ( ( x10 / x26 ) - ( x64 - x115 ) ) )
-Model fitness: 6065.871361055557
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( cos( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( x56 - x34 ) + ( x66 * x19 ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x18 ) ) / x22 ) ) ) )
+Model fitness: 643.3685678927184
 
 Model # 56
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( cos( x14 ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 65.14215899773248
 
 Model # 57
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 61.129357631082506
 
 Model # 58
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 59
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( sin( ( x71 - x3 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 84.47006105609198
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x92 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 97.78552827944426
 
 Model # 60
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 61
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( cos( ( x95 / x45 ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + cos( ( ( x94 + x71 ) + x114 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 149.74706413037947
 
 Model # 62
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( x117 / x94 ) - sin( x43 ) ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 188.6340136965878
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 63
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 61.129357631082506
 
 Model # 64
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x95 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 91.06764468247316
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 65
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) + x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + cos( ( ( x94 + x71 ) + x114 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 151.55957112361668
 
 Model # 66
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x6 + x35 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x83 * x85 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( sin( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.6602639422869
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 67
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x31 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 86.75448006563158
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x5 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.77624631599046
 
 Model # 68
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( x56 * x106 ) / cos( x43 ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 608660.2302523043
 
 Model # 69
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x50 / x8 ) + sin( ( x23 + x28 ) ) ) )
+Model fitness: 47152002880669.64
 
 Model # 70
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x83 * x85 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( sin( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 83.97385505460235
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 71
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x32 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 59.03196832434641
 
 Model # 72
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x94 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) / x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 196.06297410664948
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 73
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) - ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 88.73169314034315
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x41 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 + x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) * x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 1875.8265271520618
 
 Model # 74
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 75
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / cos( ( x96 - x84 ) ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 150.3018797993039
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 61.129357631082506
 
 Model # 76
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 77
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x83 * x85 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( sin( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 83.97385505460235
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x83 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x50 / x42 ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 62.31915840941231
 
 Model # 78
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x94 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.07086417478838
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( sin( x21 ) + sin( x22 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 59.539503884453495
 
 Model # 79
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x91 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.02029869823158
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x21 + ( ( x16 + x39 ) - cos( x22 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 62.07973685107777
 
 Model # 80
-Function: F(x) = ( ( x36 * cos( cos( x64 ) ) ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 6062.200276306208
+Function: F(x) = ( sin( x4 ) - ( x37 * x28 ) )
+Model fitness: 109884.73466783951
 
 Model # 81
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 82
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 61.129357631082506
 
 Model # 83
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - cos( ( x50 / x42 ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 65.20974825681405
 
 Model # 84
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x94 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( cos( x32 ) - ( x60 - x14 ) ) / x22 ) ) ) )
-Model fitness: 918.7976831630485
+Function: F(x) = ( ( x36 * x49 ) + cos( sin( x44 ) ) )
+Model fitness: 6619.6918451419215
 
 Model # 85
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 86
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x94 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.07086417478838
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( sin( x30 ) + ( x31 - x55 ) ) ) ) + x117 ) + ( cos( x48 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 182.37791627488807
 
 Model # 87
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 + x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x1 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) + sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 155.81733321799075
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 88
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x84 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 130.26580360928028
 
 Model # 89
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) / ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 59.11919600266417
 
 Model # 90
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( ( x9 - x64 ) + ( x54 + x110 ) ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( cos( ( x107 / x40 ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 7047.102613808689
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 91
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( cos( cos( x14 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.57764666792283
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x105 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 62.83952654829434
 
 Model # 92
-Function: F(x) = ( cos( x47 ) - ( x37 - x48 ) )
-Model fitness: 20092.87512001497
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x92 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 86.6736174662549
 
 Model # 93
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x94 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.07086417478838
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x27 ) - ( cos( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) * sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x87 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) / ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 1936.836496974204
 
 Model # 94
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x119 ) + ( ( x51 * x13 ) + ( x55 / x109 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 114.85507447981573
 
 Model # 95
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 96
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + sin( cos( x110 ) ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 + x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x33 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x74 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 215.997239067737
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x105 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x93 ) ) ) ) ) + x117 ) + cos( sin( x104 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) + sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 171.4818033043058
 
 Model # 97
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 85.3353998693137
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 61.129357631082506
 
 Model # 98
-Function: F(x) = ( ( x114 - x14 ) - ( x101 / x40 ) )
-Model fitness: 28125277001991.023
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 + x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 60.492400307581704
 
 Model # 99
-Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x39 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( cos( ( x28 + x29 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( sin( x97 ) / cos( x82 ) ) - ( ( ( ( ( x108 - x54 ) - sin( ( x71 + sin( cos( ( x114 + x31 ) ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( sin( ( x18 + x57 ) ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x84 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x30 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
-Model fitness: 88.06104152942649
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 61.129357631082506
+
+Model # 100
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - cos( ( x118 + x73 ) ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( ( cos( x75 ) + ( cos( sin( sin( x113 ) ) ) / sin( x103 ) ) ) + x66 ) + ( x48 + x88 ) ) / x22 ) ) ) )
+Model fitness: 63.06236366296514
+
+Model # 101
+Function: F(x) = ( ( x36 * x49 ) + ( ( x48 + x43 ) + ( ( ( sin( ( x113 / x82 ) ) + ( cos( ( cos( cos( x93 ) ) * ( ( sin( sin( cos( x0 ) ) ) - x112 ) - ( sin( ( x92 / x23 ) ) + x27 ) ) ) ) + x57 ) ) + ( ( sin( sin( x20 ) ) + ( x105 / x103 ) ) * ( ( ( x18 * x33 ) + sin( x111 ) ) - ( ( ( ( ( x108 - x119 ) - sin( ( x96 + ( ( x16 + x39 ) - cos( x24 ) ) ) ) ) + x117 ) + ( cos( x59 ) * ( sin( ( x78 / x87 ) ) - x53 ) ) ) + ( sin( x82 ) + ( x24 + x49 ) ) ) ) ) ) + ( ( ( x101 / x104 ) - sin( x114 ) ) / x22 ) ) ) )
+Model fitness: 1381.4376884626718
 

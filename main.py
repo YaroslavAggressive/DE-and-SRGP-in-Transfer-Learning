@@ -1,45 +1,35 @@
 from ITGP import ITGP
 from models_serialization import load_models, load_weights, save_models, save_weights, MODELS_SAVEFILE, WEIGHTS_SAVEFILE
 from models_serialization import readable_output_weights, readable_output_models, MODELS_FOR_CHECK, WEIGHTS_FOR_CHECK
-from dataset_parsing import MERGED_DATASET
-from dataset_parsing import get_meteo_data, get_ssm_data, get_data_response, parse_source_target, merge_data
+from dataset_parsing import initial_parse_data_and_save
+from dataset_parsing import TEST_X_NAME, TEST_Y_NAME, TRAIN_X_NAME, TRAIN_Y_NAME, VALIDATION_X_NAME, VALIDATION_Y_NAME
+from dataset_parsing import parse_x_y
 import numpy as np
 import pandas as pd
+
+TRAIN_SIZE = 2500
+TEST_SIZE = 500
+VALIDATION_SIZE = 1000
 
 
 def main():
     # for the same choice of target and c-resource datasets during training
     np.random.seed(1)
-
-    # merging meteo and ssm data to get completed data
-    # get prediction parameters, merging them with permutations and additions and finally getting data response
-    df_ssm = get_ssm_data()
-    df_meteo = get_meteo_data()
-    y_nut = get_data_response()  # parameter for prediction in future
-    # IF DATA HAVEN'T BEEN MERGED YET
-    # merged_data = merge_data(meteo_data=df_meteo, ssm_data=df_ssm, days_num=DAYS_PER_SNIP)
-    # csv_data = merged_data.to_csv(MERGED_DF_NUT_NAME, sep=";")
-
-    # IF SSM AND METEO DATA WERE MERGED IN EXECUTIONS BEFORE
-    merged_data = pd.read_csv(MERGED_DATASET, sep=";")
-    redundant_column_name = "Unnamed: 0"
-    del merged_data[redundant_column_name]
-
-    # converting to numpy
-    numpy_y = np.array(y_nut).flatten()
-    numpy_merged_data = merged_data.to_numpy()
-
-    # в данных 4262 записи, поэтому в дальнейшем будем брать size_source = 500, size_target = 100
-    # source_size = 500
-    # target_size = 100
+    # The rest of the data from 4262, in add to 3000 already allocated, goes into testing
+    # (verification of the model after the train and validation)
+    # this line is run once to divide the data into those used to train the models
+    # and those already used to check and evaluate the results
+    # initial_parse_data_and_save()
 
     # тестовые значения, для отладки кода
-    source_size = 100
-    target_size = 20
-    total_source_target = source_size + target_size
+    source_size = 300
+    target_size = 50
 
-    parsed_data = parse_source_target(x=numpy_merged_data, y=numpy_y, source_size=source_size, target_size=target_size)
-    res = ITGP(parsed_data[0], parsed_data[1], parsed_data[2], parsed_data[3], preload_models=True)
+    x_train, y_train = pd.read_csv(TRAIN_X_NAME), pd.read_csv(TRAIN_Y_NAME)
+    x_test, y_test = pd.read_csv(TEST_X_NAME), pd.read_csv(TEST_Y_NAME)
+    source_data = parse_x_y(x_train, y_train, source_size)
+    target_data = parse_x_y(x_test, y_test, target_size)
+    res = ITGP(source_data[0], source_data[1], target_data[0], target_data[1], preload_models=False)
 
 
 # if __name__ == 'main':

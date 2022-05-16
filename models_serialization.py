@@ -41,7 +41,7 @@ def load_weights(filename: str) -> np.array:
 def readable_output_models(filename: str, models: list):
     with open(filename, "w") as file:
         for i, model in enumerate(models):
-            file.write("Model # {}".format(i) + "\n")
+            file.write("Model # {}".format(i + 2) + "\n")
             file.write("Function: F(x) = {}".format(model.GetHumanExpression()) + "\n")
             file.write("Model fitness: {}".format(model.fitness) + "\n")
             file.write("" + "\n")
@@ -51,6 +51,6 @@ def readable_output_models(filename: str, models: list):
 def readable_output_weights(filename: str, weights: list):
     with open(filename, "w") as file:
         for i, weight in enumerate(weights):
-            file.write("Weights population #{}".format(i) + "\n")
+            file.write("Weights population #{}".format(i + 1) + "\n")
             file.write("Weight: {}".format(weight) + "\n")
         file.close()

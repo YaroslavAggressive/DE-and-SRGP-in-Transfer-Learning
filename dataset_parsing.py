@@ -11,6 +11,13 @@ SSM_FILENAME = "datasets/chickpea-ssm-snp.h5"
 METEO_FILENAME = "datasets/weather_ssm.h5"
 MERGED_DATASET = "datasets/merged_weather_ssm.csv"
 
+TEST_X_NAME = "datasets/test_x.csv"
+TEST_Y_NAME = "datasets/test_y.csv"
+TRAIN_X_NAME = "datasets/train_x.csv"
+TRAIN_Y_NAME = "datasets/train_y.csv"
+VALIDATION_X_NAME = "datasets/validation_x.csv"
+VALIDATION_Y_NAME = "datasets/validation_y.csv"
+
 
 def get_data_response() -> DataFrame:
     ssm_data = h5py.File(SSM_FILENAME)
@@ -110,13 +117,11 @@ def merge_data(meteo_data: DataFrame, ssm_data: DataFrame, days_num: int, verbos
     return merged_df
 
 
-def parse_train_test_valid(x_df: DataFrame, y_df: DataFrame, train_size: int, test_size: int, valid_size: int):
+def parse_train_test_valid(x_df: np.array, y_df: np.array, train_size: int, test_size: int):
     if len(x_df) != len(y_df):
         raise Exception("Parameters and responses are inconsistent in size")
     df_size = x_df.shape[0]
-    if df_size != train_size + test_size + valid_size:
-        raise Exception("Parameters of train, test and validation datasets are inconsistent in size")
-    indices = np.unique(df_size)
+    indices = np.unique(range(df_size))
 
     source_indices = np.random.choice(indices, size=train_size, replace=False)
     other_indices = np.setdiff1d(indices, source_indices)
@@ -125,22 +130,51 @@ def parse_train_test_valid(x_df: DataFrame, y_df: DataFrame, train_size: int, te
 
     x_source, y_source = x_df[source_indices, :], y_df[source_indices]
     x_target, y_target = x_df[target_indices, :], y_df[target_indices]
-    x_valid, y_valid = x_target[validation_indices, :], y_df[validation_indices]
+    x_valid, y_valid = x_df[validation_indices, :], y_df[validation_indices]
 
     return [x_source, y_source, x_target, y_target, x_valid, y_valid]
 
 
-def parse_source_target(x: np.array, y: np.array, source_size: int, target_size: int) -> list:
+def parse_x_y(x: np.array, y: np.array, size: int) -> list:
     if len(x) != len(y):
         raise Exception("Parameters and responses are inconsistent in size")
     dataset_size = len(x)
     indices = np.arange(dataset_size)
-    if source_size + target_size > dataset_size:
-        raise Exception("Too large sizes of training and target data")
-    source_indices = np.random.choice(indices, size=source_size, replace=False)
-    target_indices = np.random.choice(np.setdiff1d(indices, source_indices), size=target_size, replace=False)
+    chosen_indices = np.random.choice(indices, size=size, replace=False)
 
-    x_source, y_source = x[source_indices, :], y[source_indices]
-    x_target, y_target = x[target_indices, :], y[target_indices]
+    return [x[chosen_indices, :], y[chosen_indices, :]]
 
-    return [x_source, y_source, x_target, y_target]
+
+def initial_parse_data_and_save():
+
+    # merging meteo and ssm to get completed data
+    # get prediction parameters, merging them with permutations and additions and finally getting data response
+
+    # this two functions were used on first iterations to preprocess datasets
+    # df_ssm = get_ssm_data()
+    # df_meteo = get_meteo_data()
+
+    y_nut = get_data_response()  # parameter for prediction in future
+    # IF DATA HAVEN'T BEEN MERGED YET
+    # merged_data = merge_data(meteo_data=df_meteo, ssm_data=df_ssm, days_num=DAYS_PER_SNIP)
+    # csv_data = merged_data.to_csv(MERGED_DF_NUT_NAME, sep=";")
+
+    # IF SSM AND METEO DATA WERE MERGED IN EXECUTIONS BEFORE
+    merged_data = pd.read_csv(MERGED_DATASET, sep=";")
+    redundant_column_name = "Unnamed: 0"
+    del merged_data[redundant_column_name]
+
+    # converting to numpy
+    numpy_y = np.array(y_nut).flatten()
+    numpy_merged_data = merged_data.to_numpy()
+
+    processed = parse_train_test_valid(numpy_merged_data, numpy_y, 2500, 500)
+    train_x, train_y = pd.DataFrame(processed[0]), pd.DataFrame(processed[1])
+    test_x, test_y = pd.DataFrame(processed[2]), pd.DataFrame(processed[3])
+    validation_x, validation_y = pd.DataFrame(processed[4]), pd.DataFrame(processed[5])
+    test_x.to_csv("datasets/test_x.csv")
+    test_y.to_csv("datasets/test_y.csv")
+    train_x.to_csv("datasets/train_x.csv")
+    train_y.to_csv("datasets/train_y.csv")
+    validation_x.to_csv("datasets/validation_x.csv")
+    validation_y.to_csv("datasets/validation_y.csv")
