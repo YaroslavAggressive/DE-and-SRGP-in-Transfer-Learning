@@ -142,7 +142,7 @@ def parse_x_y(x: np.array, y: np.array, size: int) -> list:
     indices = np.arange(dataset_size)
     chosen_indices = np.random.choice(indices, size=size, replace=False)
 
-    return [x[chosen_indices, :], y[chosen_indices, :]]
+    return [x[chosen_indices, :], y[chosen_indices]]
 
 
 def initial_parse_data_and_save():
@@ -154,6 +154,7 @@ def initial_parse_data_and_save():
     # df_ssm = get_ssm_data()
     # df_meteo = get_meteo_data()
 
+    redundant_column_name = "Unnamed: 0"
     y_nut = get_data_response()  # parameter for prediction in future
     # IF DATA HAVEN'T BEEN MERGED YET
     # merged_data = merge_data(meteo_data=df_meteo, ssm_data=df_ssm, days_num=DAYS_PER_SNIP)
@@ -161,7 +162,6 @@ def initial_parse_data_and_save():
 
     # IF SSM AND METEO DATA WERE MERGED IN EXECUTIONS BEFORE
     merged_data = pd.read_csv(MERGED_DATASET, sep=";")
-    redundant_column_name = "Unnamed: 0"
     del merged_data[redundant_column_name]
 
     # converting to numpy
@@ -172,9 +172,9 @@ def initial_parse_data_and_save():
     train_x, train_y = pd.DataFrame(processed[0]), pd.DataFrame(processed[1])
     test_x, test_y = pd.DataFrame(processed[2]), pd.DataFrame(processed[3])
     validation_x, validation_y = pd.DataFrame(processed[4]), pd.DataFrame(processed[5])
-    test_x.to_csv("datasets/test_x.csv")
-    test_y.to_csv("datasets/test_y.csv")
-    train_x.to_csv("datasets/train_x.csv")
-    train_y.to_csv("datasets/train_y.csv")
-    validation_x.to_csv("datasets/validation_x.csv")
-    validation_y.to_csv("datasets/validation_y.csv")
+    test_x.to_csv("datasets/test_x.csv", index=False)
+    test_y.to_csv("datasets/test_y.csv", index=False)
+    train_x.to_csv("datasets/train_x.csv", index=False)
+    train_y.to_csv("datasets/train_y.csv", index=False)
+    validation_x.to_csv("datasets/validation_x.csv", index=False)
+    validation_y.to_csv("datasets/validation_y.csv", index=False)

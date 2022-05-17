@@ -9,6 +9,7 @@ from sr_for_itgp import EpochSR
 from de_for_itgp import EpochDE
 from models_serialization import load_models, load_weights, save_models, save_weights, MODELS_SAVEFILE, WEIGHTS_SAVEFILE
 from models_serialization import readable_output_weights, readable_output_models, MODELS_FOR_CHECK, WEIGHTS_FOR_CHECK
+from population import Population
 
 # constants for optimization
 
@@ -25,7 +26,7 @@ VARIABLE_SYMBOL = 'x'  # вспомогательный символ для об
 
 def ITGP(x_source: np.array, y_source: np.array, x_train: np.array, y_train: np.array, preload_models: bool = False):
 
-    np.random.seed(SEED)
+    # np.random.seed(SEED)
 
     weights_size = WEIGHTS_POP_SIZE
     models_size = MODELS_POP_SIZE
@@ -40,16 +41,21 @@ def ITGP(x_source: np.array, y_source: np.array, x_train: np.array, y_train: np.
     fitness_function_target = SymbolicRegressionFitness(x_train, y_train)  # for mse
 
     # for models evaluating
+    # теперь crossover_rate = 0.9, mutation_rate И op_mutation_rate = 0.1 согласно статье по ITGP
     srgp_estimator = EpochSR(dim=models_dim, fitness_function=fitness_function, pop_size=models_size, max_tree_size=100,
-                             crossover_rate=0.0, mutation_rate=0.33, op_mutation_rate=0.33, min_height=2,
+                             crossover_rate=0.9, mutation_rate=0.1, op_mutation_rate=0.1, min_height=2,
                              initialization_max_tree_height=4,
+                             # functions=[AddNode(), SubNode(), MulNode(), DivNode(), LogNode(), CosNode(), SinNode()])
                              functions=[AddNode(), SubNode(), MulNode(), DivNode(), SinNode(), CosNode()])
+                             # functions=[AddNode(), SubNode(), MulNode()])
 
     if preload_models:
         models = load_models(MODELS_SAVEFILE, MODELS_POP_SIZE)
-        population = load_weights(WEIGHTS_SAVEFILE)
-        fitness_function.weights = population.individuals
+        weights = load_weights(WEIGHTS_SAVEFILE)
+        fitness_function.weights = weights.individuals
         srgp_estimator.population = models
+        adjust_models_dimensions(models, srgp_estimator)
+        adjust_weights_dimensions(weights, fitness_function)
 
     for i in range(GENERATIONS_SIZE):  # main cycle
         print("Epoch #{}".format(i))
@@ -63,7 +69,7 @@ def ITGP(x_source: np.array, y_source: np.array, x_train: np.array, y_train: np.
         trail_weights = np.array([model.fitness for model in re_eval_models])
         de_estimator.de_epoch(deepcopy(re_eval_models), trail_weights, fitness_mse=fitness_function_target,
                               fitness_wmse=fitness_function)
-        population = de_estimator.population
+        weights = de_estimator.population
         # choosing top tp models from target evaluated
         top_models = Selection.models_selection_mse(re_eval_models, top_models_size)
         for model in top_models:
@@ -72,11 +78,11 @@ def ITGP(x_source: np.array, y_source: np.array, x_train: np.array, y_train: np.
         D = Selection.roulette_wheel_selection(wmse, D_NUM)  #
         other_models = Selection.TournamentSelect(models, models_size - top_models_size, tournament_size=4,
                                                   D=D, eps=1e-5)
-        fitness_function.weights = population.individuals
+        fitness_function.weights = weights.individuals
         srgp_estimator.population = top_models + other_models
         srgp_estimator.sr_epoch()
 
-    save_weights(WEIGHTS_SAVEFILE, population)
+    save_weights(WEIGHTS_SAVEFILE, weights)
     save_models(MODELS_SAVEFILE, models)
     # getting mse values for each model in ending population (for readable fitness output)
     for model in models:
@@ -86,3 +92,41 @@ def ITGP(x_source: np.array, y_source: np.array, x_train: np.array, y_train: np.
     readable_output_models(MODELS_FOR_CHECK, models)
 
     return [population, models]
+
+
+def choose_best_model(models: list) -> Any:
+    best, best_model = np.inf, 0
+    for model in models:
+        if model.fitness <= best:
+            best = model.fitness
+            best_model = model
+    return best_model
+
+
+def adjust_weights_dimensions(weights_pop: Population, fitness_function: SymbolicRegressionFitness):
+    curr_size = len(fitness_function.weights)
+    preload_size = weights_pop.size
+
+    if preload_size < curr_size:
+        for i in range(preload_size):
+            fitness_function.weights[i] = weights_pop.individuals[i]
+    elif preload_size > curr_size:
+        for i in range(curr_size):
+            fitness_function.weights[i] = weights_pop.individuals[i]
+    else:
+        fitness_function.weights = weights_pop.individuals
+
+
+def adjust_models_dimensions(models_pop: list, srgp_estimator: EpochSR):
+    curr_size = len(srgp_estimator.population)
+    preload_size = len(models_pop)
+
+    if preload_size < curr_size:
+        for i in range(preload_size):
+            srgp_estimator.population[i] = models_pop[i]
+    elif preload_size > curr_size:
+        for i in range(curr_size):
+            srgp_estimator.population[i] = models_pop[i]
+    else:
+        srgp_estimator.population = models_pop
+
