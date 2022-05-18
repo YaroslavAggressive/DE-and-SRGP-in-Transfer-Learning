@@ -15,12 +15,11 @@ from population import Population
 
 SEED = 1  # so that the results of the method can be reconstructed
 GENERATIONS_SIZE = 100  # число поколений прогона данных
-MODELS_POP_SIZE = 100  # размер популяции моделей-деревьев
+MODELS_POP_SIZE = 512  # размер популяции моделей-деревьев (сейчас 512 согласно статье)
 WEIGHTS_POP_SIZE = 60  # размер популяции весовых векторов
 TOP_MODELS_SIZE = WEIGHTS_POP_SIZE // 2
-D_NUM = WEIGHTS_POP_SIZE // 6  # число измерений, по которым проводится турнирная селекция
+D_NUM = 3  # число измерений, по которым проводится турнирная селекция
 T_NUM = 4  # размер турнира, в котором между собой сравниваются кандидаты
-DAYS_PER_SNIP = 20  # число дней для предсказания погоды
 VARIABLE_SYMBOL = 'x'  # вспомогательный символ для обозначения переменных по номерам в интерперетации sympy
 
 
@@ -42,11 +41,11 @@ def ITGP(x_source: np.array, y_source: np.array, x_train: np.array, y_train: np.
 
     # for models evaluating
     # теперь crossover_rate = 0.9, mutation_rate И op_mutation_rate = 0.1 согласно статье по ITGP
-    srgp_estimator = EpochSR(dim=models_dim, fitness_function=fitness_function, pop_size=models_size, max_tree_size=100,
-                             crossover_rate=0.9, mutation_rate=0.1, op_mutation_rate=0.1, min_height=2,
-                             initialization_max_tree_height=4,
-                             # functions=[AddNode(), SubNode(), MulNode(), DivNode(), LogNode(), CosNode(), SinNode()])
-                             functions=[AddNode(), SubNode(), MulNode(), DivNode(), SinNode(), CosNode()])
+    srgp_estimator = EpochSR(dim=models_dim, fitness_function=fitness_function, pop_size=models_size, max_tree_size=130,
+                             crossover_rate=0.9, mutation_rate=0.1, op_mutation_rate=0.1, min_height=4,
+                             initialization_max_tree_height=6,
+                             functions=[AddNode(), SubNode(), MulNode(), DivNode(), LogNode(), CosNode(), SinNode()])
+                             # functions=[AddNode(), SubNode(), MulNode(), DivNode(), SinNode(), CosNode()])
                              # functions=[AddNode(), SubNode(), MulNode()])
 
     if preload_models:
@@ -129,4 +128,3 @@ def adjust_models_dimensions(models_pop: list, srgp_estimator: EpochSR):
             srgp_estimator.population[i] = models_pop[i]
     else:
         srgp_estimator.population = models_pop
-

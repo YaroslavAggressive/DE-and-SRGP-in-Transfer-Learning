@@ -1,18 +1,20 @@
 from ITGP import ITGP
-from dataset_parsing import initial_parse_data_and_save
+from dataset_parsing import initial_parse_data_and_save, MERGED_DATASET
 from dataset_parsing import TEST_X_NAME, TEST_Y_NAME, TRAIN_X_NAME, TRAIN_Y_NAME, VALIDATION_X_NAME, VALIDATION_Y_NAME
 from dataset_parsing import parse_x_y
 import numpy as np
 import pandas as pd
+from sklearn.decomposition import PCA
 
 TRAIN_SIZE = 2500
 TEST_SIZE = 500
 VALIDATION_SIZE = 1000
+DAYS_PER_SNIP = 20  # число дней для предсказания погоды
 
 
 def main():
     # for the same choice of target and c-resource datasets during training
-    np.random.seed(1248)
+    np.random.seed(12324)
     # The rest of the data from 4262, in add to 3000 already allocated, goes into testing
     # (verification of the model after the train and validation)
     # this line is run once to divide the data into those used to train the models
@@ -20,9 +22,12 @@ def main():
     # initial_parse_data_and_save()
 
     # тестовые значения, для отладки кода
-    source_size = 1000
-    target_size = 80
-
+    source_size = 300
+    target_size = 60
+    # merged_dataset = pd.read_csv(MERGED_DATASET, sep=';')
+    # redundant_column_name = "Unnamed: 0"
+    # del merged_dataset[redundant_column_name]
+    # print(merged_dataset.corr())
     x_train, y_train = pd.read_csv(TRAIN_X_NAME), pd.read_csv(TRAIN_Y_NAME)
     x_test, y_test = pd.read_csv(TEST_X_NAME), pd.read_csv(TEST_Y_NAME)
     y_test, y_train = np.array(y_test).flatten(), np.array(y_train).flatten()
