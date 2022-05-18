@@ -1,12 +1,15 @@
 import numpy as np
 import pickle
 from population import Population
+from sympy import simplify
+from simplegp.Fitness.FitnessFunction import SymbolicRegressionFitness
 
-MODELS_SAVEFILE = "models_weights_info/models.txt"
-WEIGHTS_SAVEFILE = "models_weights_info/weights.txt"
+MODELS_SAVEFILE = "models_weights_info/models"
+WEIGHTS_SAVEFILE = "models_weights_info/weights"
 
-MODELS_FOR_CHECK = "models_weights_info/readable_models.txt"
-WEIGHTS_FOR_CHECK = "models_weights_info/readable_weights.txt"
+MODELS_FOR_CHECK = "models_weights_info/readable_models"
+WEIGHTS_FOR_CHECK = "models_weights_info/readable_weights"
+FILE_SUFFIX = ".txt"
 
 
 def save_models(filename: str, models: list):
@@ -38,12 +41,16 @@ def load_weights(filename: str) -> np.array:
     return pop_weights
 
 
-def readable_output_models(filename: str, models: list):
+def readable_output_models(filename: str, models: list,
+                           fitness_target: SymbolicRegressionFitness, fitness_source: SymbolicRegressionFitness):
     with open(filename, "w") as file:
         for i, model in enumerate(models):
             file.write("Model # {}".format(i + 2) + "\n")
-            file.write("Function: F(x) = {}".format(model.GetHumanExpression()) + "\n")
-            file.write("Model fitness: {}".format(model.fitness) + "\n")
+            file.write("Function: F(x) = {}".format(simplify(model.GetHumanExpression())) + "\n")
+            fitness_target.Evaluate(model)
+            file.write("Model target fitness: {}".format(model.fitness) + "\n")
+            fitness_source.Evaluate(model)
+            file.write("Model source fitness: {}".format(model.fitness) + "\n")
             file.write("" + "\n")
         file.close()
 

@@ -21,21 +21,19 @@ class EpochDE:
         self.size = size
         self.dim = dim
         self.population = Population.random_population(size=self.size, dimensions=self.dim)
-        # self.fitness = 0
         self.best_idx = 0
 
         # initialization of parameters of mutation and crossover
         self.p = np.array([np.random.normal(self.p_inf, self.p_sup) for _ in range(self.dim)])
         self.s = np.array([np.random.normal(self.s_inf, self.s_sup) for _ in range(self.dim)])
         self.prev_variations = np.array([self.population.individuals[:, i].var() for i in range(self.dim)])
-        # self.fitness = 0  # надо добавить
         self.current_variations = np.array([])
         self.ro = np.array([])
         self.flag = False
 
     def de_epoch(self, models: np.array, weight_scores: np.array, fitness_mse: Any, fitness_wmse):
         prev_target_values = deepcopy(weight_scores)
-        indxs = list(range(self.size))
+        indices = list(range(self.size))
 
         trial_generation = Population(self.size, self.dim)
         trial_target_values = np.array([])
@@ -49,7 +47,7 @@ class EpochDE:
             # choosing parents and mutation
             choice = [j]
             while j in choice:
-                choice = np.random.choice(indxs, 3, replace=False)
+                choice = np.random.choice(indices, 3, replace=False)
 
             ind_c, ind_a, ind_b = choice
             # mutation

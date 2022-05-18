@@ -1,5 +1,7 @@
 from copy import deepcopy
 from typing import Any
+from numpy import random
+from datetime import datetime
 
 from simplegp.Selection import Selection
 from simplegp.Nodes.SymbolicRegressionNodes import *
@@ -8,14 +10,15 @@ from simplegp.Fitness.FitnessFunction import SymbolicRegressionFitness
 from sr_for_itgp import EpochSR
 from de_for_itgp import EpochDE
 from models_serialization import load_models, load_weights, save_models, save_weights, MODELS_SAVEFILE, WEIGHTS_SAVEFILE
-from models_serialization import readable_output_weights, readable_output_models, MODELS_FOR_CHECK, WEIGHTS_FOR_CHECK
+from models_serialization import readable_output_weights, readable_output_models, MODELS_FOR_CHECK, WEIGHTS_FOR_CHECK,\
+    FILE_SUFFIX
 from population import Population
 
 # constants for optimization
 
 SEED = 1  # so that the results of the method can be reconstructed
 GENERATIONS_SIZE = 100  # число поколений прогона данных
-MODELS_POP_SIZE = 512  # размер популяции моделей-деревьев (сейчас 512 согласно статье)
+MODELS_POP_SIZE = 300  # размер популяции моделей-деревьев (сейчас 512 согласно статье)
 WEIGHTS_POP_SIZE = 60  # размер популяции весовых векторов
 TOP_MODELS_SIZE = WEIGHTS_POP_SIZE // 2
 D_NUM = 3  # число измерений, по которым проводится турнирная селекция
@@ -23,7 +26,7 @@ T_NUM = 4  # размер турнира, в котором между собо�
 VARIABLE_SYMBOL = 'x'  # вспомогательный символ для обозначения переменных по номерам в интерперетации sympy
 
 
-def ITGP(x_source: np.array, y_source: np.array, x_train: np.array, y_train: np.array, preload_models: bool = False):
+def ITGP(x_source: np.array, y_source: np.array, x_target: np.array, y_target: np.array, preload_models: bool = False):
 
     # np.random.seed(SEED)
 
@@ -37,58 +40,62 @@ def ITGP(x_source: np.array, y_source: np.array, x_train: np.array, y_train: np.
 
     # for wmse, вроде поменял, но еще надо проверить, насколько корректно
     fitness_function = SymbolicRegressionFitness(x_source, y_source, use_weights=True, weights=population.individuals)
-    fitness_function_target = SymbolicRegressionFitness(x_train, y_train)  # for mse
+    fitness_function_target = SymbolicRegressionFitness(x_target, y_target)  # for mse
+    fitness_function_source = SymbolicRegressionFitness(x_source, y_source)  # model quality calculation without weights
 
     # for models evaluating
     # теперь crossover_rate = 0.9, mutation_rate И op_mutation_rate = 0.1 согласно статье по ITGP
-    srgp_estimator = EpochSR(dim=models_dim, fitness_function=fitness_function, pop_size=models_size, max_tree_size=130,
+    srgp_estimator = EpochSR(dim=models_dim, fitness_function=fitness_function, pop_size=models_size, max_tree_size=220,
                              crossover_rate=0.9, mutation_rate=0.1, op_mutation_rate=0.1, min_height=4,
                              initialization_max_tree_height=6,
-                             functions=[AddNode(), SubNode(), MulNode(), DivNode(), LogNode(), CosNode(), SinNode()])
+                             functions=[AddNode(), SubNode(), MulNode(), DivNode(), LogNode(), CosNode(), SinNode(),
+                                        EphemeralRandomConstantNode()])
                              # functions=[AddNode(), SubNode(), MulNode(), DivNode(), SinNode(), CosNode()])
-                             # functions=[AddNode(), SubNode(), MulNode()])
 
     if preload_models:
         models = load_models(MODELS_SAVEFILE, MODELS_POP_SIZE)
         weights = load_weights(WEIGHTS_SAVEFILE)
         fitness_function.weights = weights.individuals
         srgp_estimator.population = models
-        adjust_models_dimensions(models, srgp_estimator)
-        adjust_weights_dimensions(weights, fitness_function)
+        adjust_models_dimensions(models, srgp_estimator)  # доделать надо сегодня
+        adjust_weights_dimensions(weights, fitness_function)  # доделать надо сегодня
 
     for i in range(GENERATIONS_SIZE):  # main cycle
         print("Epoch #{}".format(i))
-        # weighed the models on the raw data and weights from the previous step
+        # weighted the models on the raw data and weights from the previous step
         models = srgp_estimator.population
         wmse = np.array([model.fitness for model in models])
+
         # Here we will select the best TOP_MODELS_SIZE models for evaluation on the target data
         re_eval_models = Selection.models_selection_wmse(models, wmse, fitness_function_target)
-        # for model in re_eval_models:
-        #     fitness_function_target.Evaluate(model)
         trail_weights = np.array([model.fitness for model in re_eval_models])
         de_estimator.de_epoch(deepcopy(re_eval_models), trail_weights, fitness_mse=fitness_function_target,
                               fitness_wmse=fitness_function)
         weights = de_estimator.population
+
         # choosing top tp models from target evaluated
         top_models = Selection.models_selection_mse(re_eval_models, top_models_size)
         for model in top_models:
             fitness_function.Evaluate(model)
-        # здесь турнирно выбираются остальные p-tp моделей
-        D = Selection.roulette_wheel_selection(wmse, D_NUM)  #
+
+        # rest of p-tp models are tournament-selected here
+        D = Selection.roulette_wheel_selection(wmse, D_NUM)
         other_models = Selection.TournamentSelect(models, models_size - top_models_size, tournament_size=4,
                                                   D=D, eps=1e-5)
         fitness_function.weights = weights.individuals
         srgp_estimator.population = top_models + other_models
         srgp_estimator.sr_epoch()
 
-    save_weights(WEIGHTS_SAVEFILE, weights)
-    save_models(MODELS_SAVEFILE, models)
+    iter_num = random.randint(0, 100)
+    save_weights(WEIGHTS_SAVEFILE + str(iter_num) + FILE_SUFFIX, weights)
+    save_models(MODELS_SAVEFILE + str(iter_num) + FILE_SUFFIX, models)
     # getting mse values for each model in ending population (for readable fitness output)
     for model in models:
         model.fitness = 0
         fitness_function_target.Evaluate(model)
-    readable_output_weights(WEIGHTS_FOR_CHECK, population.individuals)
-    readable_output_models(MODELS_FOR_CHECK, models)
+    readable_output_weights(WEIGHTS_FOR_CHECK + str(iter_num) + FILE_SUFFIX, population.individuals)
+    readable_output_models(MODELS_FOR_CHECK + str(iter_num) + FILE_SUFFIX, models,
+                           fitness_target=fitness_function_target, fitness_source=fitness_function_source)
 
     return [population, models]
 

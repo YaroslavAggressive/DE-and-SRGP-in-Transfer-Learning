@@ -2,6 +2,7 @@ import h5py
 import pandas as pd
 from pandas import DataFrame
 import numpy as np
+from models_serialization import FILE_SUFFIX
 
 Y_KEY = 'response'
 EXCEPTING_KEY = 'gr_names'
@@ -11,12 +12,15 @@ SSM_FILENAME = "datasets/chickpea-ssm-snp.h5"
 METEO_FILENAME = "datasets/weather_ssm.h5"
 MERGED_DATASET = "datasets/merged_weather_ssm.csv"
 
-TEST_X_NAME = "datasets/test_x.csv"
-TEST_Y_NAME = "datasets/test_y.csv"
-TRAIN_X_NAME = "datasets/train_x.csv"
-TRAIN_Y_NAME = "datasets/train_y.csv"
-VALIDATION_X_NAME = "datasets/validation_x.csv"
-VALIDATION_Y_NAME = "datasets/validation_y.csv"
+SEASON_KEY = "month"  # for meaningful separation of data for model development and testing
+GEO_ID_KEY = "geo_id"
+DATASET_SEASONS = {"winter": [1, 2, 12], "spring": [3, 4, 5], "summer": [6, 7, 8], "autumn": [9, 10, 11]}
+SNP_KEYS = {1: [2, 3, 4], 2: [5, 6, 7], 3: [8, 9, 10], 4: [11, 12, 13], 5: [14, 15, 16], 6: [17, 18, 19]}
+SUFFIXES = ["AA", "AR", "RR"]
+
+DATASET_SNP_PREFIX = "dataset_by_snp"
+DATASET_SEASON_PREFIX = "dataset_by_season"
+DATASET_GEO_PREFIX = "dataset_by_geo"
 
 
 def get_data_response() -> DataFrame:
@@ -178,3 +182,46 @@ def initial_parse_data_and_save():
     train_y.to_csv("datasets/train_y.csv", index=False)
     validation_x.to_csv("datasets/validation_x.csv", index=False)
     validation_y.to_csv("datasets/validation_y.csv", index=False)
+
+
+def parse_per_key(x_df: DataFrame, y_df: DataFrame, key_val: float, key: str) -> list:
+    x = x_df[x_df[key] == key_val]
+    source_indices = x.index
+    y = y_df.iloc[source_indices]
+    return [x, y]
+
+
+def parse_per_season(x_df: DataFrame, y_df: DataFrame, season: str) -> list:
+    season_months = DATASET_SEASONS[season]
+
+    x = x_df[(x_df[SEASON_KEY] == season_months[0]) |
+             (x_df[SEASON_KEY] == season_months[1]) |
+             (x_df[SEASON_KEY] == season_months[2])]
+
+    source_indices = x.index
+    y = y_df.iloc[source_indices]
+    return [x, y]
+
+
+def create_snp_columns(ind: int) -> list:
+    res = []
+    for suffix in SUFFIXES:
+        column_name = "b'snp" + str(ind) + suffix + "'"
+        res.append(column_name)
+    return res
+
+
+def parse_per_snp(x_df: DataFrame, y_df: DataFrame, snp: int) -> list:
+    source_columns = create_snp_columns(snp)
+
+    x = x_df[(x_df[source_columns[0]] == 0.) &
+             (x_df[source_columns[1]] == 0.) &
+             (x_df[source_columns[2]] == 0.)]
+    source_indices = x.index
+    y = y_df.iloc[source_indices]
+
+    return [x, y]
+
+
+def parse_per_ageev_state():
+    pass
