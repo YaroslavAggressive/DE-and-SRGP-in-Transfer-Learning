@@ -14,6 +14,7 @@ MERGED_DATASET = "datasets/merged_weather_ssm.csv"
 
 SEASON_KEY = "month"  # for meaningful separation of data for model development and testing
 GEO_ID_KEY = "geo_id"
+DOY_KEY = "doy"
 DATASET_SEASONS = {"winter": [1, 2, 12], "spring": [3, 4, 5], "summer": [6, 7, 8], "autumn": [9, 10, 11]}
 SNP_KEYS = {1: [2, 3, 4], 2: [5, 6, 7], 3: [8, 9, 10], 4: [11, 12, 13], 5: [14, 15, 16], 6: [17, 18, 19]}
 SUFFIXES = ["AA", "AR", "RR"]
@@ -21,6 +22,8 @@ SUFFIXES = ["AA", "AR", "RR"]
 DATASET_SNP_PREFIX = "dataset_by_snp"
 DATASET_SEASON_PREFIX = "dataset_by_season"
 DATASET_GEO_PREFIX = "dataset_by_geo"
+
+DAYS_AGEEV_DATASET = [290.0, 294.0, 339.0]
 
 
 def get_data_response() -> DataFrame:
@@ -223,5 +226,25 @@ def parse_per_snp(x_df: DataFrame, y_df: DataFrame, snp: int) -> list:
     return [x, y]
 
 
-def parse_per_ageev_state():
-    pass
+def parse_per_ageev_state(x_df: DataFrame, y_df: DataFrame):  # here we parse source data, of course
+    x_ageev = x_df[(x_df[DOY_KEY] == DAYS_AGEEV_DATASET[0]) |
+                   (x_df[DOY_KEY] == DAYS_AGEEV_DATASET[1]) |
+                   (x_df[DOY_KEY] == DAYS_AGEEV_DATASET[2])]
+    indices = x_ageev.index
+    y_ageev = y_df.iloc[indices]
+    return [x_ageev, y_ageev]
+
+
+def parse_valid(x_df: DataFrame, y_df: DataFrame, size: int):
+    x_df_shuffle = x_df.sample(n=size)
+    indices = x_df_shuffle.index
+    y_df_shuffle = y_df.iloc[indices]
+    return [x_df_shuffle, y_df_shuffle]
+
+
+def data_shuffle(x_df: DataFrame, y_df: DataFrame):
+    x_shuffle = x_df.sample(frac=1)
+    indices = x_shuffle.index
+    y_shuffle = y_df.iloc[indices]
+    return [x_shuffle, y_shuffle]
+

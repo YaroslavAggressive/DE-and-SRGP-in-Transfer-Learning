@@ -4,6 +4,7 @@ import numpy as np
 from math import sqrt
 from typing import Any
 from copy import deepcopy
+from multiprocessing import Pool, Process, Queue
 
 
 class EpochDE:
@@ -31,11 +32,12 @@ class EpochDE:
         self.ro = np.array([])
         self.flag = False
 
-    def de_epoch(self, models: np.array, weight_scores: np.array, fitness_mse: Any, fitness_wmse):
+    def de_epoch(self, models: np.array, weight_scores: np.array, fitness_mse: Any, fitness_wmse: Any):
         prev_target_values = deepcopy(weight_scores)
         indices = list(range(self.size))
 
         trial_generation = Population(self.size, self.dim)
+        trial_generation.individuals = []
         trial_target_values = np.array([])
 
         if self.current_variations.size != 0:
@@ -59,17 +61,15 @@ class EpochDE:
                 self.flag = not self.flag
 
             t_child = self.crossing(individual, c_mutant)
-
-            if trial_generation.individuals.size == 0:
-                trial_generation.individuals = np.array([t_child])
-            else:
-                trial_generation.individuals = np.concatenate((trial_generation.individuals, [t_child]), axis=0)
+            trial_generation.individuals.append(t_child)
+        trial_generation.individuals = np.vstack(trial_generation)
 
         # here will be wmse and mse counting block
         fitness_wmse.weights = trial_generation.individuals
         for model in models:
             fitness_wmse.Evaluate(model)
         wmse = np.array([model.fitness for model in models])
+
         for i in range(len(trial_generation.individuals)):
             weight_column = wmse[:, i]
             best_model_idx = np.argmin(weight_column)

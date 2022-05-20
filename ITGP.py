@@ -1,7 +1,6 @@
 from copy import deepcopy
 from typing import Any
 from numpy import random
-from datetime import datetime
 
 from simplegp.Selection import Selection
 from simplegp.Nodes.SymbolicRegressionNodes import *
@@ -17,16 +16,18 @@ from population import Population
 # constants for optimization
 
 SEED = 1  # so that the results of the method can be reconstructed
-GENERATIONS_SIZE = 100  # число поколений прогона данных
-MODELS_POP_SIZE = 300  # размер популяции моделей-деревьев (сейчас 512 согласно статье)
-WEIGHTS_POP_SIZE = 60  # размер популяции весовых векторов
+GENERATIONS_SIZE = 100  # number of algorithm iterations
+MODELS_POP_SIZE = 300  # model-tree population size (was 512 according to the article)
+WEIGHTS_POP_SIZE = 60  # size of weight vectors population
 TOP_MODELS_SIZE = WEIGHTS_POP_SIZE // 2
-D_NUM = 3  # число измерений, по которым проводится турнирная селекция
-T_NUM = 4  # размер турнира, в котором между собой сравниваются кандидаты
-VARIABLE_SYMBOL = 'x'  # вспомогательный символ для обозначения переменных по номерам в интерперетации sympy
+# (it should be increased by factor of 10, instead of 3, because variables arent 10, as in Friedman function, but 120+)
+D_NUM = 30  # number of measurements on which the tournament selection is carried out
+T_NUM = 4  # size of tournament, in which the candidates are compared with each other
+VARIABLE_SYMBOL = 'x'  # auxiliary symbol to denote variables by numbers in the sympy interpolation
 
 
-def ITGP(x_source: np.array, y_source: np.array, x_target: np.array, y_target: np.array, preload_models: bool = False):
+def ITGP(x_source: np.array, y_source: np.array, x_target: np.array, y_target: np.array, preload_models: bool = False,
+         fileid: int = -1):
 
     # np.random.seed(SEED)
 
@@ -46,17 +47,17 @@ def ITGP(x_source: np.array, y_source: np.array, x_target: np.array, y_target: n
     # for models evaluating
     # теперь crossover_rate = 0.9, mutation_rate И op_mutation_rate = 0.1 согласно статье по ITGP
     srgp_estimator = EpochSR(dim=models_dim, fitness_function=fitness_function, pop_size=models_size, max_tree_size=220,
-                             crossover_rate=0.9, mutation_rate=0.1, op_mutation_rate=0.1, min_height=4,
-                             initialization_max_tree_height=6,
-                             functions=[AddNode(), SubNode(), MulNode(), DivNode(), LogNode(), CosNode(), SinNode(),
-                                        EphemeralRandomConstantNode()])
-                             # functions=[AddNode(), SubNode(), MulNode(), DivNode(), SinNode(), CosNode()])
+                             crossover_rate=0.9, mutation_rate=0.1, op_mutation_rate=0.1, min_height=3,
+                             initialization_max_tree_height=10,
+                             # functions=[AddNode(), SubNode(), MulNode(), DivNode(), EphemeralRandomConstantNode()])
+                             # functions=[AddNode(), SubNode(), MulNode(), DivNode(), LogNode(), EphemeralRandomConstantNode()])
+                             functions=[AddNode(), SubNode(), MulNode(), DivNode(), SinNode(), CosNode(), LogNode(),
+                                        AnalyticQuotientNode(), EphemeralRandomConstantNode()])
+                             # functions=[AddNode(), SubNode(), MulNode(), DivNode()])
 
     if preload_models:
-        models = load_models(MODELS_SAVEFILE, MODELS_POP_SIZE)
-        weights = load_weights(WEIGHTS_SAVEFILE)
-        fitness_function.weights = weights.individuals
-        srgp_estimator.population = models
+        models = load_models("models_weights_info/models" + str(fileid) + FILE_SUFFIX, MODELS_POP_SIZE)
+        weights = load_weights("models_weights_info/weights" + str(fileid) + FILE_SUFFIX)
         adjust_models_dimensions(models, srgp_estimator)  # доделать надо сегодня
         adjust_weights_dimensions(weights, fitness_function)  # доделать надо сегодня
 
@@ -75,41 +76,45 @@ def ITGP(x_source: np.array, y_source: np.array, x_target: np.array, y_target: n
 
         # choosing top tp models from target evaluated
         top_models = Selection.models_selection_mse(re_eval_models, top_models_size)
+        D = Selection.roulette_wheel_selection(trail_weights, D_NUM)
         for model in top_models:
             fitness_function.Evaluate(model)
 
         # rest of p-tp models are tournament-selected here
-        D = Selection.roulette_wheel_selection(wmse, D_NUM)
         other_models = Selection.TournamentSelect(models, models_size - top_models_size, tournament_size=4,
                                                   D=D, eps=1e-5)
         fitness_function.weights = weights.individuals
         srgp_estimator.population = top_models + other_models
         srgp_estimator.sr_epoch()
 
-    iter_num = random.randint(0, 100)
-    save_weights(WEIGHTS_SAVEFILE + str(iter_num) + FILE_SUFFIX, weights)
-    save_models(MODELS_SAVEFILE + str(iter_num) + FILE_SUFFIX, models)
+    saved_model_ind = random.randint(0, 300)
+    save_weights(WEIGHTS_SAVEFILE + str(saved_model_ind) + FILE_SUFFIX, weights)
+    save_models(MODELS_SAVEFILE + str(saved_model_ind) + FILE_SUFFIX, models)
     # getting mse values for each model in ending population (for readable fitness output)
-    for model in models:
-        model.fitness = 0
-        fitness_function_target.Evaluate(model)
-    readable_output_weights(WEIGHTS_FOR_CHECK + str(iter_num) + FILE_SUFFIX, population.individuals)
-    readable_output_models(MODELS_FOR_CHECK + str(iter_num) + FILE_SUFFIX, models,
+
+    readable_output_weights(WEIGHTS_FOR_CHECK + str(saved_model_ind) + FILE_SUFFIX, population.individuals)
+    readable_output_models(MODELS_FOR_CHECK + str(saved_model_ind) + FILE_SUFFIX, models,
                            fitness_target=fitness_function_target, fitness_source=fitness_function_source)
+    res_model = choose_best_model(models, fitness_source=fitness_function_source)
+    res_model.append(saved_model_ind)
+    return res_model
 
-    return [population, models]
 
-
-def choose_best_model(models: list) -> Any:
-    best, best_model = np.inf, 0
+def choose_best_model(models: list, fitness_source: SymbolicRegressionFitness) -> list:
+    best_targ, best_src, best_model = np.inf, np.inf, 0
     for model in models:
-        if model.fitness <= best:
-            best = model.fitness
+        model_targ_fitness = model.fitness
+        fitness_source.Evaluate(model)
+        model_src_fitness = model.fitness
+        if best_targ >= model_targ_fitness >= model_src_fitness:
+            best_targ = model_targ_fitness
+            best_src = model_src_fitness
             best_model = model
-    return best_model
+    return [best_model, best_src, best_targ]
 
 
 def adjust_weights_dimensions(weights_pop: Population, fitness_function: SymbolicRegressionFitness):
+    # не совсем рабочий метод, его надо доделать в случае необходимости и после обсуждения
     curr_size = len(fitness_function.weights)
     preload_size = weights_pop.size
 

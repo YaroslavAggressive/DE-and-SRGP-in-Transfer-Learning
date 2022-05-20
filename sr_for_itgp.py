@@ -5,6 +5,7 @@ from simplegp.Variation import Variation
 from simplegp.Selection import Selection
 from copy import deepcopy
 from numpy.random import random, randint
+from multiprocessing import Pool, Process, Queue
 
 
 class EpochSR(BaseEstimator):

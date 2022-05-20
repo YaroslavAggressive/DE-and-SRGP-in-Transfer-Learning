@@ -46,11 +46,11 @@ def readable_output_models(filename: str, models: list,
     with open(filename, "w") as file:
         for i, model in enumerate(models):
             file.write("Model # {}".format(i + 2) + "\n")
-            file.write("Function: F(x) = {}".format(simplify(model.GetHumanExpression())) + "\n")
-            fitness_target.Evaluate(model)
-            file.write("Model target fitness: {}".format(model.fitness) + "\n")
+            file.write("Function: F(x) = {}".format(model.GetHumanExpression()) + "\n")
             fitness_source.Evaluate(model)
             file.write("Model source fitness: {}".format(model.fitness) + "\n")
+            fitness_target.Evaluate(model)
+            file.write("Model target fitness: {}".format(model.fitness) + "\n")
             file.write("" + "\n")
         file.close()
 
