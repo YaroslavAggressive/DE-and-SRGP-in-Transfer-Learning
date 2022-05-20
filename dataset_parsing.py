@@ -23,7 +23,7 @@ DATASET_SNP_PREFIX = "dataset_by_snp"
 DATASET_SEASON_PREFIX = "dataset_by_season"
 DATASET_GEO_PREFIX = "dataset_by_geo"
 
-DAYS_AGEEV_DATASET = [290.0, 294.0, 339.0]
+DAYS_AGEEV_DATASET = [290.0, 294.0, 307.0, 325.0, 339.0]
 
 
 def get_data_response() -> DataFrame:
@@ -124,24 +124,6 @@ def merge_data(meteo_data: DataFrame, ssm_data: DataFrame, days_num: int, verbos
     return merged_df
 
 
-def parse_train_test_valid(x_df: np.array, y_df: np.array, train_size: int, test_size: int):
-    if len(x_df) != len(y_df):
-        raise Exception("Parameters and responses are inconsistent in size")
-    df_size = x_df.shape[0]
-    indices = np.unique(range(df_size))
-
-    source_indices = np.random.choice(indices, size=train_size, replace=False)
-    other_indices = np.setdiff1d(indices, source_indices)
-    target_indices = np.random.choice(other_indices, size=test_size, replace=False)
-    validation_indices = np.setdiff1d(other_indices, target_indices)
-
-    x_source, y_source = x_df[source_indices, :], y_df[source_indices]
-    x_target, y_target = x_df[target_indices, :], y_df[target_indices]
-    x_valid, y_valid = x_df[validation_indices, :], y_df[validation_indices]
-
-    return [x_source, y_source, x_target, y_target, x_valid, y_valid]
-
-
 def parse_x_y(x: np.array, y: np.array, size: int) -> list:
     if len(x) != len(y):
         raise Exception("Parameters and responses are inconsistent in size")
@@ -175,22 +157,10 @@ def initial_parse_data_and_save():
     numpy_y = np.array(y_nut).flatten()
     numpy_merged_data = merged_data.to_numpy()
 
-    processed = parse_train_test_valid(numpy_merged_data, numpy_y, 2500, 500)
-    train_x, train_y = pd.DataFrame(processed[0]), pd.DataFrame(processed[1])
-    test_x, test_y = pd.DataFrame(processed[2]), pd.DataFrame(processed[3])
-    validation_x, validation_y = pd.DataFrame(processed[4]), pd.DataFrame(processed[5])
-    test_x.to_csv("datasets/test_x.csv", index=False)
-    test_y.to_csv("datasets/test_y.csv", index=False)
-    train_x.to_csv("datasets/train_x.csv", index=False)
-    train_y.to_csv("datasets/train_y.csv", index=False)
-    validation_x.to_csv("datasets/validation_x.csv", index=False)
-    validation_y.to_csv("datasets/validation_y.csv", index=False)
-
 
 def parse_per_key(x_df: DataFrame, y_df: DataFrame, key_val: float, key: str) -> list:
     x = x_df[x_df[key] == key_val]
-    source_indices = x.index
-    y = y_df.iloc[source_indices]
+    y = y_df.loc[x.index]
     return [x, y]
 
 
@@ -201,8 +171,7 @@ def parse_per_season(x_df: DataFrame, y_df: DataFrame, season: str) -> list:
              (x_df[SEASON_KEY] == season_months[1]) |
              (x_df[SEASON_KEY] == season_months[2])]
 
-    source_indices = x.index
-    y = y_df.iloc[source_indices]
+    y = y_df.loc[x.index]
     return [x, y]
 
 
@@ -221,30 +190,35 @@ def parse_per_snp(x_df: DataFrame, y_df: DataFrame, snp: int) -> list:
              (x_df[source_columns[1]] == 0.) &
              (x_df[source_columns[2]] == 0.)]
     source_indices = x.index
-    y = y_df.iloc[source_indices]
+    y = y_df.loc[source_indices]
 
     return [x, y]
 
 
-def parse_per_ageev_state(x_df: DataFrame, y_df: DataFrame):  # here we parse source data, of course
-    x_ageev = x_df[(x_df[DOY_KEY] == DAYS_AGEEV_DATASET[0]) |
-                   (x_df[DOY_KEY] == DAYS_AGEEV_DATASET[1]) |
-                   (x_df[DOY_KEY] == DAYS_AGEEV_DATASET[2])]
-    indices = x_ageev.index
-    y_ageev = y_df.iloc[indices]
-    return [x_ageev, y_ageev]
+def parse_autumn_spring(x_df: DataFrame, y_df: DataFrame):  # here we parse source data, of course
+    x_src = x_df[(x_df[DOY_KEY] == DAYS_AGEEV_DATASET[0]) |
+                 (x_df[DOY_KEY] == DAYS_AGEEV_DATASET[1]) |
+                 (x_df[DOY_KEY] == DAYS_AGEEV_DATASET[2]) |
+                 (x_df[DOY_KEY] == DAYS_AGEEV_DATASET[3]) |
+                 (x_df[DOY_KEY] == DAYS_AGEEV_DATASET[4])]
+    indices_src = x_src.index
+    y_src = y_df.loc[indices_src]
+
+    all_indices = np.unique(list(range(x_df.shape[0])))
+    indices_trg = np.setdiff1d(all_indices, indices_src)
+    x_trg, y_trg = x_df.loc[indices_trg], y_df.loc[indices_trg]
+    return [x_src, y_src, x_trg, y_trg]
 
 
 def parse_valid(x_df: DataFrame, y_df: DataFrame, size: int):
     x_df_shuffle = x_df.sample(n=size)
     indices = x_df_shuffle.index
-    y_df_shuffle = y_df.iloc[indices]
+    y_df_shuffle = y_df.loc[indices]
     return [x_df_shuffle, y_df_shuffle]
 
 
 def data_shuffle(x_df: DataFrame, y_df: DataFrame):
     x_shuffle = x_df.sample(frac=1)
-    indices = x_shuffle.index
-    y_shuffle = y_df.iloc[indices]
+    y_shuffle = y_df.loc[x_shuffle.index]
     return [x_shuffle, y_shuffle]
 
