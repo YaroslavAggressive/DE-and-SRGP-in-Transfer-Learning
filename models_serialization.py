@@ -4,11 +4,11 @@ from population import Population
 from sympy import simplify
 from simplegp.Fitness.FitnessFunction import SymbolicRegressionFitness
 
-MODELS_SAVEFILE = "models_weights_info/models"
-WEIGHTS_SAVEFILE = "models_weights_info/weights"
+MODELS_SAVEFILE = "/models"
+WEIGHTS_SAVEFILE = "/weights"
 
-MODELS_FOR_CHECK = "models_weights_info/readable_models"
-WEIGHTS_FOR_CHECK = "models_weights_info/readable_weights"
+MODELS_FOR_CHECK = "/readable_models"
+WEIGHTS_FOR_CHECK = "/readable_weights"
 FILE_SUFFIX = ".txt"
 
 

@@ -22,14 +22,19 @@ VALIDATION_SIZE = 1000
 DAYS_PER_SNIP = 20  # число дней для предсказания погоды
 
 
-def main():
-    np.random.seed(3)
+def main(seed: int, iter_name: int):
+    test_path = "models_weights_info/iter{}".format(iter_name)
+    # test_path = "models_weights_info"
+    if os.path.exists(test_path):
+        raise FileExistsError("Directory with current number already exists in this dir, change iter_num value")
+    os.mkdir(test_path)
+    np.random.seed(seed)
 
     redundant_column_name = "Unnamed: 0"
     response = get_data_response()  # parameter for prediction in future
     predictors = pd.read_csv(MERGED_DATASET, sep=";")
     del predictors[redundant_column_name]
-    n_folds = 5
+    n_folds = 4
     x_src, y_src, x_trg, y_trg = parse_autumn_spring(predictors, response)
     x_src, y_src = data_shuffle(x_src, y_src)
     x_trg, y_trg = data_shuffle(x_trg, y_trg)
@@ -43,61 +48,60 @@ def main():
     trg_no_valid_indices = np.setdiff1d(all_trg_indices, valid_indices)
     x_trg, y_trg = x_trg.loc[trg_no_valid_indices], y_trg.loc[trg_no_valid_indices]
     # cv for Turkey (source) and Australia (target) data
-    # results_filename = "temp_results/cv_data_from_article.txt"
-    # file = open(results_filename, "w")
-    # cv_32 = my_cv(x_src, y_src, x_trg,
-    #               y_trg, ITGP, n_folds, file)
-    # mess = "CV result with Turkey data as source and Australia data as target: {}".format(cv_32[1])
-    # print(mess)
-    # print("\n")
-    # file.write(mess + "\n")
-    # file.write("\n")
-    # file.close()
+    results_filename = "temp_results/cv_data_from_article{}.txt".format(iter_name)
+    file = open(results_filename, "w")
+    cv_32 = my_cv(x_src, y_src, x_trg, y_trg, ITGP, test_path, n_folds, file)
+    mess = "CV result with Turkey data as source and Australia data as target: {}".format(cv_32[1])
+    print(mess)
+    print("\n")
+    file.write(mess + "\n")
+    file.write("\n")
+    file.close()
 
     x_numpy, y_numpy = x_valid.to_numpy(), y_valid.to_numpy().flatten()
     train_function = SymbolicRegressionFitness(X_train=x_numpy, y_train=y_numpy)
-    file = open("temp_results/cv_short_results.txt", "w")
-    # print("All best function, created during cross-vaidation: ")
-    # for model_data in cv_32[0]:
-    #     print("#######################################")
-    #     file.write("#######################################\n")
-    #     print("Best model in file 'models{0}.txt': {1}".format(model_data[3], model_data[0]))
-    #     file.write("Best model in file 'models{0}.txt': {1}".format(model_data[3], model_data[0]) + "\n")
-    #     print("Model fitness of source data: {}".format(model_data[1]))
-    #     file.write("Model fitness of source data: {}".format(model_data[1]) + "\n")
-    #     print("Model fitness of target data: {}".format(model_data[2]))
-    #     file.write("Model fitness of target data: {}".format(model_data[2]) + "\n")
-    #     train_function.Evaluate(model_data[0])
-    #     print("Model fitness of validation data: {}".format(model_data[0].fitness))
-    #     file.write("Model fitness of validation data: {}".format(model_data[0].fitness) + "\n")
+    source_function = SymbolicRegressionFitness(X_train=x_src.to_numpy(), y_train=y_src.to_numpy().flatten())
+    target_function = SymbolicRegressionFitness(X_train=x_trg.to_numpy(), y_train=y_trg.to_numpy().flatten())
+    file = open("temp_results/cv_short_results{}.txt".format(iter_name), "w")
+    print("All best function, created during cross-vaidation: ")
+    for model_data in cv_32[0]:
+        print("#######################################")
+        file.write("#######################################\n")
+        print("Best model in file 'models{0}.txt': {1}".format(model_data[3], model_data[0]))
+        file.write("Best model in file 'models{0}.txt': {1}".format(model_data[3], model_data[0]) + "\n")
+        print("Model fitness of source data: {}".format(model_data[1]))
+        file.write("Model fitness of source data: {}".format(model_data[1]) + "\n")
+        print("Model fitness of target data: {}".format(model_data[2]))
+        file.write("Model fitness of target data: {}".format(model_data[2]) + "\n")
+        train_function.Evaluate(model_data[0])
+        print("Model fitness of validation data: {}".format(model_data[0].fitness))
+        file.write("Model fitness of validation data: {}".format(model_data[0].fitness) + "\n")
+    file.close()
 
-    dirname = "models_weights_info/"
-    # dirname = "yesterday_results/"
-    files = os.listdir(dirname)
+    files = os.listdir(test_path)
     model_files = []
     for file in files:
-        if re.search("^models", file) != 0:
+        if not os.path.isdir(test_path + "/" + file) and re.search("^models", file) != 0:
             model_files.append(file)
     best, best_filename = np.inf, ""
     populations_num = len(files) // 4
     for i in range(populations_num):
         print("Models filename: {}".format(model_files[i]))
-        models = load_models(dirname + model_files[i], 300)
+        models = load_models(test_path + "/" + model_files[i], 300)
+
         for model in models:
-            train_function.Evaluate(model)
-            if np.sqrt(model.fitness) < best:
-                best = np.sqrt(model.fitness)
-                best_filename = model_files[i]
-            print("Model fitness on validation data: {}".format(np.sqrt(model.fitness)))
-    print("Best model fitness: {}".format(best))
-    print("In file: {}".format(best_filename))
+            target_function.Evaluate(model)
+        best_model_data = choose_best_model(models, source_function)
+        train_function.Evaluate(best_model_data[0])
+        valid_fitness = best_model_data[0].fitness
+        print("Best model validation fitness: {}".format(np.sqrt(valid_fitness)))
 
 
 if __name__ == '__main__':
     freeze_support()
 
     # cross-validation function
-    main()
+    main(10, 9)
 
     # тестовые значения, для отладки кода
     # source_size = 1000

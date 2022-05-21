@@ -17,7 +17,7 @@ def determination_coeff(y_true: np.array, y_predict: np.array):
 
 
 def my_cv(x_df_src: DataFrame, y_df_src: DataFrame, x_df_trg: DataFrame, y_df_trg: DataFrame,
-          method: Callable, n_folds: int, file: Any) -> list:
+          method: Callable, dirname: str, n_folds: int, file: Any) -> list:
     numpy_x_src, numpy_y_src = x_df_src.to_numpy(), y_df_src.to_numpy().flatten()
     numpy_x_trg, numpy_y_trg = x_df_trg.to_numpy(), y_df_trg.to_numpy().flatten()
     x_src_for_cv = np.array_split(numpy_x_src, n_folds, axis=0)
@@ -33,7 +33,7 @@ def my_cv(x_df_src: DataFrame, y_df_src: DataFrame, x_df_trg: DataFrame, y_df_tr
                 print("CV iteration # {}".format(str(i)))
                 target_x, target_y = x_trg_for_cv[j], y_trg_for_cv[j]
                 source_x, source_y = x_src_for_cv[i], y_src_for_cv[i]
-                data.append((source_x, source_y, target_x, target_y, False))
+                data.append((source_x, source_y, target_x, target_y, dirname, False))
         data = cv_pool.starmap(method, data)
         for i, model_data in enumerate(data):
             cv_res += model_data[2]
@@ -47,7 +47,7 @@ def my_cv(x_df_src: DataFrame, y_df_src: DataFrame, x_df_trg: DataFrame, y_df_tr
             file.write("File index with all models information: {}".format(model_data[3]) + "\n")
         print("Total error: {}".format(cv_res // n_folds))
         file.write("Total error: {}".format(cv_res // n_folds) + "\n")
-    return [[data[i] for _ in range(len(data))], cv_res // n_folds]
+    return [data, cv_res // n_folds]
 
 
 def run_parallel_tests(x_source: np.array, y_source: np.array, x_target: np.array, y_target: np.array,
