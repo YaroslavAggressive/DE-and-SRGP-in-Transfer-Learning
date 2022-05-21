@@ -16,7 +16,7 @@ from population import Population
 # constants for optimization
 
 GENERATIONS_SIZE = 100  # number of algorithm iterations
-MODELS_POP_SIZE = 300  # model-tree population size (was 512 according to the article)
+MODELS_POP_SIZE = 200  # model-tree population size (was 512 according to the article)
 WEIGHTS_POP_SIZE = 60  # size of weight vectors population
 TOP_MODELS_SIZE = WEIGHTS_POP_SIZE // 2
 NOTES_NAME = "notes_iter"
@@ -45,13 +45,12 @@ def ITGP(x_source: np.array, y_source: np.array, x_target: np.array, y_target: n
     # for models evaluating
     # теперь crossover_rate = 0.9, mutation_rate И op_mutation_rate = 0.1 согласно статье по ITGP
     srgp_estimator = EpochSR(dim=models_dim, fitness_function=fitness_function, pop_size=models_size, max_tree_size=320,
-                             crossover_rate=0.8, mutation_rate=0.2, op_mutation_rate=0.2, min_height=3,
-                             initialization_max_tree_height=13,
+                             crossover_rate=0.8, mutation_rate=0.2, op_mutation_rate=0.2, min_height=4,
+                             initialization_max_tree_height=10,
                              # functions=[AddNode(), SubNode(), MulNode(), DivNode(), LogNode(), EphemeralRandomConstantNode()])
-                             # functions=[AddNode(), SubNode(), MulNode(), DivNode(), LogNode(), EphemeralRandomConstantNode()])
-                             functions=[AddNode(), SubNode(), MulNode(), DivNode(), SinNode(), CosNode(), LogNode(),
+                             functions=[AddNode(), SubNode(), MulNode(), DivNode(), AnalyticQuotientNode(), LogNode(),
                                         EphemeralRandomConstantNode()])
-                             # functions=[AddNode(), SubNode(), MulNode(), DivNode()])
+                             # functions=[AddNode(), SubNode(), MulNode(), DivNode(), EphemeralRandomConstantNode()])
 
     if preload_models:
         models = load_models("models_weights_info/models" + str(fileid) + FILE_SUFFIX, MODELS_POP_SIZE)

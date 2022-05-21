@@ -83,7 +83,6 @@ def main(seed: int, iter_name: int):
     for file in files:
         if not os.path.isdir(test_path + "/" + file) and re.search("^models", file) != 0:
             model_files.append(file)
-    best, best_filename = np.inf, ""
     populations_num = len(files) // 4
     for i in range(populations_num):
         print("Models filename: {}".format(model_files[i]))
@@ -101,7 +100,7 @@ if __name__ == '__main__':
     freeze_support()
 
     # cross-validation function
-    main(10, 9)
+    main(10, 12)
 
     # тестовые значения, для отладки кода
     # source_size = 1000

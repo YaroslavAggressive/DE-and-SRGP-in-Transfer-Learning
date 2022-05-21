@@ -1,0 +1,80 @@
+#######################################
+Best model in file 'models108.txt': +
+Model fitness of source data: 46.975984394233365
+Model fitness of target data: 629.6395283432953
+Model fitness of validation data: 2513.037060239417
+#######################################
+Best model in file 'models68.txt': *
+Model fitness of source data: 723.1568843257684
+Model fitness of target data: 2579.31823639531
+Model fitness of validation data: 5738.057420127858
+#######################################
+Best model in file 'models214.txt': -
+Model fitness of source data: 260.4346873695475
+Model fitness of target data: 391.89284554263736
+Model fitness of validation data: 1426.3714226658838
+#######################################
+Best model in file 'models259.txt': -
+Model fitness of source data: 106.36559083032631
+Model fitness of target data: 125.69440763527165
+Model fitness of validation data: 525.9843727817178
+#######################################
+Best model in file 'models5.txt': aq
+Model fitness of source data: 970.1480256575262
+Model fitness of target data: 2286.4410089927346
+Model fitness of validation data: 11187.211506338554
+#######################################
+Best model in file 'models257.txt': +
+Model fitness of source data: 726.6531587244783
+Model fitness of target data: 1137.396814524718
+Model fitness of validation data: 28317.740170834124
+#######################################
+Best model in file 'models114.txt': +
+Model fitness of source data: 78.10493938184172
+Model fitness of target data: 146.75109773424631
+Model fitness of validation data: 1927.3454906290854
+#######################################
+Best model in file 'models154.txt': +
+Model fitness of source data: 47.5679326793073
+Model fitness of target data: 57.005103959543355
+Model fitness of validation data: 3113.3385098887507
+#######################################
+Best model in file 'models131.txt': -
+Model fitness of source data: 973.9382789756474
+Model fitness of target data: 996.3666838364117
+Model fitness of validation data: 2798.215401470085
+#######################################
+Best model in file 'models92.txt': +
+Model fitness of source data: 535.0358982718499
+Model fitness of target data: 829.6748632678424
+Model fitness of validation data: 578.4014026788046
+#######################################
+Best model in file 'models269.txt': -
+Model fitness of source data: 276.8482486365059
+Model fitness of target data: 2926.063052969192
+Model fitness of validation data: 6777.506235493965
+#######################################
+Best model in file 'models56.txt': +
+Model fitness of source data: 839.1656238761481
+Model fitness of target data: 2820.57585176126
+Model fitness of validation data: 1195.325731482695
+#######################################
+Best model in file 'models235.txt': *
+Model fitness of source data: 907.7786035357525
+Model fitness of target data: 8101.821128044766
+Model fitness of validation data: 12013.356386476464
+#######################################
+Best model in file 'models118.txt': *
+Model fitness of source data: 12020.941530778251
+Model fitness of target data: 687354181014.4026
+Model fitness of validation data: 261808405094.18356
+#######################################
+Best model in file 'models106.txt': *
+Model fitness of source data: 75.34021748974973
+Model fitness of target data: 108.12230690406729
+Model fitness of validation data: 103096.42956878223
+#######################################
+Best model in file 'models154.txt': *
+Model fitness of source data: 637.3964264984035
+Model fitness of target data: 853.0445584101967
+Model fitness of validation data: 15575.31476831588
