@@ -1,4 +1,5 @@
 import numpy as np
+from numpy.random import default_rng
 from typing import Any
 from pandas import DataFrame
 from typing import Callable
@@ -27,13 +28,14 @@ def my_cv(x_df_src: DataFrame, y_df_src: DataFrame, x_df_trg: DataFrame, y_df_tr
     cv_res = 0
     data = []
     # оставляю 2 ядра, чтобы ноут не помер
+    rng = default_rng()
+    indices = rng.choice(100, size=n_folds**2, replace=False)
     with Pool(multiprocessing.cpu_count() - 2) as cv_pool:
         for i in range(n_folds):
             for j in range(n_folds):
-                # print("CV iteration # {}".format(str(i)))
                 target_x, target_y = x_trg_for_cv[j], y_trg_for_cv[j]
                 source_x, source_y = x_src_for_cv[i], y_src_for_cv[i]
-                data.append((source_x, source_y, target_x, target_y, dirname, False))
+                data.append((source_x, source_y, target_x, target_y, dirname, indices[n_folds * i + j], False))
         data = cv_pool.starmap(method, data)
         for i, model_data in enumerate(data):
             cv_res += model_data[2]

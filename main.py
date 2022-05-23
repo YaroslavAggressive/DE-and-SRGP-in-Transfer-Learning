@@ -5,14 +5,15 @@ from dataset_parsing import initial_parse_data_and_save, MERGED_DATASET, parse_v
 from dataset_parsing import parse_x_y, parse_autumn_spring
 from dataset_parsing import SEASON_KEY, GEO_ID_KEY, DATASET_SEASONS, SNP_KEYS, get_data_response
 from models_serialization import load_models
+from model_research import main_research
 
 import os
 import re
 import numpy as np
 import pandas as pd
 import time
-import multiprocessing
-from multiprocessing import Pool, Process, freeze_support
+import multiprocessing as mp
+from multiprocessing import freeze_support
 from copy import deepcopy
 from sklearn.decomposition import PCA
 
@@ -24,7 +25,6 @@ DAYS_PER_SNIP = 20  # число дней для предсказания пог
 
 def main(seed: int, iter_name: int):
     test_path = "models_weights_info/iter{}".format(iter_name)
-    # test_path = "models_weights_info"
     if os.path.exists(test_path):
         raise FileExistsError("Directory with current number already exists in this dir, change iter_num value")
     os.mkdir(test_path)
@@ -58,23 +58,22 @@ def main(seed: int, iter_name: int):
     file.write("\n")
     file.close()
 
-    x_numpy, y_numpy = x_valid.to_numpy(), y_valid.to_numpy().flatten()
-    train_function = SymbolicRegressionFitness(X_train=x_numpy, y_train=y_numpy)
+    train_function = SymbolicRegressionFitness(X_train=x_valid.to_numpy(), y_train=y_valid.to_numpy().flatten())
     source_function = SymbolicRegressionFitness(X_train=x_src.to_numpy(), y_train=y_src.to_numpy().flatten())
     target_function = SymbolicRegressionFitness(X_train=x_trg.to_numpy(), y_train=y_trg.to_numpy().flatten())
     file = open("temp_results/cv_short_results{}.txt".format(iter_name), "w")
-    print("All best function, created during cross-vaidation: ")
+    print("All best function, created during cross-validation: ")
     for model_data in cv_32[0]:
         print("#######################################")
         file.write("#######################################\n")
         print("Best model in file 'models{0}.txt': {1}".format(model_data[3], model_data[0]))
         file.write("Best model in file 'models{0}.txt': {1}".format(model_data[3], model_data[0]) + "\n")
-        print("Model fitness of source data: {}".format(model_data[1]))
+        print("Model fitness of source data: {}".format(np.sqrt(model_data[1])))
         file.write("Model fitness of source data: {}".format(model_data[1]) + "\n")
-        print("Model fitness of target data: {}".format(model_data[2]))
+        print("Model fitness of target data: {}".format(np.sqrt(model_data[2])))
         file.write("Model fitness of target data: {}".format(model_data[2]) + "\n")
         train_function.Evaluate(model_data[0])
-        print("Model fitness of validation data: {}".format(model_data[0].fitness))
+        print("Model fitness of validation data: {}".format(np.sqrt(model_data[0].fitness)))
         file.write("Model fitness of validation data: {}".format(model_data[0].fitness) + "\n")
     file.close()
 
@@ -90,35 +89,49 @@ def main(seed: int, iter_name: int):
 
         for model in models:
             target_function.Evaluate(model)
-        best_model_data = choose_best_model(models, source_function)
+        best_model_data = choose_best_model(models, source_function, target_function)
         train_function.Evaluate(best_model_data[0])
-        valid_fitness = best_model_data[0].fitness
-        print("Best model validation fitness: {}".format(np.sqrt(valid_fitness)))
+        print("Best model validation fitness: {}".format(np.sqrt(best_model_data[0].fitness)))
+        print("Best model source fitness: {}".format(np.sqrt(best_model_data[1])))
+        print("Best model target fitness: {}".format(np.sqrt(best_model_data[2])))
 
 
 if __name__ == '__main__':
-    freeze_support()
 
     # cross-validation function
-    main(10, 12)
+    # main(15, 19)
 
-    # тестовые значения, для отладки кода
-    # source_size = 1000
-    # target_size = 120
-    # n_folds = 10
-    # x_s, y_s = pd.read_csv("geo_datasets/data_geo_2.0.csv", sep=";"), \
-    #        pd.read_csv("geo_datasets/data_geo_2.0_response.csv", sep=";")
-    # x_t, y_t = pd.read_csv("geo_datasets/data_geo_3.0.csv", sep=";"), \
-    #            pd.read_csv("geo_datasets/data_geo_3.0_response.csv", sep=";")
-    # x_numpy, y_numpy = x_s.to_numpy(), y_s.to_numpy().flatten()
-    # x_t_numpy, y_t_numpy = x_t.to_numpy(), y_t.to_numpy().flatten()
-    # source_x, source_y = parse_x_y(x_numpy, y_numpy, source_size)
-    # target_x, target_y = parse_x_y(x_t_numpy, y_t_numpy, target_size)
-    # start_time = time.time()
-    # res = ITGP(source_x, source_y, target_x, target_y, preload_models=False, fileid=75)
-    # print("Function ITGP worktime: {}".format(time.time() - start_time))
-    # expr = res[0].GetHumanExpression()
-    # print("Best model: {}".format(expr))
-    # print("Function target fitness: {}".format(res[2]))
-    # print("Function source fitness: {}".format(res[1]))
-    # run_parallel_tests(source_x, source_y, target_x, target_y, source_size, target_size)
+    # test seeds and models populations sizes
+    mp.freeze_support()
+    seeds = [3, 5, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 15]
+    pop_sizes = [300, 300, 400, 300, 300, 300, 300, 300, 300, 300, 300, 300, 200, 300, 300, 300, 300, 300, 300, 300]
+    pop_sizes_dict = {"iter" + str(i): pop_sizes[i] for i in range(len(pop_sizes))}
+    seeds_dict = {"iter" + str(i): seeds[i] for i in range(len(seeds))}
+
+    # total dataset and response reading
+    redundant_column_name = "Unnamed: 0"
+    response = get_data_response()  # parameter for prediction in future
+    predictors = pd.read_csv(MERGED_DATASET, sep=";")
+    del predictors[redundant_column_name]
+
+    # making main research all over the fiven data
+    dirpath = "models_weights_info"
+    dirs = os.listdir(dirpath)
+    files_models = {directory: [] for directory in dirs}
+    for directory in dirs:
+        dir_files = os.listdir(dirpath + "/" + directory)
+        for file in dir_files:
+            if file.startswith("models"):
+                files_models[directory].append(dirpath + "/" + directory + "/" + file)
+
+    # a single run code to find the best models among the test values, after this in will be commented.
+    # Run it, if you forked repo data
+    # find_save_best_models(x_df=predictors, y_df=response, all_iters=files_models,
+    #                       sizes_per_iter=pop_sizes_dict, seeds_per_iter=seeds_dict)
+
+    # process_data = best_model_over_research(predictors.to_numpy(), response.to_numpy().flatten(), files_models,
+    #                                         pop_sizes_dict)
+    # best_population_checking(predictors, response, iter_seeds=seeds, sizes_=pop_sizes_dict)
+
+    research = main_research(x_df=predictors, y_df=response, all_iters=files_models,
+                             sizes_per_iter=pop_sizes_dict, seeds_per_iter=seeds_dict)
