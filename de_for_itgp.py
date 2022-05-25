@@ -1,17 +1,14 @@
-from population import Population
-from typing import Callable
 import numpy as np
+from scipy.stats import truncnorm
 from math import sqrt
 from typing import Any
 from copy import deepcopy
-from multiprocessing import Pool, Process, Queue
 
 
 class EpochDE:
 
     def __init__(self, size: int = 100, dim: int = 0):
 
-        self.seed = 1  # model stochastic parameters generation
         self.p_inf = 0.0
         self.p_sup = 1.0
         self.s_inf = 1. / sqrt(size)
@@ -21,24 +18,22 @@ class EpochDE:
         # generate init values
         self.size = size
         self.dim = dim
-        self.population = Population.random_population(size=self.size, dimensions=self.dim)
+        self.population = np.array([truncnorm.rvs(a=0, b=1, size=self.dim) for _ in range(size)])
         self.best_idx = 0
 
         # initialization of parameters of mutation and crossover
         self.p = np.array([np.random.normal(self.p_inf, self.p_sup) for _ in range(self.dim)])
         self.s = np.array([np.random.normal(self.s_inf, self.s_sup) for _ in range(self.dim)])
-        self.prev_variations = np.array([self.population.individuals[:, i].var() for i in range(self.dim)])
+        self.prev_variations = np.array([self.population[:, i].var() for i in range(self.dim)])
         self.current_variations = np.array([])
         self.ro = np.array([])
         self.flag = False
 
     def de_epoch(self, models: np.array, weight_scores: np.array, fitness_mse: Any, fitness_wmse: Any):
-        prev_target_values = deepcopy(weight_scores)
         indices = list(range(self.size))
 
-        trial_generation = Population(self.size, self.dim)
-        trial_generation.individuals = []
-        trial_target_values = np.array([])
+        trial_generation = []
+        trial_target_values = []
 
         if self.current_variations.size != 0:
             self.ro = np.array([self.gamma * (var_prev / var) for var_prev, var in zip(self.prev_variations,
@@ -61,38 +56,36 @@ class EpochDE:
                 self.flag = not self.flag
 
             t_child = self.crossing(individual, c_mutant)
-            trial_generation.individuals.append(t_child)
-        trial_generation.individuals = np.vstack(trial_generation)
+            trial_generation.append(t_child)
 
         # here will be wmse and mse counting block
-        fitness_wmse.weights = trial_generation.individuals
+        fitness_wmse.weights = np.vstack(trial_generation)
         for model in models:
             fitness_wmse.Evaluate(model)
-        wmse = np.array([model.fitness for model in models])
+        wmse = np.array([model.fitness.copy() for model in models])
 
-        for i in range(len(trial_generation.individuals)):
+        for i in range(len(fitness_wmse.weights)):
             weight_column = wmse[:, i]
             best_model_idx = np.argmin(weight_column)
-            model_copy = deepcopy(models[best_model_idx])
-            model_copy.fitness = 0  # for using scalar fitness in Virgolin's fitness function
-            fitness_mse.Evaluate(model_copy)
-            trial_target_values = np.append(trial_target_values, model_copy.fitness)
+            models[best_model_idx].fitness = 0
+            fitness_mse.Evaluate(models[best_model_idx])
+            trial_target_values = np.append(trial_target_values, deepcopy(models[best_model_idx].fitness))
 
-        # selection. Вот здесь ее надо доделать СЕЙЧАС!!!!
-        for j, (previous, current) in enumerate(zip(prev_target_values, trial_target_values)):
+        # selection. Вот здесь над ней надо подумать!!!!
+        for j, (previous, current) in enumerate(zip(weight_scores, trial_target_values)):
             if previous > current:
-                prev_target_values[j] = current
+                weight_scores[j] = current
                 self.population[j] = trial_generation[j]
-                if current < prev_target_values[self.best_idx]:
+                if current < weight_scores[self.best_idx]:
                     self.best_idx = j
 
         # new variance counting
         if self.current_variations.size != 0:
             for k in range(self.dim):
                 self.prev_variations[k] = self.current_variations[k]
-                self.current_variations[k] = self.population.individuals[:, k].var()
+                self.current_variations[k] = self.population[:, k].var()
         else:
-            self.current_variations = np.array([self.population.individuals[:, k].var() for k in range(self.dim)])
+            self.current_variations = np.array([self.population[:, k].var() for k in range(self.dim)])
 
     @staticmethod
     def round_value(value: float) -> float:

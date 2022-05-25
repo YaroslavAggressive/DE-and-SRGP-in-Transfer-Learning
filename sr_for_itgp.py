@@ -5,7 +5,6 @@ from simplegp.Variation import Variation
 from simplegp.Selection import Selection
 from copy import deepcopy
 from numpy.random import random, randint
-from multiprocessing import Pool, Process, Queue
 
 
 class EpochSR(BaseEstimator):
@@ -31,7 +30,7 @@ class EpochSR(BaseEstimator):
             setattr(self, arg, val)
 
         self.terminals = []
-        # if self.use_erc:  # пока не понял, понадобится ли это
+        # if self.use_erc:
         #     self.terminals.append(EphemeralRandomConstantNode())
         n_features = dim
         for i in range(n_features):
@@ -96,4 +95,3 @@ class EpochSR(BaseEstimator):
 
         # Selection (in this program it is implemented in main cycle)
         self.population = trial
-        # self.population = Selection.TournamentSelect(PO, self.pop_size, tournament_size=self.tournament_size)

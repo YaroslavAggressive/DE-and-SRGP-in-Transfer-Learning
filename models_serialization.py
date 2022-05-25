@@ -62,3 +62,16 @@ def readable_output_weights(filename: str, weights: list):
             file.write("Weights population #{}".format(i + 1) + "\n")
             file.write("Weight: {}".format(weight) + "\n")
         file.close()
+
+
+def read_top_models_size(filename: str) -> int:
+    file_size = open(filename, "r")
+    text = file_size.readlines()
+    if len(text) != 1:
+        raise Exception("Invalid size of file with models population size")
+    else:
+        try:
+            size = int(text[0])
+            return size
+        except Exception:
+            raise Exception("Can't read size of top models population from chosen file, please, check it before using")
