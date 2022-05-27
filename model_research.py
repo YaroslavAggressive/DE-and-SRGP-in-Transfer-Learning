@@ -9,33 +9,30 @@ import multiprocessing as mp
 from simplegp.Fitness.FitnessFunction import SymbolicRegressionFitness
 import os
 from models_serialization import load_models, save_models, readable_output_models, read_top_models_size
-from dataset_parsing import MERGED_DATASET, parse_autumn_spring, data_shuffle, parse_valid
-from graphics import draw_hist, draw_temperature_plot
+from dataset_parsing import MERGED_DATASET, parse_autumn_spring, data_shuffle, parse_valid, create_snp_columns
+from graphics import draw_hist, draw_temperature_plot, draw_srad_plot, draw_rain_plot
 
 PERMUTATIONS_NUM = 100
 # best models are stored here so that you don't have to search for them every time, but just explore
-BEST_MODELS_FILE = "top_models/top_models_after_20_inters.txt"
-BEST_MODELS_READABLE_FILE = "top_models/readable_top_models_after_20_inters.txt"
+BEST_MODELS_FILE = "top_models_after_iter"
+BEST_MODELS_READABLE_FILE = "readable_top_models_after_iter"
+SUFFIX = ".txt"
 # here is just the size of the saved models, so that it is not serialized together with the models
-BEST_MODELS_SIZE_FILE = "top_models/top_models_size.txt"
+TOP_MODELS_DIR = "top_models"
+BEST_MODELS_SIZE_FILE = "top_models_size"
 PERMUTATIONS_DIR = "permutations data"
+RAIN_MODES = {"full": 0.0, "half": 0.5}  # доля снижения осадков
+RAD_MODES = {"half": 0.5, "quarter": 0.25, "tenth": 0.1}
 
 
-def dataset_clustering(x_df_numpy: np.array, colnames: list, n_clusters: int = 5) -> list:
-    k_means = KMeans(n_clusters=n_clusters)
-    k_means.fit(x_df_numpy)
-    clusters = [[] for _ in range(n_clusters)]
-    for i, label in enumerate(k_means.labels_):
-        clusters[label].append(x_df_numpy[i])
-
-    for j in range(n_clusters):
-        clusters[j] = DataFrame(np.vstack(clusters[j]), columns=colnames)
-    return clusters
-
-
-def find_save_best_models(x_df: np.array, y_df: np.array, all_iters: dict, sizes_per_iter: dict, seeds_per_iter: dict):
+def find_save_best_models(x_df: np.array, y_df: np.array, all_iters: dict, sizes_per_iter: dict, seeds_per_iter: dict,
+                          iters_left: int, iters_right: int):
     top_models = []
     for i, directory in enumerate(all_iters.keys()):
+        iter_ind = directory.replace("iter", "")
+        iter_ind = int(iter_ind)
+        if not iters_left <= iter_ind <= iters_right:
+            continue
         iter_files = all_iters[directory]
         seed = seeds_per_iter[directory]
         x_src, y_src, x_trg, y_trg, x_valid, y_valid = parse_data_per_iter(x_df, y_df, seed)
@@ -51,80 +48,106 @@ def find_save_best_models(x_df: np.array, y_df: np.array, all_iters: dict, sizes
                 fit_valid = get_fitness(fitness_function_valid, model)
                 if fit_valid <= 22 and fit_src <= 12 and fit_trg <= 14:
                     top_models.append([deepcopy(model), fit_src, fit_trg, fit_valid, file_, directory])
-    save_models(BEST_MODELS_FILE, top_models)
-    readable_output_models(BEST_MODELS_READABLE_FILE, [model[0] for model in top_models],
+    top_models_path = TOP_MODELS_DIR + "/" + BEST_MODELS_FILE + "_" + str(iters_left) + "_" + str(iters_right)
+    if not os.path.exists(top_models_path):
+        os.mkdir(top_models_path)
+    models_filename = BEST_MODELS_FILE + "_" + str(iters_left) + "_" + str(iters_right) + SUFFIX
+    readable_models_filename = BEST_MODELS_READABLE_FILE + "_" + str(iters_left) + "_" + str(iters_right) + SUFFIX
+    models_size_filename = BEST_MODELS_SIZE_FILE + "_" + str(iters_left) + "_" + str(iters_right) + SUFFIX
+    save_models(top_models_path + "/" + models_filename, top_models)
+    readable_output_models(top_models_path + "/" + readable_models_filename, [model[0] for model in top_models],
                            SymbolicRegressionFitness(X_train=x_df.to_numpy(), y_train=y_df.to_numpy().flatten()))
-    file_size = open(BEST_MODELS_SIZE_FILE, "w")
+    file_size = open(top_models_path + "/" + models_size_filename, "w")
     file_size.write(str(len(top_models)))
     file_size.close()
 
 
 def permutation_test(seed: int, model: Node, ind: int, x_df: DataFrame, y_df: DataFrame, save: bool = False) -> dict:
     # finding response dependence each predictor of input data
-    parsed_data = parse_data_per_iter(x_df=x_df, y_df=y_df, seed=seed)
     np.random.seed(seed)
-    fitness_function_src = SymbolicRegressionFitness(X_train=parsed_data[0].to_numpy(),
-                                                     y_train=parsed_data[1].to_numpy().flatten())
-    fitness_function_trg = SymbolicRegressionFitness(X_train=parsed_data[2].to_numpy(),
-                                                     y_train=parsed_data[3].to_numpy().flatten())
-    fitness_function_valid = SymbolicRegressionFitness(X_train=parsed_data[4].to_numpy(),
-                                                       y_train=parsed_data[5].to_numpy().flatten())
-
-    benchmark_error_src = get_fitness(fitness_function=fitness_function_src, model=model)
-    benchmark_error_trg = get_fitness(fitness_function=fitness_function_trg, model=model)
-    benchmark_error_valid = get_fitness(fitness_function=fitness_function_valid, model=model)
+    fitness_function = SymbolicRegressionFitness(X_train=x_df.to_numpy(), y_train=y_df.to_numpy().flatten())
+    benchmark_error = get_fitness(fitness_function=fitness_function, model=model)
     column_error_change = dict()
-    # доделать для 100 пересчеов (брать среднее значение)
-    if save:
-        name_dir = "test_{0}".format(ind)
-        os.mkdir(PERMUTATIONS_DIR + "/" + name_dir)
+
+    # if save:
+    #     name_dir = "test_{0}".format(ind)
+    #     os.mkdir(PERMUTATIONS_DIR + "/" + name_dir)
     for i in range(PERMUTATIONS_NUM):
         x_df_copy = deepcopy(x_df)
         for column in x_df.columns:
             x_df_copy[column] = np.random.permutation(x_df_copy[column].values)
-            if save:
-                # saving dataset with EACH PERMUTATED COLUMN
-                file_name = "perm_{0}_model_{1}_in_top.csv".format(i, ind)
-                x_df_copy.to_csv(PERMUTATIONS_DIR + "/" + name_dir + "/" + file_name, index=False, sep=";")
+            # if save:
+            #     # saving dataset with EACH PERMUTATED COLUMN
+            #     file_name = "perm_{0}_model_{1}_in_top.csv".format(i, ind)
+            #     x_df_copy.to_csv(PERMUTATIONS_DIR + "/" + name_dir + "/" + file_name, index=False, sep=";")
         for column in x_df.columns:
-            column_res = 0
+            column_res = 0 if column not in column_error_change.keys() else column_error_change[column]
             column_tmp = deepcopy(x_df[column])
             x_df[column] = x_df_copy[column]
-            x_df_copy[column] = np.random.permutation(x_df_copy[column].values)
-            parsed_data = parse_data_per_iter(x_df=x_df_copy, y_df=y_df, seed=seed)
-            fitness_function_src.X_train = parsed_data[0].to_numpy()
-            src_error = get_fitness(fitness_function=fitness_function_src, model=model)
-            fitness_function_trg.X_train = parsed_data[2].to_numpy()
-            trg_error = get_fitness(fitness_function=fitness_function_src, model=model)
-            fitness_function_valid.X_train = parsed_data[4].to_numpy()
-            valid_error = get_fitness(fitness_function=fitness_function_src, model=model)
-            column_res += np.fabs(np.sqrt(src_error) + np.sqrt(trg_error) + np.sqrt(valid_error) -
-                                  np.sqrt(benchmark_error_trg) - np.sqrt(benchmark_error_src) -
-                                  np.sqrt(benchmark_error_valid))
+            fitness_function.X_train = x_df.to_numpy()
+            error = get_fitness(fitness_function=fitness_function, model=model)
+            column_res += np.fabs(error - benchmark_error)
             x_df[column] = column_tmp
-            if column_res > 0.:
-                column_error_change.update({column: column_res / PERMUTATIONS_NUM})
+            if column_res > 1e-7:
+                column_error_change.update({column: column_res})
+    for column in x_df.columns:
+        if column in column_error_change.keys():
+            val = column_error_change[column]
+            column_error_change.update({column: val / PERMUTATIONS_NUM})
     return column_error_change
 
 
-def global_warning_research(x_df: DataFrame, y_df: DataFrame, d_T: float, model: Node) -> np.array:
-    # returns model prediction for time flowering of wild chickpea in changed climatic conditions
-    temperature_prefixes = ["tmin", "tmax"]
-    temperature_columns = []
-    for column in x_df.columns:
-        for prefix in temperature_prefixes:
+def get_prefix_column(df_columns: list, prefixes: list) -> list:
+    res_columns = []
+    for column in df_columns:
+        for prefix in prefixes:
             if column.startswith(prefix):
-                temperature_columns.append(column)
+                res_columns.append(column)
                 break
+    return res_columns
+
+
+def global_warning_research(x_df: DataFrame, y_df: DataFrame, d_T: float, model: Node, only_min: bool = False) -> \
+    np.array:
+    # returns model prediction for time flowering of wild chickpea in changed climatic conditions
+    temperature_prefixes = ["tmin", "tmax"] if not only_min else ["tmin"]
+    temperature_columns = get_prefix_column(df_columns=list(x_df.columns), prefixes=temperature_prefixes)
     x_df_copy = deepcopy(x_df)
     for column in temperature_columns:
         x_df_copy[column] = x_df[column] + d_T
     # temperature data has been changed, now starting research with model
 
     model_output = model.GetOutput(x_df_copy.to_numpy())
-    error = model_output - y_df.to_numpy().flatten()
-    # теперь возвращаем не среднее,  а ошибку для каждого растения
-    return error
+    change = model_output - y_df.to_numpy().flatten()
+    return change
+
+
+def sun_rad_research(x_df: DataFrame, y_df: DataFrame, model: Node, mode: str = "half", days_borders: list = None) -> np.array:
+    if days_borders[0] < 0 or days_borders[1] > 19:
+        raise ValueError("Incorrect days indexing, please check your input")
+    sun_rad_prefixes = ["srad"]
+    rad_mode = RAD_MODES[mode]
+    x_df_copy = deepcopy(x_df)
+    for i in range(days_borders[0], days_borders[1] + 1):
+        col_name = sun_rad_prefixes[0] + str(i)
+        x_df_copy[col_name] = x_df_copy[col_name] * rad_mode
+    model_output = model.GetOutput(x_df_copy.to_numpy())
+    change = model_output - y_df.to_numpy().flatten()
+    return change
+
+
+def rain_research(x_df: DataFrame, y_df: DataFrame, model: Node, mode: str = "full", days_borders: list = None) -> np.array:
+    if days_borders[0] < 0 or days_borders[1] > 19:
+        raise ValueError("Incorrect days indexing, please check your input")
+    rain_prefix = ["rain"]
+    change_coeff = RAIN_MODES[mode]
+    x_df_copy = deepcopy(x_df)
+    for i in range(days_borders[0], days_borders[1] + 1):
+        col_name = rain_prefix[0] + str(i)
+        x_df_copy[col_name] = x_df_copy[col_name] * change_coeff
+    model_output = model.GetOutput(x_df_copy.to_numpy())
+    change = model_output - y_df.to_numpy().flatten()
+    return change
 
 
 def best_population_checking(x_df: DataFrame, y_df: DataFrame, iter_seeds: list, sizes_: dict):
@@ -150,7 +173,9 @@ def parse_data_per_iter(x_df: DataFrame, y_df: DataFrame, seed: int) -> list:
     trg_size = src_size // 5
     valid_size = x_trg.shape[0] - trg_size
     x_valid, y_valid = parse_valid(x_trg, y_trg, valid_size)
-    return [x_src, y_src, x_trg, y_trg, x_valid, y_valid]
+    x_trg_index, x_valid_index = x_trg.index, x_valid.index
+    trg_not_in_valid = np.setdiff1d(x_trg_index, x_valid_index)
+    return [x_src, y_src, x_trg.loc[trg_not_in_valid], y_trg.loc[trg_not_in_valid], x_valid, y_valid]
 
 
 def get_fitness(fitness_function: SymbolicRegressionFitness, model: Node) -> float:
@@ -180,52 +205,142 @@ def test_iter(x_df: DataFrame, y_df: DataFrame, seed: int, pop_size: int, iter_n
     return top_models
 
 
-def test_model(model: Node, ind: int, x_df: DataFrame, y_df: DataFrame, seed: int, save: bool = False):
+def test_model(model: Node, ind: int, x_df: DataFrame, y_df: DataFrame, seed: int, save: bool = False, param: str = ""):
     parsed_data = parse_data_per_iter(x_df, y_df, seed)
     res_keys = ["src", "trg", "valid"]
-    model_results = []
-    for i, key in enumerate(res_keys):
-        tmp_x, tmp_y = parsed_data[2 * i], parsed_data[2 * i + 1]
-        temperature_results = []
-        for d_t in [0.1 * i for i in range(20)]:
-            tmp_res = global_warning_research(tmp_x, tmp_y, d_t, model)
-            temperature_results.append(tmp_res)
-        model_results.append([key, temperature_results])
-    perm_res = permutation_test(seed, model, ind, x_df, y_df, save=True)
-    model_results.append(perm_res)
-    return model_results
+    if param == "temp":
+        model_results = []
+        for i, key in enumerate(res_keys):
+            tmp_x, tmp_y = parsed_data[2 * i], parsed_data[2 * i + 1]
+            temperature_results = []
+            for d_t in [0.1 * i for i in range(20)]:
+                temperature_results.append(global_warning_research(tmp_x, tmp_y, d_t, model))
+            temperature_results = np.vstack(temperature_results)
+            model_results.append([key, temperature_results, tmp_x.index])
+        return model_results
+    elif param == "perm":
+        perm_res = permutation_test(seed, model, ind, x_df, y_df, save=True)
+        return perm_res
+    elif param == "srad":
+        model_results = []
+        for i, key in enumerate(res_keys):
+            tmp_x, tmp_y = parsed_data[2 * i], parsed_data[2 * i + 1]
+            sun_rad_results = []
+            for days in range(1, 5):
+                sun_rad_results.append(sun_rad_research(tmp_x, tmp_y, model=model, mode="half", days_borders=[0, days]))
+            sun_rad_results = np.vstack(sun_rad_results)
+            model_results.append([key, sun_rad_results, tmp_x.index])
+        return model_results
+    elif param == "rain":
+        model_results = []
+        for i, key in enumerate(res_keys):
+            tmp_x, tmp_y = parsed_data[2 * i], parsed_data[2 * i + 1]
+            sun_rad_results = []
+            for days in range(1, 5):
+                sun_rad_results.append(rain_research(tmp_x, tmp_y, model=model, mode="full", days_borders=[0, days]))
+            sun_rad_results = np.vstack(sun_rad_results)
+            model_results.append([key, sun_rad_results, tmp_x.index])
+        return model_results
 
 
-def main_research(x_df: np.array, y_df: np.array, seeds_per_iter: dict, save: bool = False) -> list:
-    models_size = read_top_models_size(BEST_MODELS_SIZE_FILE)
-    top_models = load_models(BEST_MODELS_FILE, models_size)
+def main_research(x_df: np.array, y_df: np.array, seeds_per_iter: dict, save: bool = False, iter_left: int = 0,
+                  iter_right: int = 0) -> list:
+    models_size = read_top_models_size(TOP_MODELS_DIR + "/" + BEST_MODELS_SIZE_FILE + "_" + str(iter_left) + "_" +
+                                       str(iter_right) + SUFFIX)
+    top_models = load_models(TOP_MODELS_DIR + "/" + BEST_MODELS_FILE + "_" + str(iter_left) + "_" + str(iter_right)
+                             + SUFFIX, models_size)
 
     best_model_data = top_models[0]
     for model_data in top_models:
         if sum(model_data[1:4]) <= sum(best_model_data[1:4]):
             best_model_data = deepcopy(best_model_data)
     print("Best model: {}".format(best_model_data[0].GetHumanExpression()))
-    print("Found in" + best_model_data[5])
+    print("Found in " + best_model_data[5])
     print("Saved in file '{}'".format(best_model_data[4]))
     print("Model total fitness: {0} (source) + {1} (target) + {2} (validation)".format(*best_model_data[1:4]))
     print("###########################")
     print("Top models number : {}".format(len(top_models)))
+
+    # блок анализа значимости каждого фактора в предскзаании времени цветения образцов нута лучшими отобранными моделями
     results = []
+    research_pool = Pool(mp.cpu_count() - 2)
+    data = []
+    # for i, model_data in enumerate(top_models):
+    #     model_res = test_model(model_data[0], i, deepcopy(x_df), deepcopy(y_df), seeds_per_iter[model_data[5]], save, "perm")
+    #     draw_hist(model_res, "model # {}".format(str(i + 1)), norm=False, save=True, dirpath="graphics/")
+    #     draw_hist(model_res, "model # {}".format(str(i + 1)), norm=True, save=True, dirpath="graphics/")
+    #     data.append(model_res)
+    for i, model_data in enumerate(top_models):
+        data.append((model_data[0], i, deepcopy(x_df), deepcopy(y_df), seeds_per_iter[model_data[5]], save, "perm"))
+    calc_data = research_pool.starmap(test_model, data)
+    for i, (model_res, model_data) in enumerate(zip(calc_data, top_models)):
+        draw_hist(model_res, "model # {}".format(str(i + 1)), norm=False, save=True, dirpath="graphics/")
+        draw_hist(model_res, "model # {}".format(str(i + 1)), norm=True, save=True, dirpath="graphics/")
+        results.append([model_data, model_res])
+
+    # блок построения графиков изменения предсказания времени цветения для каждого растения в датасете
+    # в условиях изменения (в данном случае повышения) максимальной и минимальной дневной температуры воздуха
+    # titles = {"src": "Source data",
+    #           "trg": "Target data",
+    #           "valid": "Validation data"}
+    # for j, model_data in enumerate(top_models):
+    #     model_path = "graphics/model {}".format(j)
+    #     if not os.path.exists(model_path):
+    #         os.mkdir(path=model_path)
+    #     for i in range(6):  # проходим по всем снипам нута
+    #         snp_columns_i = create_snp_columns(i + 1)
+    #         x_snp_data = x_df[(x_df[snp_columns_i[0]] == 1.) |
+    #                           (x_df[snp_columns_i[1]] == 1.) |
+    #                           (x_df[snp_columns_i[2]] == 1.)]
+    #         y_snp_data = y_df.loc[x_snp_data.index]
+    #         tmp_temperature_test = test_model(model_data[0], i, x_snp_data, y_snp_data,
+    #                                           seeds_per_iter[model_data[5]], save, "temp")
+    #         for dataset_res in tmp_temperature_test:
+    #             errors_data = dataset_res[1]
+    #             draw_temperature_plot(errors_data, [0.1 * j for j in range(20)], i, "snp{}".format(i),
+    #                                   titles[dataset_res[0]] + ", model # {}".format(str(i + 1)), True,
+    #                                   "graphics/model {}".format(j) + "/")
+
+    # блок изучения влияние изменения солнечной радиации на отклик модели
+    # titles = {"src": "Source data",
+    #           "trg": "Target data",
+    #           "valid": "Validation data"}
+    # for j, model_data in enumerate(top_models):
+    #     model_path = "graphics/sun_rad/model {}".format(j)
+    #     if not os.path.exists(model_path):
+    #         os.mkdir(path=model_path)
+    #     for i in range(6):  # проходим по всем снипам нута
+    #         snp_columns_i = create_snp_columns(i + 1)
+    #         x_snp_data = x_df[(x_df[snp_columns_i[0]] == 1.) |
+    #                           (x_df[snp_columns_i[1]] == 1.) |
+    #                           (x_df[snp_columns_i[2]] == 1.)]
+    #         y_snp_data = y_df.loc[x_snp_data.index]
+    #         tmp_rad_test = test_model(model_data[0], i, x_snp_data, y_snp_data,
+    #                                   seeds_per_iter[model_data[5]], save, "srad")
+    #         for dataset_res in tmp_rad_test:
+    #             errors_data = dataset_res[1]
+    #             draw_srad_plot(errors_data, list(range(2, 6)), i, "snp{}".format(i),
+    #                            titles[dataset_res[0]] + ", model # {}".format(str(i + 1)), True, model_path + "/")
+
+    # блок изучения влияние изменения уровня осадков на отклик модели
     titles = {"src": "Source data",
               "trg": "Target data",
               "valid": "Validation data"}
-    research_pool = Pool(mp.cpu_count() - 3)
-    data = []
-    # clusters = dataset_clustering(x_df=x_df, y_df=y_df, n_clusters=18)  # число кластеров - по числу снипов AA/AR/RR
-    for i, model_data in enumerate(top_models):
-        data.append((model_data[0], i, deepcopy(x_df), deepcopy(y_df), seeds_per_iter[model_data[5]], save))
-    calc_data = research_pool.starmap(test_model, data)
-    for i, (model_res, model_data) in enumerate(zip(calc_data, top_models)):
-        for dataset_res in model_res[0]:
-            draw_temperature_plot(dataset_res[2], [0.1 * j for j in range(20)], i, titles[dataset_res[0]] +
-                                  ", model # {}".format(str(i + 1)), True, "graphics/")
-        draw_hist(model_res[1], "model # {}".format(str(i + 1)), norm=True, save=True, dirpath="graphics/")
-        draw_hist(model_res[1], "model # {}".format(str(i + 1)), norm=False, save=True, dirpath="graphics/")
-        results.append([model_data, model_res])
+    for j, model_data in enumerate(top_models):
+        model_path = "graphics/rain/model {}".format(j)
+        if not os.path.exists(model_path):
+            os.mkdir(path=model_path)
+        for i in range(6):  # проходим по всем снипам нута
+            snp_columns_i = create_snp_columns(i + 1)
+            x_snp_data = x_df[(x_df[snp_columns_i[0]] == 1.) |
+                              (x_df[snp_columns_i[1]] == 1.) |
+                              (x_df[snp_columns_i[2]] == 1.)]
+            y_snp_data = y_df.loc[x_snp_data.index]
+            tmp_rain_test = test_model(model_data[0], i, x_snp_data, y_snp_data,
+                                       seeds_per_iter[model_data[5]], save, "rain")
+            for dataset_res in tmp_rain_test:
+                errors_data = dataset_res[1]
+                draw_rain_plot(errors_data, list(range(2, 6)), i, "snp{}".format(i),
+                               titles[dataset_res[0]] + ", model # {}".format(str(i + 1)), True, model_path + "/")
 
     return results

@@ -27,10 +27,9 @@ def my_cv(x_df_src: DataFrame, y_df_src: DataFrame, x_df_trg: DataFrame, y_df_tr
     y_trg_for_cv = np.array_split(numpy_y_trg, n_folds, axis=0)
     cv_res = 0
     data = []
-    # оставляю 2 ядра, чтобы ноут не помер
     rng = default_rng()
     indices = rng.choice(100, size=n_folds**2, replace=False)
-    with Pool(multiprocessing.cpu_count() - 2) as cv_pool:
+    with Pool(multiprocessing.cpu_count() - 5) as cv_pool:  # буду считать на 3 ядрах, пока делаю дела параллельно
         for i in range(n_folds):
             for j in range(n_folds):
                 target_x, target_y = x_trg_for_cv[j], y_trg_for_cv[j]
@@ -50,25 +49,3 @@ def my_cv(x_df_src: DataFrame, y_df_src: DataFrame, x_df_trg: DataFrame, y_df_tr
         print("Total error: {}".format(cv_res // n_folds))
         file.write("Total error: {}".format(cv_res // n_folds) + "\n")
     return [data, cv_res // n_folds]
-
-
-def run_parallel_tests(x_source: np.array, y_source: np.array, x_target: np.array, y_target: np.array,
-                       source_size: int, target_size: int):
-    # method for creating model on chosen dataset configuration, given in this method
-    seeds = list(range(20))
-    with Pool(multiprocessing.cpu_count() - 2) as tests_pool:
-        data = []
-        for seed in seeds:
-            np.random.seed(seed)
-            x_s, y_s = parse_x_y(x_source, y_source, source_size)
-            x_t, y_t = parse_x_y(x_target, y_target, target_size)
-            data.append((x_s, y_s, x_t, y_t, False))
-        results = tests_pool.starmap(ITGP, data)
-
-    mean_fit_source, mean_fit_target = 0, 0
-    for res in results:
-        mean_fit_source += res[1]
-        mean_fit_target += res[2]
-    print("Mean best model fitness on source data: {}".format(mean_fit_source // len(results)))
-    print("Mean best model fitness on target data: {}".format(mean_fit_target // len(results)))
-    return [mean_fit_source, mean_fit_target]

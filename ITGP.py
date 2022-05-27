@@ -13,7 +13,7 @@ from models_serialization import FILE_SUFFIX, MODELS_FOR_CHECK, WEIGHTS_FOR_CHEC
 
 # constants for optimization
 
-GENERATIONS_SIZE = 50  # number of algorithm iterations
+GENERATIONS_SIZE = 100  # number of algorithm iterations
 MODELS_POP_SIZE = 300  # model-tree population size (was 512 according to the article)
 WEIGHTS_POP_SIZE = 60  # size of weight vectors population
 TOP_MODELS_SIZE = WEIGHTS_POP_SIZE // 2
@@ -40,9 +40,9 @@ def ITGP(x_source: np.array, y_source: np.array, x_target: np.array, y_target: n
     fitness_function_source = SymbolicRegressionFitness(X_train=x_source, y_train=y_source)  # mse top models
 
     # for models evaluating
-    srgp_estimator = EpochSR(dim=models_dim, fitness_function=fitness_function, pop_size=models_size, max_tree_size=720,
-                             crossover_rate=0.8, mutation_rate=0.2, op_mutation_rate=0.2, min_height=8,
-                             initialization_max_tree_height=16,
+    srgp_estimator = EpochSR(dim=models_dim, fitness_function=fitness_function, pop_size=models_size, max_tree_size=420,
+                             crossover_rate=0.9, mutation_rate=0.1, op_mutation_rate=0.1, min_height=3,
+                             initialization_max_tree_height=10,
                              functions=[AddNode(), SubNode(), MulNode(), DivNode(), SqrtNode(), AnalyticQuotientNode(),
                                         LogNode(), PlusAnalyticNode(), EphemeralRandomConstantNode()])
 

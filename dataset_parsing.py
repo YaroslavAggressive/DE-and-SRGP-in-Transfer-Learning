@@ -2,7 +2,6 @@ import h5py
 import pandas as pd
 from pandas import DataFrame
 import numpy as np
-from models_serialization import FILE_SUFFIX
 
 Y_KEY = 'response'
 EXCEPTING_KEY = 'gr_names'
@@ -10,7 +9,7 @@ WEATHER_KEYS = ["tmin", "tmax", "srad", "rain", "dl"]
 
 SSM_FILENAME = "datasets/chickpea-ssm-snp.h5"
 METEO_FILENAME = "datasets/weather_ssm.h5"
-MERGED_DATASET = "datasets/merged_weather_ssm.csv"
+MERGED_DATASET = "datasets/merged_weather_ssm.csv"  # 25.05.22 - убран ненужный параметр 'month'
 
 SEASON_KEY = "month"  # for meaningful separation of data for model development and testing
 GEO_ID_KEY = "geo_id"
@@ -35,7 +34,6 @@ def get_data_response() -> DataFrame:
 def get_ssm_data() -> DataFrame:
 
     ssm_data = h5py.File(SSM_FILENAME)
-    y = ssm_data.get(Y_KEY)
 
     df_ssm = pd.DataFrame()
     df_ssm_keys = []
@@ -93,7 +91,8 @@ def merge_data(meteo_data: DataFrame, ssm_data: DataFrame, days_num: int, verbos
     for row in range(ssm_data.shape[0]):
         new_dict_row = dict()
         for key in ssm_keys:
-            new_dict_row.update({key: dict_ssm_df[key][row]})
+            if key != "month":
+                new_dict_row.update({key: dict_ssm_df[key][row]})
 
         tmp_geo_id = dict_ssm_df["geo_id"][row]  # for choosing correctly intervals of data reloading
         tmp_year = dict_ssm_df["year"][row]
@@ -132,30 +131,6 @@ def parse_x_y(x: np.array, y: np.array, size: int) -> list:
     chosen_indices = np.random.choice(indices, size=size, replace=False)
 
     return [x[chosen_indices, :], y[chosen_indices]]
-
-
-def initial_parse_data_and_save():
-
-    # merging meteo and ssm to get completed data
-    # get prediction parameters, merging them with permutations and additions and finally getting data response
-
-    # this two functions were used on first iterations to preprocess datasets
-    # df_ssm = get_ssm_data()
-    # df_meteo = get_meteo_data()
-
-    redundant_column_name = "Unnamed: 0"
-    y_nut = get_data_response()  # parameter for prediction in future
-    # IF DATA HAVEN'T BEEN MERGED YET
-    # merged_data = merge_data(meteo_data=df_meteo, ssm_data=df_ssm, days_num=DAYS_PER_SNIP)
-    # csv_data = merged_data.to_csv(MERGED_DF_NUT_NAME, sep=";")
-
-    # IF SSM AND METEO DATA WERE MERGED IN EXECUTIONS BEFORE
-    merged_data = pd.read_csv(MERGED_DATASET, sep=";")
-    del merged_data[redundant_column_name]
-
-    # converting to numpy
-    numpy_y = np.array(y_nut).flatten()
-    numpy_merged_data = merged_data.to_numpy()
 
 
 def parse_per_key(x_df: DataFrame, y_df: DataFrame, key_val: float, key: str) -> list:
@@ -204,7 +179,7 @@ def parse_autumn_spring(x_df: DataFrame, y_df: DataFrame):  # here we parse sour
     indices_src = x_src.index
     y_src = y_df.loc[indices_src]
 
-    all_indices = np.unique(list(range(x_df.shape[0])))
+    all_indices = x_df.index
     indices_trg = np.setdiff1d(all_indices, indices_src)
     x_trg, y_trg = x_df.loc[indices_trg], y_df.loc[indices_trg]
     return [x_src, y_src, x_trg, y_trg]
@@ -221,4 +196,3 @@ def data_shuffle(x_df: DataFrame, y_df: DataFrame):
     x_shuffle = x_df.sample(frac=1)
     y_shuffle = y_df.loc[x_shuffle.index]
     return [x_shuffle, y_shuffle]
-

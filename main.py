@@ -1,16 +1,18 @@
 from ITGP import ITGP, choose_best_model
 from simplegp.Fitness.FitnessFunction import SymbolicRegressionFitness
-from different_utils import my_cv, run_parallel_tests
-from dataset_parsing import initial_parse_data_and_save, MERGED_DATASET, parse_valid, data_shuffle
+from different_utils import my_cv
+from dataset_parsing import get_meteo_data, get_ssm_data, MERGED_DATASET, parse_valid, data_shuffle, merge_data
 from dataset_parsing import parse_x_y, parse_autumn_spring
 from dataset_parsing import SEASON_KEY, GEO_ID_KEY, DATASET_SEASONS, SNP_KEYS, get_data_response
 from models_serialization import load_models
-from model_research import main_research, parse_data_per_iter, dataset_clustering
+from model_research import main_research, parse_data_per_iter
 
 import os
 import re
 import numpy as np
 import pandas as pd
+from statsmodels.stats.multicomp import pairwise_tukeyhsd
+from statsmodels.stats.anova import AnovaRM
 import time
 from multiprocessing import freeze_support
 from copy import deepcopy
@@ -19,7 +21,7 @@ from sklearn.decomposition import PCA
 DAYS_PER_SNIP = 20  # number of days to predict the weather
 
 
-def main(seed: int, iter_name: int):
+def main(seed: int, iter_name: int, no_doy: bool = False):
     test_path = "models_weights_info/iter{}".format(iter_name)
     if os.path.exists(test_path):
         raise FileExistsError("Directory with current number already exists in this dir, change iter_num value")
@@ -31,7 +33,10 @@ def main(seed: int, iter_name: int):
     predictors = pd.read_csv(MERGED_DATASET, sep=";")
     n_folds = 4  # number of parts of dataset for cross-validation
     x_src, y_src, x_trg, y_trg, x_valid, y_valid = parse_data_per_iter(predictors, response, seed)
-
+    if no_doy:
+        del x_src["doy"]
+        del x_trg["doy"]
+        del x_valid["doy"]
     # cv for Turkey (source) and Australia (target) data
     results_filename = "temp_results/cv_data_from_article{}.txt".format(iter_name)
     file = open(results_filename, "w")
@@ -65,7 +70,7 @@ def main(seed: int, iter_name: int):
 if __name__ == '__main__':
     freeze_support()
     # cross-validation function
-    # main(1111, 38)
+    # main(4321, 46, no_doy=True)
 
     # test seeds and models populations sizes
     seeds = [3, 5, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 15, 15, 222, 222, 199, 187, 1472,
@@ -77,14 +82,8 @@ if __name__ == '__main__':
 
     # total dataset and response reading
     response = get_data_response()  # parameter for prediction in future
-    predictors = pd.read_csv(MERGED_DATASET, sep=";")
-
-    # число кластеров - по числу снипов AA/AR/RR
-    clusters = dataset_clustering(x_df_numpy=predictors.to_numpy(), colnames=list(predictors.columns),
-                                  n_clusters=18)
-
-
-    # making main research all over the fiven data
+    predictors = pd.read_csv("datasets/merged_weather_ssm_with_month_year_doy.csv", sep=";")
+    # making main research all over the given data
     dirpath = "models_weights_info"
     dirs = os.listdir(dirpath)
     files_models = {directory: [] for directory in dirs}
@@ -103,4 +102,5 @@ if __name__ == '__main__':
     #                                         pop_sizes_dict)
     # best_population_checking(predictors, response, iter_seeds=seeds, sizes_=pop_sizes_dict)
 
-    research = main_research(x_df=predictors, y_df=response, seeds_per_iter=seeds_dict, save=True)
+    research = main_research(x_df=predictors, y_df=response, seeds_per_iter=seeds_dict, save=False, iter_left=0,
+                             iter_right=20)
