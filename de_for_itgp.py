@@ -1,4 +1,5 @@
 import numpy as np
+from scipy import stats
 from scipy.stats import truncnorm
 from math import sqrt
 from typing import Any
@@ -22,8 +23,8 @@ class EpochDE:
         self.best_idx = 0
 
         # initialization of parameters of mutation and crossover
-        self.p = np.array([np.random.normal(self.p_inf, self.p_sup) for _ in range(self.dim)])
-        self.s = np.array([np.random.normal(self.s_inf, self.s_sup) for _ in range(self.dim)])
+        self.p = stats.truncnorm(self.p_inf, self.p_sup, loc=0, scale=1).rvs(dim)
+        self.s = stats.truncnorm(self.s_inf, self.s_sup, loc=0, scale=1).rvs(dim)
         self.prev_variations = np.array([self.population[:, i].var() for i in range(self.dim)])
         self.current_variations = np.array([])
         self.ro = np.array([])

@@ -28,7 +28,7 @@ DAYS_AGEEV_DATASET = [290.0, 294.0, 307.0, 325.0, 339.0]
 def get_data_response() -> DataFrame:
     ssm_data = h5py.File(SSM_FILENAME)
     y = ssm_data.get(Y_KEY)
-    return DataFrame(y)
+    return DataFrame(y, columns=["response"])
 
 
 def get_ssm_data() -> DataFrame:
@@ -196,3 +196,7 @@ def data_shuffle(x_df: DataFrame, y_df: DataFrame):
     x_shuffle = x_df.sample(frac=1)
     y_shuffle = y_df.loc[x_shuffle.index]
     return [x_shuffle, y_shuffle]
+
+
+gg = get_data_response()
+gg.to_csv("datasets/response_chickpea.csv", index=True, sep=";")

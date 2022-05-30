@@ -15,7 +15,7 @@ from models_serialization import FILE_SUFFIX, MODELS_FOR_CHECK, WEIGHTS_FOR_CHEC
 
 GENERATIONS_SIZE = 100  # number of algorithm iterations
 MODELS_POP_SIZE = 300  # model-tree population size (was 512 according to the article)
-WEIGHTS_POP_SIZE = 60  # size of weight vectors population
+WEIGHTS_POP_SIZE = 50  # size of weight vectors population
 TOP_MODELS_SIZE = WEIGHTS_POP_SIZE // 2
 NOTES_NAME = "notes_iter"
 # (it should be increased by factor of 10, instead of 3, because variables arent 10, as in Friedman function, but 120+)
@@ -40,11 +40,10 @@ def ITGP(x_source: np.array, y_source: np.array, x_target: np.array, y_target: n
     fitness_function_source = SymbolicRegressionFitness(X_train=x_source, y_train=y_source)  # mse top models
 
     # for models evaluating
-    srgp_estimator = EpochSR(dim=models_dim, fitness_function=fitness_function, pop_size=models_size, max_tree_size=420,
+    srgp_estimator = EpochSR(dim=models_dim, fitness_function=fitness_function, pop_size=models_size, max_tree_size=320,
                              crossover_rate=0.9, mutation_rate=0.1, op_mutation_rate=0.1, min_height=3,
                              initialization_max_tree_height=10,
-                             functions=[AddNode(), SubNode(), MulNode(), DivNode(), SqrtNode(), AnalyticQuotientNode(),
-                                        LogNode(), PlusAnalyticNode(), EphemeralRandomConstantNode()])
+                             functions=[AddNode(), SubNode(), MulNode(), DivNode(), SqrtNode()])
 
     if preload_models:
         models = load_models("models_weights_info/models" + str(fileid) + FILE_SUFFIX, MODELS_POP_SIZE)

@@ -29,11 +29,11 @@ def my_cv(x_df_src: DataFrame, y_df_src: DataFrame, x_df_trg: DataFrame, y_df_tr
     data = []
     rng = default_rng()
     indices = rng.choice(100, size=n_folds**2, replace=False)
-    with Pool(multiprocessing.cpu_count() - 5) as cv_pool:  # буду считать на 3 ядрах, пока делаю дела параллельно
+    with Pool(multiprocessing.cpu_count() - 4) as cv_pool:  # буду считать на 3 ядрах, пока делаю дела параллельно
         for i in range(n_folds):
+            source_x, source_y = x_src_for_cv[i], y_src_for_cv[i]
             for j in range(n_folds):
                 target_x, target_y = x_trg_for_cv[j], y_trg_for_cv[j]
-                source_x, source_y = x_src_for_cv[i], y_src_for_cv[i]
                 data.append((source_x, source_y, target_x, target_y, dirname, indices[n_folds * i + j], False))
         data = cv_pool.starmap(method, data)
         for i, model_data in enumerate(data):
