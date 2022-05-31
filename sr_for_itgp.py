@@ -94,4 +94,4 @@ class EpochSR(BaseEstimator):
             trial.append(elem)
 
         # Selection (in this program it is implemented in main cycle)
-        self.population = trial
+        self.population = self.population + trial

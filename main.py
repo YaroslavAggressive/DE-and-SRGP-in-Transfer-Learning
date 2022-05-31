@@ -1,5 +1,6 @@
 from ITGP import ITGP, choose_best_model
 from simplegp.Fitness.FitnessFunction import SymbolicRegressionFitness
+from simplegp.Nodes.BaseNode import Node
 from different_utils import my_cv
 from dataset_parsing import get_meteo_data, get_ssm_data, MERGED_DATASET, parse_valid, data_shuffle, merge_data
 from dataset_parsing import parse_x_y, parse_autumn_spring
@@ -12,12 +13,23 @@ import os
 import re
 import numpy as np
 import pandas as pd
-import time
+import datetime
 from multiprocessing import freeze_support
 from copy import deepcopy
 from sklearn.decomposition import PCA
+import pickle
+from graphics import plot_response_change
 
 DAYS_PER_SNIP = 20  # number of days to predict the weather
+
+
+def count_test_scores(model: Node, x_test: np.array, y_test: np.array) -> list:
+    fitness_func = SymbolicRegressionFitness(X_train=x_test, y_train=y_test)
+    fitness_func.Evaluate(model)
+    fitness_val = model.fitness
+    model_out = model.GetOutput(x_test)
+    errors = model_out - y_test
+    return [errors, fitness_val]
 
 
 def main(seed: int, iter_name: int, no_doy: bool = False):
@@ -31,6 +43,7 @@ def main(seed: int, iter_name: int, no_doy: bool = False):
     response = get_data_response()  # parameter for prediction in future
     predictors = pd.read_csv(MERGED_DATASET, sep=";")
     n_folds = 4  # number of parts of dataset for cross-validation
+    # здесь данные не только делятся на train/validation/test, но и перемешиваются
     x_src, y_src, x_trg, y_trg, x_valid, y_valid = parse_data_per_iter(predictors, response, seed)
     if no_doy:
         del x_src["doy"]
@@ -40,13 +53,10 @@ def main(seed: int, iter_name: int, no_doy: bool = False):
     results_filename = "temp_results/cv_data_from_article{}.txt".format(iter_name)
     file = open(results_filename, "w")
     cv_32 = my_cv(x_src, y_src, x_trg, y_trg, ITGP, test_path, n_folds, file)
-    mess = "CV result with Turkey data as source and Australia data as target: {}".format(cv_32[1])
-    print(mess)
-    print("\n")
-    file.write(mess + "\n")
-    file.write("\n")
     file.close()
-
+    for_validation_save = "temp_results/best_data_models_and_validation_{}.txt".format(iter_name)
+    with open(for_validation_save, "wb") as file:
+        pickle.dump(cv_32, file)
     # вывод данных в консоль PyCharm для анализа полученных лучших моделей в каждой популяции
     train_function = SymbolicRegressionFitness(X_train=x_valid.to_numpy(), y_train=y_valid.to_numpy().flatten())
     file = open("temp_results/cv_short_results{}.txt".format(iter_name), "w")
@@ -65,11 +75,27 @@ def main(seed: int, iter_name: int, no_doy: bool = False):
         file.write("Model fitness of validation data: {}".format(model_data[0].fitness) + "\n")
     file.close()
 
+    best_model, best = None, np.inf
+    for key, val in cv_32[1].items():
+        tmp_model_sum = sum(val[1:])
+        if tmp_model_sum <= best:
+            best = tmp_model_sum
+            best_model = deepcopy(val[0])
+    print("Best model: {}".format(best_model[0].GetHumanExpression()))
+    best_vals = count_test_scores(model=best_model[0], x_test=x_valid.to_numpy(), y_test=y_valid.to_numpy().flatten())
+    plot_response_change(x_true=list(response.to_numpy().flatten()),
+                         x_prediction=list(best_model.GetOutput(predictors.to_numpy())),
+                         path_file="best_model_graph.jpg")
+
+    print("Model fitness: {}".format(best_vals[1]))
+    return best_vals
+
 
 if __name__ == '__main__':
     freeze_support()
+    print("Program started at: {}".format(datetime.datetime.now()))
     # cross-validation function
-    # main(1, 58, no_doy=True)
+    main(10, 63, no_doy=True)
 
     # test seeds and models populations sizes
     # seeds = [3, 5, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 15, 15, 222, 222, 199, 187, 1472,
@@ -106,13 +132,13 @@ if __name__ == '__main__':
     # research = main_research(x_df=predictors, y_df=response, seeds_per_iter=seeds_dict, save=True, iter_left=1,
     #                          iter_right=56, draw=False)
 
-    seed = 11
-    np.random.seed(seed)
-    response = get_data_response()  # parameter for prediction in future
-    predictors = pd.read_csv("datasets/merged_weather_ssm.csv", sep=";")
-    x_src, y_src, x_trg, y_trg, x_valid, y_valid = parse_data_per_iter(predictors, response, seed=seed)
-    del x_trg['doy']
-    del x_src['doy']
-    del x_valid['doy']
-    res = ITGP(x_src.to_numpy(), y_src.to_numpy().flatten(), x_trg.to_numpy(), y_trg.to_numpy().flatten(), "test_iter",
-               0, False, 1)
+    # seed = 11
+    # np.random.seed(seed)
+    # response = get_data_response()  # parameter for prediction in future
+    # predictors = pd.read_csv("datasets/merged_weather_ssm.csv", sep=";")
+    # x_src, y_src, x_trg, y_trg, x_valid, y_valid = parse_data_per_iter(predictors, response, seed=seed)
+    # del x_trg['doy']
+    # del x_src['doy']
+    # del x_valid['doy']
+    # res = ITGP(x_src.to_numpy(), y_src.to_numpy().flatten(), x_trg.to_numpy(), y_trg.to_numpy().flatten(), "test_iter",
+    #            0, False, 1)

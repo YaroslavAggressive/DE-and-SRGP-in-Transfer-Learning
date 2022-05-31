@@ -19,22 +19,24 @@ class EpochDE:
         # generate init values
         self.size = size
         self.dim = dim
-        self.population = np.array([truncnorm.rvs(a=0, b=1, size=self.dim) for _ in range(size)])
+        self.population = np.array([truncnorm(0., 1., loc=0, scale=1).rvs(size=self.dim) for _ in range(size)])
         self.best_idx = 0
 
         # initialization of parameters of mutation and crossover
-        self.p = stats.truncnorm(self.p_inf, self.p_sup, loc=0, scale=1).rvs(dim)
-        self.s = stats.truncnorm(self.s_inf, self.s_sup, loc=0, scale=1).rvs(dim)
+        self.p = truncnorm(self.p_inf, self.p_sup, loc=0, scale=1).rvs(self.dim)
+        self.s = truncnorm(self.s_inf, self.s_sup, loc=0, scale=1).rvs(self.dim)
         self.prev_variations = np.array([self.population[:, i].var() for i in range(self.dim)])
         self.current_variations = np.array([])
         self.ro = np.array([])
         self.flag = False
 
-    def de_epoch(self, models: np.array, weight_scores: np.array, fitness_mse: Any, fitness_wmse: Any):
+    def de_epoch(self, models: list, top_models: list, weight_scores: np.array, fitness_mse: Any, fitness_wmse: Any) \
+        -> list:
         indices = list(range(self.size))
 
         trial_generation = []
         trial_target_values = []
+        new_top_models = []
 
         if self.current_variations.size != 0:
             self.ro = np.array([self.gamma * (var_prev / var) for var_prev, var in zip(self.prev_variations,
@@ -68,9 +70,10 @@ class EpochDE:
         for i in range(len(fitness_wmse.weights)):
             weight_column = wmse[:, i]
             best_model_idx = np.argmin(weight_column)
-            models[best_model_idx].fitness = 0
-            fitness_mse.Evaluate(models[best_model_idx])
-            trial_target_values = np.append(trial_target_values, deepcopy(models[best_model_idx].fitness))
+            model_copy = deepcopy(models[best_model_idx])
+            fitness_mse.Evaluate(model_copy)
+            trial_target_values = np.append(trial_target_values, deepcopy(model_copy.fitness))
+            new_top_models.append(model_copy)
 
         # selection. Вот здесь над ней надо подумать!!!!
         for j, (previous, current) in enumerate(zip(weight_scores, trial_target_values)):
@@ -79,6 +82,8 @@ class EpochDE:
                 self.population[j] = trial_generation[j]
                 if current < weight_scores[self.best_idx]:
                     self.best_idx = j
+            else:
+                new_top_models[j] = top_models[j]
 
         # new variance counting
         if self.current_variations.size != 0:
@@ -88,9 +93,11 @@ class EpochDE:
         else:
             self.current_variations = np.array([self.population[:, k].var() for k in range(self.dim)])
 
+        return [new_top_models, weight_scores]
+
     @staticmethod
     def round_value(value: float) -> float:
-        return 0 if value < 0 else 1
+        return 0 if value < 0 else 1.
 
     def mutate(self, ind_a: int, ind_b: int, ind_c: int) -> np.array:
 
@@ -99,7 +106,7 @@ class EpochDE:
         for i, (gen_c, gen_a, gen_b) in enumerate(zip(self.population[ind_c], self.population[ind_a],
                                                       self.population[ind_b])):
             value = gen_c + self.s[i] * (gen_a - gen_b)
-            mutant = np.append(mutant, value if 0 <= value <= 1 else EpochDE.round_value(value))
+            mutant = np.append(mutant, value if 0 <= value <= 1. else EpochDE.round_value(value))
         return mutant
 
     def crossing(self, first_parent: np.array, second_parent: np.array) -> np.array:

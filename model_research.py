@@ -225,7 +225,7 @@ def test_iter(x_df: DataFrame, y_df: DataFrame, seed: int, pop_size: int, iter_n
             src_fit = get_fitness(fitness_function_src, model)
             trg_fit = get_fitness(fitness_function_trg, model)
             valid_fit = get_fitness(fitness_function_valid, model)
-            if src_fit <= 10 and trg_fit <= 10 and valid_fit <= 16:
+            if src_fit <= 30 and trg_fit <= 30 and valid_fit <= 30:
                 top_models.append([deepcopy(model), iter_name, model_file, seed])
     return top_models
 
@@ -399,3 +399,54 @@ def main_research(x_df: np.array, y_df: np.array, seeds_per_iter: dict, save: bo
                         os.mkdir(snp_path)
                     draw_rain_plot(errors_data, [0.01 * k for k in range(0, 101, 5)], j + 1, "snp{}".format(i + 1),
                                    titles[dataset_res[0]] + ", model # {}".format(str(j + 1)), True, snp_path + "/")
+
+
+import pandas as pd
+from dataset_parsing import get_data_response
+from graphics import plot_response_change
+#
+# predictors = pd.read_csv(MERGED_DATASET, sep=";")
+# response = get_data_response()
+# res = main_research()
+# top_models = test_iter(predictors, response, seed=10, pop_size=300, iter_name="iter62")
+# for i, model in enumerate(top_models):
+#     model_prediction = model.GetOutput(predictors.to_numpy())
+#     plot_response_change(list(response.to_numpy().flatten()), model_prediction,
+#                          path_file="comparison_iter62_model_{}".format(i + 1))
+#
+# # filename = "temp_results/best_data_models_and_validation_62.txt"
+
+# test seeds and models populations sizes
+seeds = [3, 5, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 15, 15, 222, 222, 199, 187, 1472,
+         3333, 3333, 3333, 77, 77, 777, 1313, 1414, 1414, 1111, 1111, 1111, 1111, 10, 10, 123, 123, 1234, 4321,
+         4321, 4321, 4321, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+pop_sizes = [300, 300, 400, 300, 300, 300, 300, 300, 300, 300, 300, 300, 200, 300, 300, 300, 300, 300, 300, 300,
+             300, 400, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300,
+             300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 400, 400, 500, 600]
+pop_sizes_dict = {"iter" + str(i): pop_sizes[i] for i in range(len(pop_sizes))}
+seeds_dict = {"iter" + str(i): seeds[i] for i in range(len(seeds))}
+
+# total dataset and response reading
+response = get_data_response()  # parameter for prediction in future
+predictors = pd.read_csv("datasets/merged_weather_ssm_with_month_year_doy.csv", sep=";")
+# making main research all over the given data
+dirpath = "models_weights_info"
+
+dir_for_research = BEST_MODELS_FILE + "_" + str(0) + "_" + str(20)
+research_path = TOP_MODELS_DIR + "/" + dir_for_research
+models_size = read_top_models_size(research_path + "/" + BEST_MODELS_SIZE_FILE + "_" + str(0) + "_" + str(20) + SUFFIX)
+top_models = load_models(research_path + "/" + BEST_MODELS_FILE + "_" + str(0) + "_" + str(20) + SUFFIX, models_size)
+
+fitness_func = SymbolicRegressionFitness(X_train=predictors.to_numpy(), y_train=response.to_numpy().flatten())
+best_model_data = top_models[0]
+for model_data in top_models:
+    if sum(model_data[1:4]) <= sum(best_model_data[1:4]):
+        best_model_data = deepcopy(best_model_data)
+print("Best model: {}".format(best_model_data[0].GetHumanExpression()))
+print("Found in " + best_model_data[5])
+print("Saved in file '{}'".format(best_model_data[4]))
+print("Model total fitness: {0} (source) + {1} (target) + {2} (validation)".format(*best_model_data[1:4]))
+print("###########################")
+print("Top models number : {}".format(len(top_models)))
+fitness_func.Evaluate(best_model_data[0])
+print("Total fitness: {}".format(np.sqrt(best_model_data[0].fitness)))
