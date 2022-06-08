@@ -50,7 +50,6 @@ class EpochSR(BaseEstimator):
             t = Variation.GenerateRandomTree(self.functions, self.terminals, curr_max_depth, curr_height=0,
                                              method='grow' if np.random.random() < .5 else 'full',
                                              min_height=self.min_height)
-            self.fitness_function.Evaluate(t)
             self.population.append(t)
 
     def sr_epoch(self):
@@ -88,8 +87,6 @@ class EpochSR(BaseEstimator):
             if invalid_offspring:
                 del elem
                 elem = deepcopy(self.population[i])
-            else:
-                self.fitness_function.Evaluate(elem)
 
             trial.append(elem)
 

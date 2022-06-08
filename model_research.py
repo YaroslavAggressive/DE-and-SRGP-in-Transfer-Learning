@@ -23,8 +23,8 @@ PERMUTATIONS_DIR = "permutations data"
 TEMPERATURE_DIR = "temperature data"
 RAIN_DIR = "rain data"
 RADIATION_DIR = "radiation data"
-RAIN_MODES = {"full": 0.0, "half": 0.5}  # доля снижения осадков
-RAD_MODES = {"half": 0.5, "quarter": 0.25, "tenth": 0.1}
+RAIN_MODES = {"full": 0.0, "half": 0.5}  #  share of precipitation reduction
+RAD_MODES = {"half": 0.5, "quarter": 0.25, "tenth": 0.1}  # share of solar radiation reduction
 
 
 def find_save_best_models(x_df: np.array, y_df: np.array, all_iters: dict, sizes_per_iter: dict, seeds_per_iter: dict,
@@ -113,7 +113,7 @@ def permutation_test(seed: int, model: Node, ind: int, x_df: DataFrame, y_df: Da
     for column in x_df.columns:
         if column in column_error_change.keys():
             val = column_error_change[column]
-            column_error_change.update({column: val / PERMUTATIONS_NUM})
+            column_error_change.update({column: [val / PERMUTATIONS_NUM]})
     if save:  # save error after current permutations
         mean_error_file = "mean_error_model_{0}.txt".format(ind)  # saving error per column to csv for correct reading from R script
         error_df = DataFrame.from_dict(column_error_change)
@@ -140,8 +140,8 @@ def global_warning_research(x_df: DataFrame, d_T: float, model: Node, only_min: 
     pre_change_output = model.GetOutput(x_df_copy.to_numpy())
     for column in temperature_columns:
         x_df_copy[column] = x_df[column] + d_T
-    # temperature data has been changed, now starting research with model
 
+    # temperature data has been changed, now starting research with model
     model_output = model.GetOutput(x_df_copy.to_numpy())
     change = model_output - pre_change_output
     return change
@@ -176,7 +176,7 @@ def rain_research(x_df: DataFrame, model: Node, d_rain: float, days_borders: lis
 
 
 def best_population_checking(x_df: DataFrame, y_df: DataFrame, iter_seeds: list, sizes_: dict):
-    # for each case need to change seed name and dirname + 'models....txt' name
+    # for each case need to change seed name and dir_name + 'models....txt' name
     size_ind = 17
     best_population = load_models("models_weights_info/iter17/models61.txt", sizes_["iter" + str(size_ind)])
     np.random.seed(iter_seeds[size_ind])
@@ -257,7 +257,6 @@ def test_model(model: Node, model_ind: int, snp_ind: int, x_df: DataFrame, y_df:
         perm_res = permutation_test(seed, model, model_ind, x_df, y_df, save=save)
         return perm_res
     elif param == "srad":
-        # доделать
         model_results = []
         for i, key in enumerate(res_keys):
             tmp_x, tmp_y = parsed_data[2 * i], parsed_data[2 * i + 1]
@@ -399,54 +398,3 @@ def main_research(x_df: np.array, y_df: np.array, seeds_per_iter: dict, save: bo
                         os.mkdir(snp_path)
                     draw_rain_plot(errors_data, [0.01 * k for k in range(0, 101, 5)], j + 1, "snp{}".format(i + 1),
                                    titles[dataset_res[0]] + ", model # {}".format(str(j + 1)), True, snp_path + "/")
-
-
-import pandas as pd
-from dataset_parsing import get_data_response
-from graphics import plot_response_change
-#
-# predictors = pd.read_csv(MERGED_DATASET, sep=";")
-# response = get_data_response()
-# res = main_research()
-# top_models = test_iter(predictors, response, seed=10, pop_size=300, iter_name="iter62")
-# for i, model in enumerate(top_models):
-#     model_prediction = model.GetOutput(predictors.to_numpy())
-#     plot_response_change(list(response.to_numpy().flatten()), model_prediction,
-#                          path_file="comparison_iter62_model_{}".format(i + 1))
-#
-# # filename = "temp_results/best_data_models_and_validation_62.txt"
-
-# test seeds and models populations sizes
-seeds = [3, 5, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 15, 15, 222, 222, 199, 187, 1472,
-         3333, 3333, 3333, 77, 77, 777, 1313, 1414, 1414, 1111, 1111, 1111, 1111, 10, 10, 123, 123, 1234, 4321,
-         4321, 4321, 4321, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-pop_sizes = [300, 300, 400, 300, 300, 300, 300, 300, 300, 300, 300, 300, 200, 300, 300, 300, 300, 300, 300, 300,
-             300, 400, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300,
-             300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 400, 400, 500, 600]
-pop_sizes_dict = {"iter" + str(i): pop_sizes[i] for i in range(len(pop_sizes))}
-seeds_dict = {"iter" + str(i): seeds[i] for i in range(len(seeds))}
-
-# total dataset and response reading
-response = get_data_response()  # parameter for prediction in future
-predictors = pd.read_csv("datasets/merged_weather_ssm_with_month_year_doy.csv", sep=";")
-# making main research all over the given data
-dirpath = "models_weights_info"
-
-dir_for_research = BEST_MODELS_FILE + "_" + str(0) + "_" + str(20)
-research_path = TOP_MODELS_DIR + "/" + dir_for_research
-models_size = read_top_models_size(research_path + "/" + BEST_MODELS_SIZE_FILE + "_" + str(0) + "_" + str(20) + SUFFIX)
-top_models = load_models(research_path + "/" + BEST_MODELS_FILE + "_" + str(0) + "_" + str(20) + SUFFIX, models_size)
-
-fitness_func = SymbolicRegressionFitness(X_train=predictors.to_numpy(), y_train=response.to_numpy().flatten())
-best_model_data = top_models[0]
-for model_data in top_models:
-    if sum(model_data[1:4]) <= sum(best_model_data[1:4]):
-        best_model_data = deepcopy(best_model_data)
-print("Best model: {}".format(best_model_data[0].GetHumanExpression()))
-print("Found in " + best_model_data[5])
-print("Saved in file '{}'".format(best_model_data[4]))
-print("Model total fitness: {0} (source) + {1} (target) + {2} (validation)".format(*best_model_data[1:4]))
-print("###########################")
-print("Top models number : {}".format(len(top_models)))
-fitness_func.Evaluate(best_model_data[0])
-print("Total fitness: {}".format(np.sqrt(best_model_data[0].fitness)))

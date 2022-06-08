@@ -109,14 +109,13 @@ def plot_cv_hist(data_train: list, data_valid: list, path_file: str):
 def plot_response_change(x_true: list, x_prediction: list, path_file: str):
     true_min, true_max = min(x_true), max(x_true)
     fig, ax = plt.subplots()
-    plt.title("Comparison between best model and ")
+    plt.title("Quality of best model")
     plt.xlabel("Time flowering, days")
     plt.ylabel("Model prediction, days")
     for true_p, prediction_p in zip(x_true, x_prediction):
         plt.scatter(true_p, prediction_p, c="r")
     plt.plot([true_min, true_max], [true_min, true_max], 'bo', linestyle="--")
     plt.grid()
-    plt.legend()
     plt.savefig(path_file)
     plt.close(fig)
     plt.clf()

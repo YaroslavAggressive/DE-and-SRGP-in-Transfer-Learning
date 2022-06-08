@@ -1,13 +1,14 @@
 from ITGP import ITGP, choose_best_model
 from simplegp.Fitness.FitnessFunction import SymbolicRegressionFitness
 from simplegp.Nodes.BaseNode import Node
-from different_utils import my_cv
+from different_utils import my_cv, process_cv_results
 from dataset_parsing import get_meteo_data, get_ssm_data, MERGED_DATASET, parse_valid, data_shuffle, merge_data
 from dataset_parsing import parse_x_y, parse_autumn_spring
 from dataset_parsing import SEASON_KEY, GEO_ID_KEY, DATASET_SEASONS, SNP_KEYS, get_data_response
-from models_serialization import load_models
+from models_serialization import load_models, read_top_models_size
 from model_research import main_research, parse_data_per_iter, find_save_best_models
 from sklearn.model_selection import cross_validate
+from graphics import plot_response_change
 
 import os
 import re
@@ -18,7 +19,7 @@ from multiprocessing import freeze_support
 from copy import deepcopy
 from sklearn.decomposition import PCA
 import pickle
-from graphics import plot_response_change
+from sympy import parse_expr, simplify
 
 DAYS_PER_SNIP = 20  # number of days to predict the weather
 
@@ -95,7 +96,7 @@ if __name__ == '__main__':
     freeze_support()
     print("Program started at: {}".format(datetime.datetime.now()))
     # cross-validation function
-    main(10, 63, no_doy=True)
+    # main(10, 64, no_doy=True)
 
     # test seeds and models populations sizes
     # seeds = [3, 5, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 15, 15, 222, 222, 199, 187, 1472,
@@ -119,26 +120,28 @@ if __name__ == '__main__':
     #     for file in dir_files:
     #         if file.startswith("models"):
     #             files_models[directory].append(dirpath + "/" + directory + "/" + file)
-    #
-    # # a single run code to find the best models among the test values, after this in will be commented.
-    # # Run it, if you forked repo data
-    # # find_save_best_models(x_df=predictors, y_df=response, all_iters=files_models,
-    # #                       sizes_per_iter=pop_sizes_dict, seeds_per_iter=seeds_dict, iters_left=1, iters_right=56)
-    #
-    # # process_data = best_model_over_research(predictors.to_numpy(), response.to_numpy().flatten(), files_models,
-    # #                                         pop_sizes_dict)
-    # # best_population_checking(predictors, response, iter_seeds=seeds, sizes_=pop_sizes_dict)
-    #
+
+    # a single run code to find the best models among the test values, after this in will be commented.
+    # Run it, if you forked repo data
+    # find_save_best_models(x_df=predictors, y_df=response, all_iters=files_models,
+    #                       sizes_per_iter=pop_sizes_dict, seeds_per_iter=seeds_dict, iters_left=1, iters_right=56)
+
+    # process_data = best_model_over_research(predictors.to_numpy(), response.to_numpy().flatten(), files_models,
+    #                                         pop_sizes_dict)
+    # best_population_checking(predictors, response, iter_seeds=seeds, sizes_=pop_sizes_dict)
+
     # research = main_research(x_df=predictors, y_df=response, seeds_per_iter=seeds_dict, save=True, iter_left=1,
     #                          iter_right=56, draw=False)
 
     # seed = 11
     # np.random.seed(seed)
-    # response = get_data_response()  # parameter for prediction in future
-    # predictors = pd.read_csv("datasets/merged_weather_ssm.csv", sep=";")
+    response = get_data_response()  # parameter for prediction in future
+    predictors = pd.read_csv("datasets/merged_weather_ssm.csv", sep=";")
     # x_src, y_src, x_trg, y_trg, x_valid, y_valid = parse_data_per_iter(predictors, response, seed=seed)
     # del x_trg['doy']
     # del x_src['doy']
     # del x_valid['doy']
     # res = ITGP(x_src.to_numpy(), y_src.to_numpy().flatten(), x_trg.to_numpy(), y_trg.to_numpy().flatten(), "test_iter",
     #            0, False, 1)
+    process_cv_results(iter_dir="models_weights_info/iter63", iter_ind=63, size=300, seed=10, predictors=predictors,
+                       response=response, with_doy=False)

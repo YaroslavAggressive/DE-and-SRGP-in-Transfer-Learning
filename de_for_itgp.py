@@ -1,6 +1,7 @@
 import numpy as np
 from scipy import stats
 from scipy.stats import truncnorm
+from numpy.random import uniform
 from math import sqrt
 from typing import Any
 from copy import deepcopy
@@ -19,7 +20,10 @@ class EpochDE:
         # generate init values
         self.size = size
         self.dim = dim
-        self.population = np.array([truncnorm(0., 1., loc=0, scale=1).rvs(size=self.dim) for _ in range(size)])
+
+        self.population = np.array([uniform(low=0, high=1, size=dim) for _ in range(size)])
+        for weights in self.population:
+            np.random.shuffle(weights)
         self.best_idx = 0
 
         # initialization of parameters of mutation and crossover
@@ -30,13 +34,11 @@ class EpochDE:
         self.ro = np.array([])
         self.flag = False
 
-    def de_epoch(self, models: list, top_models: list, weight_scores: np.array, fitness_mse: Any, fitness_wmse: Any) \
-        -> list:
+    def de_epoch(self, models: list, weight_scores: np.array, fitness_mse: Any, fitness_wmse: Any):
         indices = list(range(self.size))
 
         trial_generation = []
         trial_target_values = []
-        new_top_models = []
 
         if self.current_variations.size != 0:
             self.ro = np.array([self.gamma * (var_prev / var) for var_prev, var in zip(self.prev_variations,
@@ -73,17 +75,13 @@ class EpochDE:
             model_copy = deepcopy(models[best_model_idx])
             fitness_mse.Evaluate(model_copy)
             trial_target_values = np.append(trial_target_values, deepcopy(model_copy.fitness))
-            new_top_models.append(model_copy)
 
-        # selection. Вот здесь над ней надо подумать!!!!
+        # selection
         for j, (previous, current) in enumerate(zip(weight_scores, trial_target_values)):
             if previous > current:
-                weight_scores[j] = current
                 self.population[j] = trial_generation[j]
                 if current < weight_scores[self.best_idx]:
                     self.best_idx = j
-            else:
-                new_top_models[j] = top_models[j]
 
         # new variance counting
         if self.current_variations.size != 0:
@@ -92,8 +90,6 @@ class EpochDE:
                 self.current_variations[k] = self.population[:, k].var()
         else:
             self.current_variations = np.array([self.population[:, k].var() for k in range(self.dim)])
-
-        return [new_top_models, weight_scores]
 
     @staticmethod
     def round_value(value: float) -> float:

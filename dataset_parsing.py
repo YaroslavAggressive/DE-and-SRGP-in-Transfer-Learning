@@ -196,7 +196,3 @@ def data_shuffle(x_df: DataFrame, y_df: DataFrame):
     x_shuffle = x_df.sample(frac=1)
     y_shuffle = y_df.loc[x_shuffle.index]
     return [x_shuffle, y_shuffle]
-
-
-gg = get_data_response()
-gg.to_csv("datasets/response_chickpea.csv", index=True, sep=";")

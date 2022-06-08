@@ -1,10 +1,8 @@
-from dataset_parsing import initial_parse_data_and_save, MERGED_DATASET
+from dataset_parsing import MERGED_DATASET
 from dataset_parsing import get_data_response, parse_per_snp, parse_per_season, parse_per_key, DATASET_SEASONS
 import pandas as pd
 
 CSV_SUFFIX = ".csv"
-
-initial_parse_data_and_save()
 
 merged_dataset = pd.read_csv(MERGED_DATASET, sep=';')
 y_merged = get_data_response()
