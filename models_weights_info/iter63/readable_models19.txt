@@ -1,0 +1,3000 @@
+Model # 2
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 3
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 4
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 5
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 6
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 7
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 8
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 9
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 10
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 11
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 12
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 13
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 14
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 15
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 16
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 17
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 18
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 19
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 20
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 21
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 22
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 23
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 24
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 25
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 26
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 27
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 28
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 29
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 30
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 31
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 32
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 33
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 34
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 35
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 36
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 37
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 38
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 39
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 40
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 41
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 42
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 43
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 44
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 45
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 46
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 47
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 48
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 49
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 50
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 51
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 52
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 53
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 54
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 55
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 56
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 57
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 58
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 59
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 60
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 61
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 62
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 63
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 64
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 65
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 66
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 67
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 68
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 69
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 70
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 71
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 72
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 73
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 74
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 75
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 76
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 77
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 78
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 79
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( cos( x23 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1580.1026404278282
+Model target fitness: 1634.9548634226846
+
+Model # 80
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 81
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 82
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 83
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 84
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( x86 / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 4871.772358456655
+Model target fitness: 8632.902268980028
+
+Model # 85
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 86
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 87
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 88
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 89
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 90
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 91
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 92
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 93
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 94
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 95
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 96
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 97
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 98
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 99
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 100
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 101
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 102
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 103
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 104
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 105
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 106
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 107
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 108
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 109
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 110
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 111
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 112
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 113
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 114
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 115
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 116
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 117
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 118
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 119
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 120
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 121
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 122
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 123
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 124
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 125
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 126
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 127
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 128
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 129
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 130
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 131
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 132
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 133
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 134
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 135
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 136
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 137
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 138
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 139
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 140
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 141
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 142
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 143
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 144
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 145
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 146
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 147
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 148
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 149
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 150
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 151
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 152
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 153
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 154
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 155
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 156
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 157
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 158
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 159
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 160
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 161
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( x86 / x2 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 600.9578434768105
+Model target fitness: 1952.252797057379
+
+Model # 162
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 163
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 164
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 165
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 166
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 167
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 168
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 169
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 170
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 171
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 172
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 173
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 174
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 175
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 176
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 177
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 178
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 179
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 180
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 181
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 182
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 183
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 184
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 185
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 186
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 187
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 188
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 189
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 190
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 191
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 192
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 193
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 194
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 195
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 196
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 197
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 198
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 199
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 200
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 201
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 202
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 203
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 204
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 205
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 206
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 207
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 208
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 209
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 210
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 211
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 212
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 213
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 214
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 215
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 216
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 217
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 218
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 219
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( sqrt( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 5372.592996064748
+Model target fitness: 213.34938914377742
+
+Model # 220
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 221
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 222
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 223
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 224
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 225
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 226
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 227
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 228
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 229
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 230
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 231
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 232
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 233
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 234
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 235
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 236
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 237
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 238
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 239
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 240
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 241
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 242
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 243
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 244
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 245
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 246
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 247
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 248
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 249
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 250
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 251
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 252
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 253
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 254
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 255
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 256
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 257
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 258
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 259
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 260
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 261
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 262
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 263
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 264
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 265
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 266
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 267
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 268
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 269
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 270
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 271
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 272
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 273
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 274
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 275
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 276
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 277
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 278
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 279
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( sqrt( ( log( x64 ) * ( x15 * x79 ) ) ) - cos( ( 3.373 * ( x99 ) / sqrt( x12 ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1166.6582777915717
+Model target fitness: 1584.392639835414
+
+Model # 280
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 281
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 282
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 283
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 284
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 285
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 286
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 287
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 288
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 289
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 290
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 291
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 292
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 293
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 294
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 295
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 296
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 297
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 298
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( cos( x23 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1580.1026404278282
+Model target fitness: 1634.9548634226846
+
+Model # 299
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 300
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 301
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( log( ( ( cos( x19 ) / sqrt( 1 + ( x91 * x24 )**2 ) ) + ( 3.373 * ( x75 ) + ( x47 / sqrt( 1 + x95**2 ) ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2470.9393327998746
+Model target fitness: 590.6703632232736
+
+Model # 302
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x86 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1419.9752721216623
+Model target fitness: 2239.45181076285
+
+Model # 303
+Function: F(x) = ( ( ( 0.942 * ( x25 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( x23 ) + x23 ) / x6 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 24690.238141589554
+Model target fitness: 8669.707710484017
+
+Model # 304
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 305
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 41226200876407.78
+Model target fitness: 55041241513047.82
+
+Model # 306
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( 3.449 ) ) + x23 ) / x56 ) ) ) / ( x2 / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2.3187888687445023e+28
+Model target fitness: 3.051480336989206e+28
+
+Model # 307
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 308
+Function: F(x) = ( ( log( sqrt( x95 ) ) / ( 1 + ( log( x84 ) / sqrt( 1 + sqrt( x84 )**2 ) )**2 ) ) / sqrt( 1 + 4.43**2 ) )
+Model source fitness: 26476.317689629548
+Model target fitness: 9637.191861397085
+
+Model # 309
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( ( log( cos( ( x102 / x61 ) ) ) / sqrt( 1 + ( cos( ( cos( x89 ) / sqrt( 1 + x39**2 ) ) ) / ( 1 + cos( sqrt( x115 ) )**2 ) )**2 ) ) + x23 ) / x56 ) ) ) / x2 )
+Model source fitness: 2.2972738869839495e+28
+Model target fitness: 3.407093744764644e+28
+
+Model # 310
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( x23 / ( 1 + -2.175**2 ) ) )
+Model source fitness: 9594973869171890.0
+Model target fitness: 9893471204304112.0
+
+Model # 311
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + ( 3.373 * ( ( ( x81 + ( x32 + x105 ) ) / sqrt( x27 ) ) ) / -4.073 )**2 ) ) )
+Model source fitness: 3.046653962156259e+28
+Model target fitness: 1.1902095070382094e+28
+
+Model # 312
+Function: F(x) = ( ( ( 0.942 * x23 ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26183.766953144772
+Model target fitness: 9577.853607015495
+
+Model # 313
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( cos( x23 ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1648.3990591451927
+Model target fitness: 1912.1305516362945
+
+Model # 314
+Function: F(x) = ( cos( ( ( x8 * x114 ) / sqrt( 1 + ( x41 / ( 1 + x84**2 ) )**2 ) ) ) / ( ( ( x32 * x39 ) / 3.373 * ( x92 ) ) / 3.373 * ( ( x30 - x58 ) ) ) )
+Model source fitness: 703196656531.6693
+Model target fitness: 501062389483.5058
+
+Model # 315
+Function: F(x) = ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) )
+Model source fitness: 3.205688965787224e+16
+Model target fitness: 3.259841849662826e+16
+
+Model # 316
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 317
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / log( ( ( ( sqrt( ( x36 * x1 ) ) - ( sqrt( x41 ) + sqrt( x66 ) ) ) * ( ( ( ( x9 * x54 ) / x30 ) / ( 1 + ( x0 / sqrt( 1 + x42**2 ) )**2 ) ) + log( ( x105 / x105 ) ) ) ) - cos( ( 3.373 * ( x99 ) / sqrt( x12 ) ) ) ) ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 798326.8787293156
+Model target fitness: 3788285.27757564
+
+Model # 318
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( sqrt( 2.852 ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 606989.8793552985
+Model target fitness: 12903162.246452449
+
+Model # 319
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + cos( x23 ) ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1416320.1904236148
+Model target fitness: 1959746.2343717548
+
+Model # 320
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) / ( ( x86 / x2 ) * -2.175 ) )
+Model source fitness: 54616.04440795069
+Model target fitness: 24889.528300114813
+
+Model # 321
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / log( cos( x23 ) ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1.7668963739166675e+17
+Model target fitness: 3750001378599825.5
+
+Model # 322
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 323
+Function: F(x) = ( ( ( 0.942 * ( ( 0.942 * ( x86 / x2 ) ) / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2.3068368030986444e+16
+Model target fitness: 1.6311773680185326e+16
+
+Model # 324
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( 3.373 * ( ( 3.373 * ( log( cos( x43 ) ) ) / ( ( -1.938 * cos( x72 ) ) + ( ( x95 / sqrt( 1 + x10**2 ) ) + ( x118 / sqrt( 1 + x64**2 ) ) ) ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1051.4485991594572
+Model target fitness: 2842.3620824072973
+
+Model # 325
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( cos( x23 ) ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 28391.164445398346
+Model target fitness: 11152.317163410326
+
+Model # 326
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) ) + x23 ) / x63 ) ) ) / ( 1 + ( ( x86 / x2 ) / ( 1 + -2.175**2 ) )**2 ) )
+Model source fitness: 25997.228509783476
+Model target fitness: 9402.284584656707
+
+Model # 327
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 328
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( sqrt( 1.666 ) * sqrt( ( x77 - x8 ) ) ) * ( log( log( x103 ) ) / ( 1 + ( 3.62 * ( x105 + x90 ) )**2 ) ) ) ) ) / ( ( x86 / ( 1 + x2**2 ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2.3388437831341405e+28
+Model target fitness: 1.4013772728448725e+28
+
+Model # 329
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 330
+Function: F(x) = ( ( cos( x23 ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( ( log( sqrt( x64 ) ) * cos( log( x32 ) ) ) + 4.652 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26633.621774415085
+Model target fitness: 9760.61504547997
+
+Model # 331
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 332
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 333
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + ( x86 / x2 )**2 ) ) )
+Model source fitness: 2.4009420623599205e+28
+Model target fitness: 2.5500134976897087e+28
+
+Model # 334
+Function: F(x) = ( ( ( 0.942 * ( x86 / ( 0.942 * ( x86 / x2 ) ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26255.175950058532
+Model target fitness: 9558.197831867361
+
+Model # 335
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( ( 3.373 * ( 3.373 * ( x77 ) ) / ( 1 + cos( ( x33 / ( 1 + x18**2 ) ) )**2 ) ) - ( ( ( x95 + x80 ) * ( x59 / ( 1 + x110**2 ) ) ) + ( ( x22 - x91 ) / sqrt( 1 + ( x95 - x17 )**2 ) ) ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 3.015841355825119e+19
+Model target fitness: 3.0017081624166636e+21
+
+Model # 336
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 337
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 338
+Function: F(x) = ( ( x23 * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26333.422748309295
+Model target fitness: 9647.311915377288
+
+Model # 339
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x96 - x2 ) / ( 1 + -2.175**2 ) ) ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x23 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 8.679947699734413e+31
+Model target fitness: 3.3007399430809344e+31
+
+Model # 340
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) - x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 79476.91857670661
+Model target fitness: 51091.50351661693
+
+Model # 341
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( cos( x23 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1580.1026404278282
+Model target fitness: 1634.9548634226846
+
+Model # 342
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( -4.77 ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2655.849106754116
+Model target fitness: 476.6067915858247
+
+Model # 343
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) )
+Model source fitness: 1255078252872.5813
+Model target fitness: 1675835148434.3218
+
+Model # 344
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( ( ( x86 / ( 1 + x2**2 ) ) / ( 1 + -2.175**2 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2267.8168965757536
+Model target fitness: 585.5665963440288
+
+Model # 345
+Function: F(x) = ( ( ( x56 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1341171.5973999926
+Model target fitness: 1013973.7830339296
+
+Model # 346
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 123487.34300799239
+Model target fitness: 65243.740921458164
+
+Model # 347
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + ( 0.942 * ( x86 / x2 ) )**2 ) ) )
+Model source fitness: 2.3211964435559592e+28
+Model target fitness: 2.476878143997822e+28
+
+Model # 348
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( cos( x23 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1580.1026404278282
+Model target fitness: 1634.9548634226846
+
+Model # 349
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( 0.942 * ( x86 / x2 ) ) )
+Model source fitness: 17584.94576824735
+Model target fitness: 5346.535749993217
+
+Model # 350
+Function: F(x) = ( ( ( 0.942 * ( x86 / 3.373 * ( x23 ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26476.745324977874
+Model target fitness: 9647.59992778685
+
+Model # 351
+Function: F(x) = ( ( ( x23 * ( x86 / x2 ) ) * ( cos( sqrt( 2.292 ) ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 25580.573281734385
+Model target fitness: 9199.641463155349
+
+Model # 352
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( cos( x23 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 6.699118968952969e+20
+Model target fitness: 2.5178276748567956e+18
+
+Model # 353
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / cos( sqrt( ( ( x93 * x17 ) / 3.373 * ( x51 ) ) ) ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1643.7639372799233
+Model target fitness: 10985.323002014586
+
+Model # 354
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 5637.40571848015
+Model target fitness: 224.36488186337522
+
+Model # 355
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / x23 )
+Model source fitness: 292168627773583.25
+Model target fitness: 301259778705501.75
+
+Model # 356
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x86 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1419.9752721216623
+Model target fitness: 2239.45181076285
+
+Model # 357
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 358
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( log( cos( x23 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 3718.0191209621894
+Model target fitness: 3084.8265118799236
+
+Model # 359
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( 3.373 * ( x23 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1933.111586967154
+Model target fitness: 1567.1457260886805
+
+Model # 360
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 361
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x23 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 4709.080222910096
+Model target fitness: 11829.904827876928
+
+Model # 362
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x29 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 3008.0700827116116
+Model target fitness: 1353.70225876844
+
+Model # 363
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 13617752.399990087
+Model target fitness: 6328835.378698868
+
+Model # 364
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( x23 + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 9426.802254334925
+Model target fitness: 1123.044186729798
+
+Model # 365
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 366
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( 0.942 * ( x86 / 3.373 * ( 3.373 * ( ( ( x106 / ( 1 + x99**2 ) ) + 1.836 ) ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 564.5822644224965
+Model target fitness: 4146.5918885655465
+
+Model # 367
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( x23 ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 3325.10285775109
+Model target fitness: 271.1806699502607
+
+Model # 368
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( log( x23 ) / ( ( log( cos( ( x86 / x2 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x83 ) + -2.175 ) )
+Model source fitness: 51931471473833.44
+Model target fitness: 70937568470621.4
+
+Model # 369
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( x23 / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1522.324824427691
+Model target fitness: 1379.9608509766676
+
+Model # 370
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( sqrt( ( ( -1.168 * ( x62 - x31 ) ) / sqrt( 1 + ( sqrt( x64 ) / ( 1 + ( x81 + x25 )**2 ) )**2 ) ) ) + x23 ) / x56 ) ) ) / ( ( cos( x23 ) / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 193809205.77110603
+Model target fitness: 1716756.2594213183
+
+Model # 371
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 372
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( x86 / x2 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + x82**2 ) ) )
+Model source fitness: 23071.65022096715
+Model target fitness: 4402.929771604495
+
+Model # 373
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 374
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + ( 0.942 * ( x86 / x2 ) ) ) / x56 ) ) ) / ( 2.808 + cos( sqrt( cos( x57 ) ) ) ) )
+Model source fitness: 7438.387510451291
+Model target fitness: 632.8205559790255
+
+Model # 375
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) ) ) ) / ( ( x86 / x2 ) / ( 1 + ( 3.373 * ( ( sqrt( x15 ) / ( 1 + ( x14 / ( 1 + x48**2 ) )**2 ) ) ) / sqrt( 1 + log( ( ( x79 / sqrt( 1 + x71**2 ) ) - ( x23 / ( 1 + x99**2 ) ) ) )**2 ) )**2 ) ) )
+Model source fitness: 1.8631208650128828e+16
+Model target fitness: 3.3725437368723456e+16
+
+Model # 376
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( x23 / ( 1 + -2.175**2 ) ) )
+Model source fitness: 9594973869171890.0
+Model target fitness: 9893471204304112.0
+
+Model # 377
+Function: F(x) = ( ( ( 0.942 * ( ( ( 0.942 * ( x86 / ( 0.815 / sqrt( 1 + ( ( ( x85 / ( x71 + ( x22 / x27 ) ) ) + ( x106 - x115 ) ) - ( 1.742 / sqrt( 1 + ( x16 / ( 1 + x24**2 ) )**2 ) ) )**2 ) ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 136738435.9080926
+Model target fitness: 24881977.037668627
+
+Model # 378
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) / sqrt( 1 + x60**2 ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26410.56355806252
+Model target fitness: 9594.052530309908
+
+Model # 379
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( cos( x23 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1580.1026404278282
+Model target fitness: 1634.9548634226846
+
+Model # 380
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1987.6704333965536
+Model target fitness: 2321.6327239553107
+
+Model # 381
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 382
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / x23 )
+Model source fitness: 292168627773583.25
+Model target fitness: 301259778705501.75
+
+Model # 383
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( 3.373 * ( x23 ) / sqrt( ( ( ( x37 / sqrt( 1 + x37**2 ) ) / ( x9 / sqrt( 1 + x99**2 ) ) ) + ( ( x11 - x47 ) * -1.239 ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 5530.755696582191
+Model target fitness: 3330.3532523280924
+
+Model # 384
+Function: F(x) = ( ( ( 0.942 * ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) ) * ( 3.373 * ( x23 ) / ( x86 / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 44187205.45231195
+Model target fitness: 19693651.61546019
+
+Model # 385
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( x86 ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2874.843464437318
+Model target fitness: 353.0963235938478
+
+Model # 386
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x2 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 3.2056946568223984e+28
+Model target fitness: 3.25984531647145e+28
+
+Model # 387
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( log( cos( x23 ) ) + x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 3113.1520138233673
+Model target fitness: 280.4042878731629
+
+Model # 388
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 389
+Function: F(x) = ( ( ( 0.942 / ( 1 + ( x86 / x2 )**2 ) ) - ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26844.832038080043
+Model target fitness: 9814.532847294233
+
+Model # 390
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( ( x86 / x2 ) / ( ( log( log( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 532573361060519.5
+Model target fitness: 688226577193899.9
+
+Model # 391
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 392
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 4253.240646322396
+Model target fitness: 179.45935019611915
+
+Model # 393
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( x23 / ( 1 + -2.175**2 ) ) )
+Model source fitness: 9594973869171890.0
+Model target fitness: 9893471204304112.0
+
+Model # 394
+Function: F(x) = ( ( ( 0.942 * ( cos( x23 ) / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 29460.385336994394
+Model target fitness: 11554.185812382508
+
+Model # 395
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) / x56 ) ) ) / ( ( x86 / ( ( log( ( x73 / x49 ) ) * 3.425 ) + ( ( sqrt( x18 ) / ( x116 - x34 ) ) - 3.373 * ( ( x94 + x55 ) ) ) ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1.2606149606106995e+19
+Model target fitness: 1.5037232647709397e+19
+
+Model # 396
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -4.19**2 ) ) )
+Model source fitness: 76342093.44654697
+Model target fitness: 36547974.49975269
+
+Model # 397
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 398
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 399
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 400
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 13150.900447894215
+Model target fitness: 2616.5726371545798
+
+Model # 401
+Function: F(x) = ( ( x23 * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26333.422748309295
+Model target fitness: 9647.311915377288
+
+Model # 402
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) - ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1116.5381240853237
+Model target fitness: 8774.385149367452
+
+Model # 403
+Function: F(x) = ( ( ( 0.942 * ( x86 / x13 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( 0.942 * ( x86 / x2 ) ) ) ) + x23 ) / x38 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1386726968139409.2
+Model target fitness: 1470904476010747.0
+
+Model # 404
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * 3.373 * ( ( ( ( x69 / sqrt( 1 + x91**2 ) ) + ( x18 * x68 ) ) + ( sqrt( x89 ) - ( x97 * x46 ) ) ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 169358.6955154385
+Model target fitness: 1635490.538573759
+
+Model # 405
+Function: F(x) = ( ( ( 0.942 * ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 22089933.935360543
+Model target fitness: 6125219.888421414
+
+Model # 406
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 5637.40571848015
+Model target fitness: 224.36488186337522
+
+Model # 407
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 0.942 * ( x86 / x2 ) ) ) / ( ( x86 - x105 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1.6023385127856987e+30
+Model target fitness: 3.014921193270576e+27
+
+Model # 408
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1142.6277780146456
+Model target fitness: 1479.785760446935
+
+Model # 409
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 410
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 411
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 412
+Function: F(x) = ( ( ( 0.942 * ( x86 / ( ( 0.942 * ( x86 / x2 ) ) * ( sqrt( ( ( x21 / x82 ) - sqrt( x72 ) ) ) * cos( cos( sqrt( x10 ) ) ) ) ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26475.26633625967
+Model target fitness: 9504.066026885235
+
+Model # 413
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( cos( x23 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1580.1026404278282
+Model target fitness: 1634.9548634226846
+
+Model # 414
+Function: F(x) = ( ( ( 0.942 * ( 0.942 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 19104.929263412647
+Model target fitness: 6651.312955082087
+
+Model # 415
+Function: F(x) = ( 0.856 / sqrt( 1 + ( sqrt( ( x35 - x86 ) ) + ( sqrt( x7 ) / sqrt( 1 + ( x63 / sqrt( 1 + x42**2 ) )**2 ) ) )**2 ) )
+Model source fitness: 26445.534818092226
+Model target fitness: 9619.21238500673
+
+Model # 416
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 417
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 7.568293739903493e+17
+Model target fitness: 5.560116131157265e+17
+
+Model # 418
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( cos( x23 ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1648.3990591451927
+Model target fitness: 1912.1305516362945
+
+Model # 419
+Function: F(x) = 3.373 * ( ( cos( ( x26 - x65 ) ) - sqrt( ( x89 / ( 1 + x48**2 ) ) ) ) )
+Model source fitness: 27231.597731064212
+Model target fitness: 9684.492768765447
+
+Model # 420
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 421
+Function: F(x) = ( ( ( 0.942 * ( x86 / x108 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / ( x86 / x1 ) ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2123061163153.8997
+Model target fitness: 1882538234066.6348
+
+Model # 422
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 423
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( cos( log( sqrt( ( x14 - x42 ) ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1210.387683867467
+Model target fitness: 1409.5300489237848
+
+Model # 424
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( cos( x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1089163668.5033128
+Model target fitness: 4899238.737393336
+
+Model # 425
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( x86 / x2 ) ) / 3.373 * ( cos( sqrt( 3.373 * ( x101 ) ) ) ) )
+Model source fitness: 1.5702822056803715e+28
+Model target fitness: 4.3670357786910685e+28
+
+Model # 426
+Function: F(x) = ( ( ( ( x103 / sqrt( 1 + x95**2 ) ) / log( ( x21 / sqrt( 1 + x45**2 ) ) ) ) / sqrt( 1 + log( ( x52 / sqrt( 1 + x24**2 ) ) )**2 ) ) / sqrt( 1 + 2.896**2 ) )
+Model source fitness: 26560.70245672322
+Model target fitness: 9723.087655455618
+
+Model # 427
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * cos( cos( x23 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 25096.420592246108
+Model target fitness: 8904.5594487719
+
+Model # 428
+Function: F(x) = ( ( ( 0.942 * ( x86 / ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26513.535592892982
+Model target fitness: 9668.005979933532
+
+Model # 429
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( ( x86 / x2 ) ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 9594984414340766.0
+Model target fitness: 9893482153461976.0
+
+Model # 430
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( x56 + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 7438.538630108449
+Model target fitness: 607.9328026400384
+
+Model # 431
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x61 ) ) + cos( x23 ) ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 3368624.2037091176
+Model target fitness: 3936748.840958345
+
+Model # 432
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 433
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( log( cos( x23 ) ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 216062014.85961953
+Model target fitness: 451766522.5790699
+
+Model # 434
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 435
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( ( log( ( x43 / sqrt( 1 + x87**2 ) ) ) / 0.017 ) - log( 3.373 * ( 3.373 * ( x116 ) ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1239.333172244759
+Model target fitness: 2367.1341926946047
+
+Model # 436
+Function: F(x) = ( ( log( cos( ( cos( cos( ( x31 - x101 ) ) ) / ( 1 + sqrt( cos( ( x99 - x71 ) ) )**2 ) ) ) ) + x23 ) / x56 )
+Model source fitness: 26083.83477658513
+Model target fitness: 9396.61314038345
+
+Model # 437
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( log( cos( x23 ) ) / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 117426920.18805516
+Model target fitness: 140578512.69614273
+
+Model # 438
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 13617752.399990087
+Model target fitness: 6328835.378698868
+
+Model # 439
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 440
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( cos( x23 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1580.1026404278282
+Model target fitness: 1634.9548634226846
+
+Model # 441
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 442
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 443
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 13150.900447894215
+Model target fitness: 2616.5726371545798
+
+Model # 444
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( 3.373 * ( log( ( x93 * x80 ) ) ) + 3.054 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 3808.3032411300496
+Model target fitness: 201.53347838843305
+
+Model # 445
+Function: F(x) = ( ( ( 0.942 * ( x77 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( ( log( cos( x23 ) ) + x23 ) + x23 ) / x56 ) ) ) / ( ( x86 * x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 5.255188906988449e+26
+Model target fitness: 6.964804738114058e+27
+
+Model # 446
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( 0.942 * ( x86 / x2 ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 281.1350800770311
+Model target fitness: 2575.5881116992377
+
+Model # 447
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 448
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 449
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( log( cos( x23 ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1.135573551650328e+20
+Model target fitness: 1.3579202852628077e+20
+
+Model # 450
+Function: F(x) = ( ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 814804.9156502581
+Model target fitness: 247618.67771408905
+
+Model # 451
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 25736.315568888833
+Model target fitness: 9333.155944221733
+
+Model # 452
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 675.8255062726884
+Model target fitness: 1718.309153924266
+
+Model # 453
+Function: F(x) = ( ( ( 0.942 / sqrt( 1 + ( x86 / x2 )**2 ) ) * ( 3.373 * ( x23 ) + ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26470.841341341926
+Model target fitness: 9654.048397548293
+
+Model # 454
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( 3.373 * ( log( ( x21 - x105 ) ) ) / ( 1 + ( ( ( x1 / sqrt( 1 + x68**2 ) ) * -3.313 ) / sqrt( 1 + ( -4.601 / ( 1 + ( x79 + x79 )**2 ) )**2 ) )**2 ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 667.0651501266116
+Model target fitness: 1952.0101869193302
+
+Model # 455
+Function: F(x) = ( ( ( 0.942 * ( x86 / ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x49 / x2 ) / ( 1 + -2.175**2 ) ) ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26506.27059862672
+Model target fitness: 9668.36328376452
+
+Model # 456
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + cos( x23 )**2 ) ) )
+Model source fitness: 16106.39576890954
+Model target fitness: 3902.4217506555715
+
+Model # 457
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 458
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x55 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 7.357885228857214e+18
+Model target fitness: 4.2435463299216364e+18
+
+Model # 459
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( 3.373 * ( ( ( log( x118 ) + ( x40 / sqrt( 1 + x100**2 ) ) ) - ( cos( x27 ) / ( x99 - x3 ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 10561.668803954171
+Model target fitness: 1871.1625537988896
+
+Model # 460
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 461
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( x86 / x2 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) )**2 ) ) )
+Model source fitness: 2.6596132356145215e+28
+Model target fitness: 3.2965017599369115e+28
+
+Model # 462
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 430631.07415455143
+Model target fitness: 217255.56577498154
+
+Model # 463
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( x90 ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 3377.363068710091
+Model target fitness: 247.16920526545636
+
+Model # 464
+Function: F(x) = ( ( ( log( cos( x116 ) ) - cos( ( x114 - x33 ) ) ) * sqrt( ( sqrt( x11 ) + -2.69 ) ) ) / ( ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) * x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1954940961993.7717
+Model target fitness: 1471539144777.0552
+
+Model # 465
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 466
+Function: F(x) = ( ( ( 0.942 * ( x86 / ( log( -3.408 ) * cos( ( -0.923 / ( 1 + sqrt( x105 )**2 ) ) ) ) ) ) * ( x86 / x2 ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 18329.06602668362
+Model target fitness: 4296.689445736065
+
+Model # 467
+Function: F(x) = ( ( ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 965647828.204795
+Model target fitness: 432367792.706743
+
+Model # 468
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 469
+Function: F(x) = ( ( ( 0.942 * ( ( cos( ( x68 / ( 1 + x54**2 ) ) ) + ( -4.934 / 3.71 ) ) / ( 1 + 3.373 * ( ( log( x33 ) * 3.373 * ( x22 ) ) )**2 ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26620.28004765616
+Model target fitness: 9733.41489265812
+
+Model # 470
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( x23 ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 3325.10285775109
+Model target fitness: 271.1806699502607
+
+Model # 471
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x56 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1391.607370357566
+Model target fitness: 2255.5299952817527
+
+Model # 472
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / cos( x23 ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 7598137104330194.0
+Model target fitness: 9127666123483568.0
+
+Model # 473
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( log( log( ( -1.561 * 3.373 * ( x91 ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1651.5198833253864
+Model target fitness: 1165.2023404636227
+
+Model # 474
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x23 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 4709.080222910096
+Model target fitness: 11829.904827876928
+
+Model # 475
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 675.8255062726884
+Model target fitness: 1718.309153924266
+
+Model # 476
+Function: F(x) = ( ( cos( ( x79 + ( x112 / x16 ) ) ) + sqrt( ( x56 / sqrt( 1 + x19**2 ) ) ) ) + ( cos( ( x88 / x32 ) ) + ( ( x32 / sqrt( 1 + x43**2 ) ) / sqrt( 1 + ( x110 / x100 )**2 ) ) ) )
+Model source fitness: 26223.20656029053
+Model target fitness: 9554.328262687308
+
+Model # 477
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26146.108894033972
+Model target fitness: 9403.520002200634
+
+Model # 478
+Function: F(x) = ( ( ( log( cos( x23 ) ) * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( 3.373 * ( ( 4.521 - ( x87 / ( 1 + x85**2 ) ) ) ) / ( 1 + ( cos( ( x36 / x113 ) ) - 3.451 )**2 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 187323.50750759282
+Model target fitness: 22732.868822100852
+
+Model # 479
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / x23 )
+Model source fitness: 292168627773583.25
+Model target fitness: 301259778705501.75
+
+Model # 480
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( cos( ( ( ( x30 / ( 1 + x83**2 ) ) - ( x78 * x9 ) ) / ( 1 + 3.373 * ( ( x74 - x78 ) )**2 ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1207.2245328476054
+Model target fitness: 2020.911836111521
+
+Model # 481
+Function: F(x) = ( ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 814804.9156502581
+Model target fitness: 247618.67771408905
+
+Model # 482
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x56 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x9 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 4338975610567164.0
+Model target fitness: 4799321813105411.0
+
+Model # 483
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( -2.175 / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 657693.0509595389
+Model target fitness: 550097.7235121701
+
+Model # 484
+Function: F(x) = ( ( ( 0.942 * x86 ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 25668.140169914383
+Model target fitness: 9369.73039408902
+
+Model # 485
+Function: F(x) = ( ( ( sqrt( ( ( ( x114 / sqrt( 1 + x100**2 ) ) / sqrt( 1 + ( x24 - x29 )**2 ) ) / ( ( x77 / ( 1 + x11**2 ) ) / ( 1 + ( x75 * x39 )**2 ) ) ) ) * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + log( cos( x23 ) ) ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 5487993818036.305
+Model target fitness: 3137032774798.1963
+
+Model # 486
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 487
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / ( 0.942 * ( x86 / x2 ) ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2.281947760279188e+28
+Model target fitness: 2.320494468476031e+28
+
+Model # 488
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 23964.98833049556
+Model target fitness: 7944.27944702425
+
+Model # 489
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( -2.175 + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1209.6515760383354
+Model target fitness: 5019.198751930666
+
+Model # 490
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 24520.43149198608
+Model target fitness: 8264.247318570206
+
+Model # 491
+Function: F(x) = ( ( log( 3.373 * ( x96 ) ) / ( 3.373 * ( x88 ) / sqrt( 1 + ( x86 / ( 1 + x96**2 ) )**2 ) ) ) * 3.373 * ( ( ( x54 / ( 1 + x35**2 ) ) / sqrt( 1 + log( x78 )**2 ) ) ) )
+Model source fitness: 26522.809785766945
+Model target fitness: 9674.056363827947
+
+Model # 492
+Function: F(x) = ( ( ( 0.942 * ( x86 / log( cos( x23 ) ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 73587.9377158964
+Model target fitness: 84100.7769255446
+
+Model # 493
+Function: F(x) = ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) )
+Model source fitness: 3.205688965787224e+16
+Model target fitness: 3.259841849662826e+16
+
+Model # 494
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( log( cos( x23 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 3718.0191209621894
+Model target fitness: 3084.8265118799236
+
+Model # 495
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + ( 3.382 - 3.911 ) ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2770473.639310283
+Model target fitness: 3317896.2367401607
+
+Model # 496
+Function: F(x) = ( ( ( 0.942 * ( x48 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x59 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 4.884774059359299e+18
+Model target fitness: 1.0442980128866607e+18
+
+Model # 497
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( log( ( ( cos( x19 ) / sqrt( 1 + ( x91 * x24 )**2 ) ) + ( 3.373 * ( x75 ) + ( x47 / sqrt( 1 + x95**2 ) ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 22833.15112095606
+Model target fitness: 7520.74888196518
+
+Model # 498
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 499
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( 1.035 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1183.532259532492
+Model target fitness: 2097.0270146327925
+
+Model # 500
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 501
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + ( log( cos( x23 ) ) + x23 ) ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 14321.564505192538
+Model target fitness: 2389.042076033196
+
+Model # 502
+Function: F(x) = ( ( ( 0.942 * ( x86 / x1 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( cos( ( ( ( x12 / ( x65 + x52 ) ) - ( x17 / x69 ) ) + sqrt( ( x31 / ( 1 + 3.373 * ( x68 )**2 ) ) ) ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1.0192461760966523e+18
+Model target fitness: 9.943369141190324e+17
+
+Model # 503
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( cos( x23 ) + sqrt( ( log( log( log( log( x3 ) ) ) ) / sqrt( 1 + 3.373 * ( sqrt( x16 ) )**2 ) ) ) ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 247047389.03336078
+Model target fitness: 3005744084.524124
+
+Model # 504
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 24520.42991081312
+Model target fitness: 8264.24641601404
+
+Model # 505
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( x23 / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1522.324824427691
+Model target fitness: 1379.9608509766676
+
+Model # 506
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1142.6277780146456
+Model target fitness: 1479.785760446935
+
+Model # 507
+Function: F(x) = ( ( x23 * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26333.422748309295
+Model target fitness: 9647.311915377288
+
+Model # 508
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / x2 )
+Model source fitness: 3.2056946568223984e+28
+Model target fitness: 3.25984531647145e+28
+
+Model # 509
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + x2**2 ) ) )
+Model source fitness: 17832.23748392013
+Model target fitness: 5454.877871711967
+
+Model # 510
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( ( log( cos( x23 ) ) + x23 ) ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1522.3268565935903
+Model target fitness: 1379.9605650581182
+
+Model # 511
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) / cos( 3.373 * ( ( 3.373 * ( x37 ) / ( x84 / sqrt( 1 + x118**2 ) ) ) ) ) ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 28294.33224743952
+Model target fitness: 9767.288462546092
+
+Model # 512
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( 3.373 * ( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + x5**2 ) ) )
+Model source fitness: 21017.11793783124
+Model target fitness: 6483.846894562282
+
+Model # 513
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 514
+Function: F(x) = ( ( cos( x23 ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26625.12547374025
+Model target fitness: 9759.070054349104
+
+Model # 515
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / cos( x23 ) )
+Model source fitness: 2.040693406591909e+19
+Model target fitness: 7.667061495910102e+16
+
+Model # 516
+Function: F(x) = ( ( ( 0.942 * ( x86 / ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26513.535592892982
+Model target fitness: 9668.005979933532
+
+Model # 517
+Function: F(x) = ( ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 814804.9156502581
+Model target fitness: 247618.67771408905
+
+Model # 518
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 10920.823571716885
+Model target fitness: 1805.6443892514692
+
+Model # 519
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) * ( 3.373 * ( x23 ) / ( ( log( sqrt( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 25540.51225233764
+Model target fitness: 46117.528615056384
+
+Model # 520
+Function: F(x) = ( log( ( sqrt( ( x57 / ( 1 + x25**2 ) ) ) * cos( 3.373 * ( x55 ) ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26623.962720696
+Model target fitness: 9733.172055258485
+
+Model # 521
+Function: F(x) = ( ( ( 0.942 * ( cos( x23 ) / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / ( 1 + x2**2 ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 182502279164883.0
+Model target fitness: 157618298326647.84
+
+Model # 522
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / 0.942 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2.306837698627878e+16
+Model target fitness: 1.6311785080682338e+16
+
+Model # 523
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 25711.361665635195
+Model target fitness: 9403.025750879373
+
+Model # 524
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + 0.942 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 794010853.9002233
+Model target fitness: 10304760.017719347
+
+Model # 525
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 68862.32715490786
+Model target fitness: 38218.34090922111
+
+Model # 526
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( x23 + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 9426.802254334925
+Model target fitness: 1123.044186729798
+
+Model # 527
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x2 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1511.2257969535183
+Model target fitness: 1400.6118557438333
+
+Model # 528
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 529
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 187015.30617276966
+Model target fitness: 75362.89483431331
+
+Model # 530
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 531
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 532
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( x23 / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1522.324824427691
+Model target fitness: 1379.9608509766676
+
+Model # 533
+Function: F(x) = ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 25691.66931830867
+Model target fitness: 9329.875298767445
+
+Model # 534
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / x56 )
+Model source fitness: 572366564953253.1
+Model target fitness: 600161097811581.4
+
+Model # 535
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( 1 + ( ( x86 / x2 ) / ( 1 + -2.175**2 ) )**2 ) )
+Model source fitness: 25886.66058847942
+Model target fitness: 9368.920316963662
+
+Model # 536
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( ( x86 / x2 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 843350808841641.0
+Model target fitness: 869589940047130.2
+
+Model # 537
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( sqrt( x23 ) / ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) ) ) / ( ( x86 / ( 1 + x42**2 ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 25922.715578230196
+Model target fitness: 4528.507313030494
+
+Model # 538
+Function: F(x) = ( ( ( 0.942 / ( x86 + x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + ( 0.942 * ( x86 / x2 ) ) ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26414.575051029602
+Model target fitness: 9655.2632234717
+
+Model # 539
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( cos( cos( x23 ) ) + x23 ) / x56 ) ) ) / x56 )
+Model source fitness: 359383565086120.44
+Model target fitness: 483236873892635.4
+
+Model # 540
+Function: F(x) = ( ( ( 0.942 * ( ( ( ( x74 * x87 ) / ( 1 + 3.373 * ( x84 )**2 ) ) - ( -1.952 / sqrt( 1 + sqrt( x52 )**2 ) ) ) * ( 3.373 * ( cos( x87 ) ) / ( 1 + ( ( x79 - x95 ) / ( 1 + -3.231**2 ) )**2 ) ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) * x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 55593.90512625023
+Model target fitness: 37046.38068597002
+
+Model # 541
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * cos( cos( ( ( x112 + x88 ) / 2.92 ) ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 25515.998760759187
+Model target fitness: 8993.615862956873
+
+Model # 542
+Function: F(x) = ( ( ( 0.942 * ( x2 / x2 ) ) * ( 3.373 * ( x29 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26308.73258548203
+Model target fitness: 9590.21702213807
+
+Model # 543
+Function: F(x) = ( ( ( 0.942 * ( x86 / ( ( cos( ( x13 / ( 1 + x42**2 ) ) ) / ( 1 + ( ( x14 / sqrt( 1 + x8**2 ) ) + ( x102 + x86 ) )**2 ) ) / 3.373 * ( 3.373 * ( cos( x27 ) ) ) ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( cos( x23 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 112075606047365.75
+Model target fitness: 3667633197806.1304
+
+Model # 544
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 545
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( x23 / ( 1 + -2.175**2 ) ) )
+Model source fitness: 9594973869171890.0
+Model target fitness: 9893471204304112.0
+
+Model # 546
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 547
+Function: F(x) = cos( ( ( ( x33 / ( 1 + x64**2 ) ) / ( 1 + ( x17 / ( 1 + x25**2 ) )**2 ) ) * cos( log( x18 ) ) ) )
+Model source fitness: 26207.732391859878
+Model target fitness: 9512.735203198838
+
+Model # 548
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 549
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( 3.373 * ( ( sqrt( ( x22 - x108 ) ) * 3.373 * ( x36 ) ) ) + ( ( sqrt( x96 ) + ( x50 / ( 1 + x64**2 ) ) ) / sqrt( 1 + ( ( x38 / ( x52 / ( 1 + x86**2 ) ) ) / sqrt( 1 + 3.373 * ( x35 )**2 ) )**2 ) ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2174.8780350979237
+Model target fitness: 1620.8743010650405
+
+Model # 550
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( x2 + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1545.6664632604375
+Model target fitness: 1359.3155274218377
+
+Model # 551
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( 3.373 * ( x23 ) ) - x23 ) / x56 ) ) ) / ( ( log( 3.373 * ( x60 ) ) / ( 1 + 3.373 * ( ( x29 / cos( x13 ) ) )**2 ) ) - ( log( cos( x81 ) ) + ( 3.373 * ( x26 ) / -1.108 ) ) ) )
+Model source fitness: 120517585797099.89
+Model target fitness: 132122764239337.58
+
+Model # 552
+Function: F(x) = ( ( ( 0.942 * ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + x8**2 ) ) ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 53707.92233760495
+Model target fitness: 20402.625867104467
+
+Model # 553
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 10920.823571716885
+Model target fitness: 1805.6443892514692
+
+Model # 554
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( x2 ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 348745.1727847734
+Model target fitness: 510871.5200298969
+
+Model # 555
+Function: F(x) = ( ( log( ( x60 / sqrt( 1 + x26**2 ) ) ) / 4.675 ) * cos( 3.373 * ( ( x48 + ( ( x8 / ( 1 + x78**2 ) ) / sqrt( 1 + log( x47 )**2 ) ) ) ) ) )
+Model source fitness: 26529.87202927108
+Model target fitness: 9685.744007343961
+
+Model # 556
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( log( cos( x23 ) ) + x23 ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 13772.48551993424
+Model target fitness: 2159.5861094209517
+
+Model # 557
+Function: F(x) = log( ( cos( 3.373 * ( 3.373 * ( x83 ) ) ) / ( log( x45 ) / sqrt( 1 + log( 4.781 )**2 ) ) ) )
+Model source fitness: 26785.86452009637
+Model target fitness: 9921.285016771943
+
+Model # 558
+Function: F(x) = ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) )
+Model source fitness: 17584.94572379693
+Model target fitness: 5346.535732261036
+
+Model # 559
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 3.1667995428055025e+28
+Model target fitness: 3.2140300723421822e+28
+
+Model # 560
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 561
+Function: F(x) = ( ( 3.373 * ( x23 ) / ( ( ( cos( 3.373 * ( log( x95 ) ) ) / ( 1 + ( cos( log( -0.06 ) ) * sqrt( ( x22 + x110 ) ) )**2 ) ) + x23 ) / x56 ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26301.231274450543
+Model target fitness: 9561.063407606298
+
+Model # 562
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( x23 + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 9426.802254334925
+Model target fitness: 1123.044186729798
+
+Model # 563
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / x23 )
+Model source fitness: 292168627773583.25
+Model target fitness: 301259778705501.75
+
+Model # 564
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 565
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x86 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + cos( x23 )**2 ) ) )
+Model source fitness: 7080.427168508631
+Model target fitness: 2468.025736843276
+
+Model # 566
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 567
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 568
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 569
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 570
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )**2 ) ) )
+Model source fitness: 981989297882.4646
+Model target fitness: 251228942161.13947
+
+Model # 571
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 572
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 573
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / log( cos( x23 ) ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1.7668963739166675e+17
+Model target fitness: 3750001378599825.5
+
+Model # 574
+Function: F(x) = ( ( ( 0.942 * ( ( ( log( cos( x23 ) ) + x23 ) / x56 ) / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 17755.585351567497
+Model target fitness: 5453.610616288708
+
+Model # 575
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * cos( x23 ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 27235.027006272576
+Model target fitness: 10183.079592005053
+
+Model # 576
+Function: F(x) = ( ( ( 0.942 * ( x2 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26269.34707795658
+Model target fitness: 9564.290916608445
+
+Model # 577
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 603437.3876952401
+Model target fitness: 480521.2879327082
+
+Model # 578
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( ( 0.913 + ( ( x19 / ( 1 + x56**2 ) ) - ( x76 / ( 1 + x81**2 ) ) ) ) / sqrt( 1 + ( log( ( x55 / x1 ) ) + ( ( ( x56 - x111 ) + x5 ) - ( x37 * x5 ) ) )**2 ) ) ) ) + x23 ) / x56 ) ) ) )
+Model source fitness: 26136.342443857156
+Model target fitness: 9475.396801436209
+
+Model # 579
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( x2 ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 348745.1727847734
+Model target fitness: 510871.5200298969
+
+Model # 580
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 5637.40571848015
+Model target fitness: 224.36488186337522
+
+Model # 581
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 25711.361665635195
+Model target fitness: 9403.025750879373
+
+Model # 582
+Function: F(x) = ( ( ( x21 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x66 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 7.118922008423076e+19
+Model target fitness: 5.6169052846796415e+19
+
+Model # 583
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( ( ( ( x91 + x43 ) + ( x25 / sqrt( 1 + x45**2 ) ) ) / sqrt( 1 + ( 3.373 * ( x16 ) / 3.373 * ( x34 ) )**2 ) ) / cos( 3.272 ) ) ) ) + x23 ) / x56 ) ) )**2 ) ) )
+Model source fitness: 3.204131785588029e+28
+Model target fitness: 3.2583175662403064e+28
+
+Model # 584
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + ( ( x0 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( sqrt( cos( x23 ) ) + x23 ) / x71 ) ) ) ) / x56 ) ) ) / ( ( ( ( cos( x54 ) * ( x42 - x101 ) ) / sqrt( 1 + -4.16**2 ) ) * ( ( cos( x1 ) / sqrt( 1 + ( x22 / ( 1 + x106**2 ) )**2 ) ) / sqrt( 1 + -0.451**2 ) ) ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 29949.116571988776
+Model target fitness: 7.934446497131743e+19
+
+Model # 585
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 23964.98833049556
+Model target fitness: 7944.27944702425
+
+Model # 586
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 587
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 588
+Function: F(x) = ( x86 / ( ( x86 / x2 ) / ( 1 + ( log( cos( ( x75 / x33 ) ) ) / ( ( sqrt( x7 ) / ( 1 + ( x45 + x17 )**2 ) ) - ( ( x36 - x42 ) * sqrt( x8 ) ) ) )**2 ) ) )
+Model source fitness: 3538250552761.872
+Model target fitness: 3725844511898.435
+
+Model # 589
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / cos( x23 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 19014052.807186157
+Model target fitness: 141289.14202540935
+
+Model # 590
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) )**2 ) ) )
+Model source fitness: 3.2044440044692134e+28
+Model target fitness: 3.25838827293951e+28
+
+Model # 591
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( log( cos( x23 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 3718.0191209621894
+Model target fitness: 3084.8265118799236
+
+Model # 592
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( ( ( x55 / x98 ) * -3.89 ) - ( ( x8 / ( 1 + x0**2 ) ) / 2.116 ) ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2963.033794883563
+Model target fitness: 4401.352405537678
+
+Model # 593
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( ( log( cos( x23 ) ) + x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 15276.959533253066
+Model target fitness: 3540.9613083808704
+
+Model # 594
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 149.6611292477902
+Model target fitness: 1815.647319697724
+
+Model # 595
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 23964.98833049556
+Model target fitness: 7944.27944702425
+
+Model # 596
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x2 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 1511.2257969535183
+Model target fitness: 1400.6118557438333
+
+Model # 597
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( ( 0.942 * ( x86 / x2 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 11720.383073645055
+Model target fitness: 2080.796288634574
+
+Model # 598
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( ( x86 / x2 ) ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 600.9578434768105
+Model target fitness: 1952.252797057379
+
+Model # 599
+Function: F(x) = ( ( ( 0.942 * ( ( x86 / x2 ) / x2 ) ) * ( 3.373 * ( x23 ) / ( ( log( cos( x23 ) ) + x23 ) / x56 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 2.5996514221404464e+16
+Model target fitness: 1.8382281788810824e+16
+
+Model # 600
+Function: F(x) = ( cos( ( -4.894 / ( 1 + ( log( x69 ) / ( 1 + 3.373 * ( x30 )**2 ) )**2 ) ) ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 26522.312579938163
+Model target fitness: 9673.62312267714
+
+Model # 601
+Function: F(x) = ( ( ( 0.942 * ( x86 / x2 ) ) * x23 ) / ( ( x86 / x2 ) / ( 1 + -2.175**2 ) ) )
+Model source fitness: 11616.474151257285
+Model target fitness: 1998.2484657404439
+
