@@ -8,6 +8,7 @@ from typing import Callable
 from copy import deepcopy
 import multiprocessing as mp
 from multiprocessing import Pool
+from collections import OrderedDict
 
 from simplegp.Nodes.BaseNode import Node
 from simplegp.Fitness.FitnessFunction import SymbolicRegressionFitness
@@ -69,6 +70,9 @@ def replace_abstract_variables(model: Node, with_doy: bool = False) -> str:  # �
 
     # result = str(simplified_expr.subs(replacements))
     result = str(model_expr.subs(replacements))
+    # result = str(model_expr)
+    # for prev, cur in OrderedDict(reversed(replacements.items())).items():
+    #     result = result.replace(prev, cur)
     return result
 
 
@@ -152,13 +156,6 @@ def process_cv_results(iter_dir: str, iter_ind: int, size: int, seed: int, predi
     file.write("Wrote every top model for iter {}".format(iter_ind) + "\n")
     file.close()
 
-    # все что ниже можно доделать позже
-    # warming tests
-
-    # rain tests
-
-    # sun rad tests
-
 
 def split_folds(x_df: DataFrame, y_df: DataFrame, n_folds: int) -> list:
     folds_x, folds_y = [], []
@@ -238,9 +235,9 @@ def my_cv(x_df_src: DataFrame, y_df_src: DataFrame, x_df_trg: DataFrame, y_df_tr
                                                                      model_trg_train, model_trg_valid]})
         # building a histogram for source-data train-valid
         plot_cv_hist(data_train=train_data_src, data_valid=valid_data_src,
-                     path_file="cv_res_source_data_63.jpg")
+                     path_file="cv_res_source_data_63_pfd.pdf")
         # building a histogram for target-data train-valid
         plot_cv_hist(data_train=train_data_trg, data_valid=valid_data_trg,
-                     path_file="cv_res_target_data_63.jpg")
+                     path_file="cv_res_target_data_63_pdf.pdf")
         # here need to calculate the errors on target-train + target-validation
     return [data, validation_scores]
