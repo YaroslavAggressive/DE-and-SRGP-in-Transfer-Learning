@@ -1,0 +1,10 @@
+Top model from file models987
+Number of log: 17 
+Number of sin: 0 
+Number of cos: 3 
+Number of sqrt: 35 
+Number of +: 58 
+Number of -: 11 
+Number of  * : 49 
+Number of /: 33 
+Number of **: 27 

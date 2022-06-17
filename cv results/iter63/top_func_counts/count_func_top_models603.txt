@@ -1,0 +1,10 @@
+Top model from file models603
+Number of log: 2 
+Number of sin: 0 
+Number of cos: 18 
+Number of sqrt: 12 
+Number of +: 23 
+Number of -: 44 
+Number of  * : 20 
+Number of /: 8 
+Number of **: 6 

@@ -1,0 +1,10 @@
+Top model from file models14
+Number of log: 32 
+Number of sin: 0 
+Number of cos: 11 
+Number of sqrt: 13 
+Number of +: 53 
+Number of -: 13 
+Number of  * : 61 
+Number of /: 46 
+Number of **: 31 

@@ -1,0 +1,10 @@
+Top model from file models800
+Number of log: 0 
+Number of sin: 0 
+Number of cos: 16 
+Number of sqrt: 48 
+Number of +: 20 
+Number of -: 29 
+Number of  * : 49 
+Number of /: 37 
+Number of **: 8 
